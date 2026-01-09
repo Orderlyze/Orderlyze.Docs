@@ -15,7 +15,7 @@ searchTerms:
 
 # Gutscheine
 
-**Navigation:** Administration → Voucher
+**Navigation:** Verwaltung → Gutscheine
 
 Mit der Gutscheinverwaltung erstellen und verwalten Sie Wertgutscheine für Ihr Unternehmen. Das System arbeitet mit Gutschein-Vorlagen, aus denen Sie beliebig viele individuelle Gutschein-Codes generieren können.
 
@@ -28,11 +28,11 @@ Die Gutschein-Übersicht zeigt alle Ihre Gutschein-Vorlagen mit folgenden Inform
 | Spalte | Beschreibung |
 |--------|--------------|
 | Name | Name der Gutschein-Vorlage |
-| Category | Zugeordnete Kategorie |
-| Value | Wert des Gutscheins in Euro |
-| Available vouchers | Anzahl der erstellten Gutscheine |
-| Remaining vouchers | Noch nicht eingelöste Gutscheine |
-| Redeemed vouchers | Bereits eingelöste Gutscheine |
+| Kategorie | Zugeordnete Kategorie |
+| Wert | Wert des Gutscheins in Euro |
+| Verfügbare Gutscheine | Anzahl der erstellten Gutscheine |
+| Verbleibende Gutscheine | Noch nicht eingelöste Gutscheine |
+| Eingelöste Gutscheine | Bereits eingelöste Gutscheine |
 
 ---
 
@@ -40,12 +40,12 @@ Die Gutschein-Übersicht zeigt alle Ihre Gutschein-Vorlagen mit folgenden Inform
 
 Eine Gutschein-Vorlage definiert den Wert und die Anzahl der Gutscheine, die generiert werden sollen.
 
-1. Klick auf **+ Add voucher template**
+1. Klick auf **+ Gutschein-Vorlage hinzufügen**
 2. Formular ausfüllen:
    - **Name** - Bezeichnung der Vorlage (z.B. "50€ Geschenkgutschein")
-   - **Value** - Gutscheinwert in Euro
-   - **Number of vouchers** - Wie viele Gutscheine generiert werden sollen
-3. **Save** klicken
+   - **Wert** - Gutscheinwert in Euro
+   - **Anzahl der Gutscheine** - Wie viele Gutscheine generiert werden sollen
+3. **Speichern** klicken
 
 ![Gutschein-Vorlage erstellen](/screenshots/admin/gutscheine-erstellen-dialog.png)
 
@@ -65,18 +65,18 @@ Die Detailansicht zeigt:
 
 | Spalte | Beschreibung |
 |--------|--------------|
-| Voucher code | Einzigartiger Gutschein-Code |
-| Current amount / Original amount | Aktueller Wert / Ursprünglicher Wert |
-| Voucher state | Status (Create, Redeemed, Partial) |
-| Create date | Erstellungsdatum |
+| Gutschein-Code | Einzigartiger Gutschein-Code |
+| Aktueller Betrag / Ursprünglicher Betrag | Aktueller Wert / Ursprünglicher Wert |
+| Gutschein-Status | Status (Erstellt, Eingelöst, Teilweise) |
+| Erstellungsdatum | Datum der Erstellung |
 
 ### Gutschein-Status
 
 | Status | Bedeutung |
 |--------|-----------|
-| Create | Gutschein ist erstellt und kann eingelöst werden |
-| Redeemed | Gutschein wurde vollständig eingelöst |
-| Partial | Gutschein wurde teilweise eingelöst |
+| Erstellt | Gutschein ist erstellt und kann eingelöst werden |
+| Eingelöst | Gutschein wurde vollständig eingelöst |
+| Teilweise | Gutschein wurde teilweise eingelöst |
 
 ---
 
@@ -86,7 +86,7 @@ Um mehr Gutscheine zu einer bestehenden Vorlage hinzuzufügen:
 
 1. Klick auf das **Plus-Symbol** (➕) bei der gewünschten Vorlage
 2. Anzahl der neuen Gutscheine eingeben
-3. **Confirm** klicken
+3. **Bestätigen** klicken
 
 ---
 
@@ -138,7 +138,7 @@ Gutscheine können auch teilweise eingelöst werden. Der Restwert bleibt auf dem
 
 ### Wie erkenne ich, ob ein Gutschein bereits eingelöst wurde?
 
-In der Übersicht sehen Sie die Spalten "Remaining vouchers" (noch offen) und "Redeemed vouchers" (eingelöst). In den Details zeigt die Spalte "Voucher state" den genauen Status jedes einzelnen Gutscheins.
+In der Übersicht sehen Sie die Spalten "Verbleibende Gutscheine" (noch offen) und "Eingelöste Gutscheine" (eingelöst). In den Details zeigt die Spalte "Gutschein-Status" den genauen Status jedes einzelnen Gutscheins.
 
 ### Kann ein Gutschein mehrfach verwendet werden?
 

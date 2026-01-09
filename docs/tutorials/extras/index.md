@@ -14,7 +14,7 @@ searchTerms:
 
 # Extras
 
-**Navigation:** Administration → Extras
+**Navigation:** Verwaltung → Extras
 
 ![Extras Liste](/screenshots/admin/extras-liste.png)
 

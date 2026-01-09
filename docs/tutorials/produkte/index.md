@@ -14,7 +14,7 @@ searchTerms:
 
 # Produkte
 
-**Navigation:** Administration → Produkte
+**Navigation:** Verwaltung → Produkte
 
 ![Produkte Übersicht](/screenshots/admin/produkt-liste.png)
 

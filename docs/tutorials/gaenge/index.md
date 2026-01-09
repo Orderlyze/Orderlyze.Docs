@@ -16,7 +16,7 @@ searchTerms:
 
 # Gänge
 
-**Navigation:** Administration → Gänge
+**Navigation:** Verwaltung → Gänge
 
 Gänge ermöglichen es, Bestellungen in der Küche in einer bestimmten Reihenfolge abzuarbeiten. So können Sie beispielsweise sicherstellen, dass Vorspeisen vor Hauptspeisen zubereitet werden.
 

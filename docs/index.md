@@ -16,7 +16,7 @@ searchTerms:
 
 ![Dashboard](/screenshots/home/dashboard.png)
 
-## Administration
+## Verwaltung
 
 | Bereich | Beschreibung |
 |---------|--------------|

@@ -18,20 +18,20 @@ searchTerms:
 
 # Einstellungen
 
-**Navigation:** Management → More settings
+**Navigation:** Verwaltung → Weitere Einstellungen
 
 ![Einstellungen Übersicht](/screenshots/admin/einstellungen-allgemein-uebersicht.png)
 
 Die Einstellungen sind in drei Bereiche unterteilt:
-- **General** - Allgemeine Systemeinstellungen
-- **User** - Benutzerindividuelle Einstellungen
-- **Kitchen** - Küchenspezifische Einstellungen
+- **Allgemein** - Allgemeine Systemeinstellungen
+- **Benutzer** - Benutzerindividuelle Einstellungen
+- **Küche** - Küchenspezifische Einstellungen
 
 ---
 
-## Allgemeine Einstellungen (General)
+## Allgemeine Einstellungen
 
-**Navigation:** More settings → General
+**Navigation:** Weitere Einstellungen → Allgemein
 
 Hier konfigurieren Sie systemweite Einstellungen, die für alle Benutzer gelten. Die Einstellungen sind in verschiedene Kategorien unterteilt.
 
@@ -131,9 +131,9 @@ Hier konfigurieren Sie systemweite Einstellungen, die für alle Benutzer gelten.
 
 ---
 
-## Benutzer-Einstellungen (User)
+## Benutzer-Einstellungen
 
-**Navigation:** More settings → User
+**Navigation:** Weitere Einstellungen → Benutzer
 
 ![Benutzer Einstellungen](/screenshots/admin/einstellungen-benutzer-uebersicht.png)
 
@@ -153,9 +153,9 @@ Benutzer-Einstellungen überschreiben die allgemeinen Einstellungen für den jew
 
 ---
 
-## Küchen-Einstellungen (Kitchen)
+## Küchen-Einstellungen
 
-**Navigation:** More settings → Kitchen
+**Navigation:** Weitere Einstellungen → Küche
 
 ![Küchen Einstellungen](/screenshots/admin/einstellungen-kueche-kuechenbons.png)
 
@@ -173,7 +173,7 @@ Hier konfigurieren Sie alle Einstellungen für den Küchenbetrieb und die Küche
 | Abstand nach der Bestellung | Leerraum nach dem Bestelltext (No spacing bis Extra large) |
 | Tisch/Kunden Transfer Belege drucken | Druckt einen Bon bei Tisch- oder Kundenwechsel |
 
-### Print settings (Druckerzuordnung)
+### Druckerzuordnung
 
 Für jeden Küchendrucker können Sie konfigurieren:
 

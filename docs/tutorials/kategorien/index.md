@@ -13,7 +13,7 @@ searchTerms:
 
 # Kategorien
 
-**Navigation:** Administration → Kategorien
+**Navigation:** Verwaltung → Produktkategorien
 
 ![Kategorien Übersicht](/screenshots/admin/kategorie-liste.png)
 

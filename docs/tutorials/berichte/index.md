@@ -23,9 +23,9 @@ Die Berichte-Funktion bietet Ihnen umfassende Einblicke in Ihre Geschäftsdaten.
 
 ---
 
-## Tagesbericht (Daily Report)
+## Tagesbericht
 
-**Navigation:** Auswertung → Daily Report
+**Navigation:** Auswertung → Tagesbericht
 
 ![Tagesbericht](/screenshots/berichte/tagesbericht-uebersicht.png)
 
@@ -34,7 +34,7 @@ Der Tagesbericht fasst alle Umsätze eines bestimmten Tages zusammen und erstell
 ### So erstellen Sie einen Tagesbericht:
 
 1. Wählen Sie den gewünschten **Datumsbereich** aus (von - bis)
-2. Klicken Sie auf **Download Daily Report(s)**
+2. Klicken Sie auf **Tagesbericht(e) herunterladen**
 3. Die PDF-Datei wird generiert und heruntergeladen
 
 :::tip
@@ -43,9 +43,9 @@ Sie können auch mehrere Tage auf einmal auswählen, um Berichte für einen län
 
 ---
 
-## Monatsbericht (Monthly Report)
+## Monatsbericht
 
-**Navigation:** Auswertung → Monthly Report
+**Navigation:** Auswertung → Monatsbericht
 
 ![Monatsbericht](/screenshots/berichte/monatsbericht-uebersicht.png)
 
@@ -54,14 +54,14 @@ Der Monatsbericht zeigt eine Übersicht aller Umsätze eines Monats.
 ### So erstellen Sie einen Monatsbericht:
 
 1. Wählen Sie das **Jahr** aus dem Dropdown
-2. Klicken Sie auf den gewünschten **Monat** (z.B. January, February, etc.)
+2. Klicken Sie auf den gewünschten **Monat** (z.B. Januar, Februar, etc.)
 3. Der Bericht wird automatisch generiert und heruntergeladen
 
 ---
 
-## Jahresbericht (Yearly Report)
+## Jahresbericht
 
-**Navigation:** Auswertung → Yearly Report
+**Navigation:** Auswertung → Jahresbericht
 
 ![Jahresbericht](/screenshots/berichte/jahresbericht-uebersicht.png)
 
@@ -75,9 +75,9 @@ Der Jahresbericht fasst alle Umsätze eines gesamten Jahres zusammen.
 
 ---
 
-## Tagesumsatz (Daily Sale Report)
+## Tagesumsatz
 
-**Navigation:** Auswertung → More Reports → Daily Report
+**Navigation:** Auswertung → Weitere Auswertungen → Tagesbericht
 
 ![Tagesumsatz](/screenshots/berichte/tagesumsatz-uebersicht.png)
 
@@ -87,11 +87,11 @@ Der Tagesumsatz-Bericht zeigt eine tabellarische Übersicht aller Tagesumsätze 
 
 | Spalte | Beschreibung |
 |--------|--------------|
-| Date | Datum des Tages |
-| Number of Invoices | Anzahl der erstellten Rechnungen |
-| Net Amount | Nettobetrag |
-| Value Added Tax | Mehrwertsteuer |
-| Gross Amount | Bruttobetrag |
+| Datum | Datum des Tages |
+| Anzahl der Rechnungen | Anzahl der erstellten Rechnungen |
+| Nettobetrag | Nettobetrag |
+| Mehrwertsteuer | Mehrwertsteuer |
+| Bruttobetrag | Bruttobetrag |
 
 ### Export-Optionen:
 
@@ -100,9 +100,9 @@ Der Tagesumsatz-Bericht zeigt eine tabellarische Übersicht aller Tagesumsätze 
 
 ---
 
-## Produktbericht (Product Overview)
+## Produktbericht
 
-**Navigation:** Auswertung → More Reports → Product Overview
+**Navigation:** Auswertung → Weitere Auswertungen → Produktübersicht
 
 ![Produktbericht](/screenshots/berichte/produktbericht-uebersicht.png)
 
@@ -113,11 +113,11 @@ Der Produktbericht zeigt eine Übersicht der meistverkauften Produkte.
 | Spalte | Beschreibung |
 |--------|--------------|
 | # | Rang des Produkts |
-| Product | Produktname |
-| Units sold | Verkaufte Einheiten |
-| Net Amount | Nettoumsatz |
-| Value Added Tax | Mehrwertsteuer |
-| Gross Amount | Bruttoumsatz |
+| Produkt | Produktname |
+| Verkaufte Einheiten | Verkaufte Einheiten |
+| Nettobetrag | Nettoumsatz |
+| Mehrwertsteuer | Mehrwertsteuer |
+| Bruttobetrag | Bruttoumsatz |
 
 :::tip
 Nutzen Sie diesen Bericht, um Ihre Bestseller zu identifizieren und Ihr Sortiment zu optimieren.
@@ -125,9 +125,9 @@ Nutzen Sie diesen Bericht, um Ihre Bestseller zu identifizieren und Ihr Sortimen
 
 ---
 
-## Kategoriebericht (Category Report)
+## Kategoriebericht
 
-**Navigation:** Auswertung → More Reports → Category Report
+**Navigation:** Auswertung → Weitere Auswertungen → Kategoriebericht
 
 ![Kategoriebericht](/screenshots/berichte/kategoriebericht-uebersicht.png)
 
@@ -137,17 +137,17 @@ Der Kategoriebericht gruppiert Umsätze nach Produktkategorien.
 
 | Spalte | Beschreibung |
 |--------|--------------|
-| Categorie | Name der Kategorie |
-| Discount | Gewährte Rabatte |
-| Net Amount | Nettoumsatz |
-| Value Added Tax | Mehrwertsteuer |
-| Gross Amount | Bruttoumsatz |
+| Kategorie | Name der Kategorie |
+| Rabatt | Gewährte Rabatte |
+| Nettobetrag | Nettoumsatz |
+| Mehrwertsteuer | Mehrwertsteuer |
+| Bruttobetrag | Bruttoumsatz |
 
 ---
 
-## Zahlungsartenbericht (Payment Method Report)
+## Zahlungsartenbericht
 
-**Navigation:** Auswertung → More Reports → Payment Report
+**Navigation:** Auswertung → Weitere Auswertungen → Zahlungsarten
 
 ![Zahlungsarten](/screenshots/berichte/zahlungsarten-uebersicht.png)
 
@@ -157,15 +157,15 @@ Der Zahlungsartenbericht zeigt, wie Ihre Kunden bezahlt haben.
 
 | Spalte | Beschreibung |
 |--------|--------------|
-| Type | Zahlungsart (Bar, Karte, etc.) |
-| Gross Amount | Bruttobetrag |
-| Tip amount | Erhaltenes Trinkgeld |
+| Typ | Zahlungsart (Bar, Karte, etc.) |
+| Bruttobetrag | Bruttobetrag |
+| Trinkgeld | Erhaltenes Trinkgeld |
 
 ---
 
-## Stornobericht (Cancellation Report)
+## Stornobericht
 
-**Navigation:** Auswertung → More Reports → Cancellation Report
+**Navigation:** Auswertung → Weitere Auswertungen → Stornierungen
 
 ![Stornobericht](/screenshots/berichte/stornobericht-uebersicht.png)
 
@@ -175,10 +175,10 @@ Der Stornobericht listet alle stornierten Positionen auf.
 
 | Spalte | Beschreibung |
 |--------|--------------|
-| Username | Benutzer, der die Stornierung durchgeführt hat |
-| Email Adress | E-Mail-Adresse des Benutzers |
-| Product Name | Name des stornierten Produkts |
-| Quantity | Stornierte Menge |
+| Benutzername | Benutzer, der die Stornierung durchgeführt hat |
+| E-Mail-Adresse | E-Mail-Adresse des Benutzers |
+| Produktname | Name des stornierten Produkts |
+| Menge | Stornierte Menge |
 
 :::warning
 Überwachen Sie Stornierungen regelmäßig, um mögliche Probleme frühzeitig zu erkennen.
@@ -186,9 +186,9 @@ Der Stornobericht listet alle stornierten Positionen auf.
 
 ---
 
-## Benutzerbericht (User Report)
+## Benutzerbericht
 
-**Navigation:** Auswertung → More Reports → User Report
+**Navigation:** Auswertung → Weitere Auswertungen → Benutzerbericht
 
 ![Benutzerbericht](/screenshots/berichte/benutzerbericht-uebersicht.png)
 
@@ -198,19 +198,19 @@ Der Benutzerbericht zeigt die Umsätze pro Mitarbeiter.
 
 | Spalte | Beschreibung |
 |--------|--------------|
-| Invoice Date | Rechnungsdatum |
-| Username | Mitarbeitername |
-| Number of Invoices | Anzahl erstellter Rechnungen |
-| Net Amount | Nettoumsatz |
-| Value Added Tax | Mehrwertsteuer |
-| Gross Amount | Bruttoumsatz |
-| Tip amount | Erhaltenes Trinkgeld |
+| Rechnungsdatum | Rechnungsdatum |
+| Benutzername | Mitarbeitername |
+| Anzahl der Rechnungen | Anzahl erstellter Rechnungen |
+| Nettobetrag | Nettoumsatz |
+| Mehrwertsteuer | Mehrwertsteuer |
+| Bruttobetrag | Bruttoumsatz |
+| Trinkgeld | Erhaltenes Trinkgeld |
 
 ---
 
-## Rechnungen (Invoice Report)
+## Rechnungen
 
-**Navigation:** Auswertung → More Reports → Invoice Report
+**Navigation:** Auswertung → Weitere Auswertungen → Rechnungen
 
 ![Rechnungen](/screenshots/berichte/rechnungen-uebersicht.png)
 
@@ -220,11 +220,11 @@ Der Rechnungsbericht zeigt alle einzelnen Rechnungspositionen.
 
 | Spalte | Beschreibung |
 |--------|--------------|
-| Invoice date | Rechnungsdatum |
-| Product | Verkauftes Produkt |
-| Net Amount | Nettobetrag |
-| Value Added Tax | Mehrwertsteuer |
-| Gross Amount | Bruttobetrag |
+| Rechnungsdatum | Rechnungsdatum |
+| Produkt | Verkauftes Produkt |
+| Nettobetrag | Nettobetrag |
+| Mehrwertsteuer | Mehrwertsteuer |
+| Bruttobetrag | Bruttobetrag |
 
 ---
 
@@ -241,7 +241,7 @@ Alle Berichte außer Monats- und Jahresberichten verfügen über einen Datumsfil
 
 ### Anzahl der Einträge
 
-Mit dem Dropdown **Show entries** können Sie festlegen, wie viele Einträge pro Seite angezeigt werden (10, 25, 50 oder 100).
+Mit dem Dropdown **Einträge anzeigen** können Sie festlegen, wie viele Einträge pro Seite angezeigt werden (10, 25, 50 oder 100).
 
 ### Sortierung
 

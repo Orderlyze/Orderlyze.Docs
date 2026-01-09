@@ -17,7 +17,7 @@ searchTerms:
 
 ## Räume
 
-**Navigation:** Administration → Räume
+**Navigation:** Verwaltung → Räume
 
 ![Räume Liste](/screenshots/admin/raeume-liste.png)
 
@@ -29,7 +29,7 @@ searchTerms:
 
 ## Tische
 
-**Navigation:** Administration → Tische
+**Navigation:** Verwaltung → Tische
 
 ![Tische Liste](/screenshots/admin/tische-liste.png)
 

@@ -15,7 +15,7 @@ searchTerms:
 
 # Benutzer
 
-**Navigation:** Administration → Benutzer
+**Navigation:** Verwaltung → Benutzer
 
 ![Benutzer Liste](/screenshots/admin/benutzer-liste.png)
 

@@ -17,7 +17,7 @@ searchTerms:
 
 # Weitere Einstellungen
 
-**Navigation:** Administration → Weitere Einstellungen
+**Navigation:** Verwaltung → Weitere Einstellungen
 
 Die weiteren Einstellungen ermöglichen es Ihnen, das Verhalten von Orderlyze an Ihre Bedürfnisse anzupassen. Die Einstellungen sind in drei Bereiche unterteilt:
 
@@ -117,7 +117,7 @@ Weisen Sie verschiedene Kategorien verschiedenen Druckern zu, um z.B. Getränke 
 
 ## Einstellungen ändern
 
-1. Navigieren Sie zu **Administration → Weitere Einstellungen**
+1. Navigieren Sie zu **Verwaltung → Weitere Einstellungen**
 2. Wählen Sie den gewünschten Bereich (Allgemein, Benutzer oder Küche)
 3. Klicken Sie auf eine Kategorie um sie aufzuklappen
 4. Ändern Sie die gewünschten Einstellungen

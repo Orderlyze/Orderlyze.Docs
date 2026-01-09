@@ -42,4 +42,4 @@ Der Küchenmonitor zeigt alle offenen Bestellungen in Echtzeit.
 ## Einstellungen
 
 Küchenmonitor-Einstellungen unter:
-Administration → Einstellungen → Küche
+Verwaltung → Weitere Einstellungen → Küche
