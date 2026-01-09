@@ -62,6 +62,7 @@ Täglicher Betrieb und Küchenmanagement.
 |---------|--------------|
 | [Küchenmonitor](/betrieb/kueche) | Bestellungsanzeige |
 | [Gänge](/betrieb/gaenge) | Gänge für Speisefolge |
+| [Küchenbons](/betrieb/kuechenbons) | Bondrucker & Einstellungen |
 
 ---
 
