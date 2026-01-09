@@ -1,0 +1,9 @@
+{
+  "label": "Einstellungen",
+  "position": 6,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "System- und Benutzereinstellungen konfigurieren."
+  }
+}

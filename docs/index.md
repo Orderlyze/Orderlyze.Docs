@@ -16,30 +16,76 @@ searchTerms:
 
 ![Dashboard](/screenshots/home/dashboard.png)
 
-## Verwaltung
+---
+
+## Erste Schritte
+
+Einrichtung Ihres Orderlyze-Systems.
 
 | Bereich | Beschreibung |
 |---------|--------------|
-| [Kategorien](/tutorials/kategorien) | Produktkategorien |
-| [Produkte](/tutorials/produkte) | Produkte verwalten |
-| [Benutzer](/tutorials/benutzer) | Mitarbeiter & Rechte |
-| [Extras](/tutorials/extras) | Produktzusätze |
-| [Gutscheine](/tutorials/gutscheine) | Rabatte & Coupons |
-| [Räume & Tische](/tutorials/raeume) | Tischplan |
+| [Profil](/erste-schritte/profil) | Unternehmensdaten & Benutzereinstellungen |
+| [Räume & Tische](/erste-schritte/raeume) | Raumplan einrichten |
+| [Tische](/erste-schritte/tische) | Tische verwalten |
 
-## Auswertung
+---
 
-| Bereich | Beschreibung |
-|---------|--------------|
-| [Berichte](/tutorials/berichte) | Alle Berichte |
-| [Export](/tutorials/export) | BMD, RZL Export |
+## Stammdaten
 
-## Weitere
+Produkte und Kategorien verwalten.
 
 | Bereich | Beschreibung |
 |---------|--------------|
-| [Einstellungen](/tutorials/einstellungen) | Konfiguration |
-| [Küchenmonitor](/tutorials/kueche) | Bestellungsanzeige |
+| [Kategorien](/stammdaten/kategorien) | Produktkategorien |
+| [Produkte](/stammdaten/produkte) | Produkte verwalten |
+| [Extras](/stammdaten/extras) | Produktzusätze |
+| [Gutscheine](/stammdaten/gutscheine) | Rabatte & Coupons |
+
+---
+
+## Personal & Kunden
+
+Benutzer und Stammkunden verwalten.
+
+| Bereich | Beschreibung |
+|---------|--------------|
+| [Benutzer](/personal/benutzer) | Mitarbeiter & Rechte |
+| [Kunden](/personal/kunden) | Stammkunden verwalten |
+
+---
+
+## Betrieb & Küche
+
+Täglicher Betrieb und Küchenmanagement.
+
+| Bereich | Beschreibung |
+|---------|--------------|
+| [Küchenmonitor](/betrieb/kueche) | Bestellungsanzeige |
+| [Gänge](/betrieb/gaenge) | Gänge für Speisefolge |
+
+---
+
+## Auswertung & Berichte
+
+Statistiken und Buchhaltungsexport.
+
+| Bereich | Beschreibung |
+|---------|--------------|
+| [Berichte](/auswertung/berichte) | Alle Berichte & Statistiken |
+| [Export](/auswertung/export) | BMD, RZL, DATEV Export |
+
+---
+
+## Einstellungen
+
+Systemkonfiguration.
+
+| Bereich | Beschreibung |
+|---------|--------------|
+| [Einstellungen](/einstellungen/allgemein) | Allgemeine Konfiguration |
+| [Weitere Einstellungen](/einstellungen/weitere-einstellungen) | Erweiterte Optionen |
+
+---
 
 ## Support
 

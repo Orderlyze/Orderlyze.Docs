@@ -1,0 +1,9 @@
+{
+  "label": "Personal & Kunden",
+  "position": 3,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Benutzer, Berechtigungen und Stammkunden verwalten."
+  }
+}

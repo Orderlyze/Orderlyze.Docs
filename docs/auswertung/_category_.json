@@ -1,0 +1,9 @@
+{
+  "label": "Auswertung & Berichte",
+  "position": 5,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Berichte, Statistiken und Buchhaltungs-Export."
+  }
+}

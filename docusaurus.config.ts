@@ -54,21 +54,9 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialsSidebar',
+          sidebarId: 'docsSidebar',
           position: 'left',
-          label: 'Tutorials',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'troubleshootingSidebar',
-          position: 'left',
-          label: 'Problemlösung',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'faqSidebar',
-          position: 'left',
-          label: 'FAQ',
+          label: 'Dokumentation',
         },
       ],
     },
@@ -78,7 +66,14 @@ const config: Config = {
         {
           title: 'Dokumentation',
           items: [
-            { label: 'Tutorials', to: '/tutorials/kategorien' },
+            { label: 'Erste Schritte', to: '/erste-schritte/profil' },
+            { label: 'Stammdaten', to: '/stammdaten/kategorien' },
+            { label: 'Auswertung', to: '/auswertung/berichte' },
+          ],
+        },
+        {
+          title: 'Hilfe',
+          items: [
             { label: 'Problemlösung', to: '/troubleshooting/drucker-druckt-nicht' },
             { label: 'FAQ', to: '/faq/wie-exportiere-ich-daten' },
           ],

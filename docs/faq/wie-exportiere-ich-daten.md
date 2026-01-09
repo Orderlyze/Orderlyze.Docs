@@ -59,5 +59,5 @@ Ja, CSV-Imports für Produkte und Kategorien sind möglich. Kontaktieren Sie den
 
 ## Siehe auch
 
-- [Berichte](/tutorials/berichte) - Übersicht der verfügbaren Berichte
-- [Export](/tutorials/export) - Detaillierte Export-Optionen
+- [Berichte](/auswertung/berichte) - Übersicht der verfügbaren Berichte
+- [Export](/auswertung/export) - Detaillierte Export-Optionen
