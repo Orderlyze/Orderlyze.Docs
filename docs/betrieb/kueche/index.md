@@ -5,6 +5,8 @@ description: Bestellungen in der Küche verwalten
 type: reference
 platform: web
 sidebar_position: 1
+sidebar_custom_props:
+  badge: "Coming Soon"
 searchTerms:
   - küche
   - kitchen
@@ -14,6 +16,10 @@ searchTerms:
 ---
 
 # Küchenmonitor
+
+:::warning In Entwicklung
+Dieses Feature befindet sich noch in Entwicklung und ist noch nicht für den produktiven Einsatz freigegeben.
+:::
 
 **Navigation:** Küche
 
