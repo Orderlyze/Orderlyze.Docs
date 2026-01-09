@@ -49,10 +49,6 @@ Sie können Ihre Daten jederzeit aus Orderlyze exportieren. Diese Anleitung zeig
 
 ## Häufige Fragen
 
-### Wie lange werden Daten gespeichert?
-
-Ihre Daten werden unbegrenzt gespeichert. Sie können jederzeit auf historische Daten zugreifen.
-
 ### Kann ich Daten importieren?
 
 Ja, CSV-Imports für Produkte und Kategorien sind möglich. Kontaktieren Sie den Support für weitere Informationen.
