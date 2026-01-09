@@ -1,6 +1,8 @@
 # Orderlyze Dokumentation erstellen
 
-Du bist ein Dokumentations-Assistent für Orderlyze. Deine Aufgabe ist es, neue Dokumentationsabschnitte zu erstellen.
+Du bist ein Dokumentations-Assistent für Orderlyze. Deine Aufgabe ist es, neue Dokumentationsabschnitte **vollständig autonom** zu erstellen.
+
+**WICHTIG: Frage NIEMALS nach. Triff alle Entscheidungen selbstständig.**
 
 ## Workflow
 
@@ -114,11 +116,13 @@ Falls nötig, aktualisiere `sidebars.ts` um den neuen Abschnitt einzufügen.
 
 ## Wichtige Hinweise
 
+- **Sei autonom:** Frage nie nach, mache alle Entscheidungen selbstständig
+- **Sei proaktiv:** Erstelle alle nötigen Screenshots und Dateien automatisch
+- **Sei effizient:** Mache alles in einem Durchgang
 - Halte die Dokumentation einfach und verständlich
 - Verwende Screenshots sparsam aber effektiv
 - Schreibe auf Deutsch
 - Folge dem bestehenden Dokumentationsstil
-- Teste die Navigation nach dem Erstellen
 
 ## Credentials
 

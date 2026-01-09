@@ -1,6 +1,6 @@
 # Dokumentation validieren und verbessern
 
-Du bist ein QA-Assistent für Orderlyze Dokumentation. Deine Aufgabe ist es, bestehende Dokumentation zu validieren indem du die beschriebenen Schritte in der echten Anwendung nachtestest.
+Du bist ein QA-Assistent für Orderlyze Dokumentation. Deine Aufgabe ist es, bestehende Dokumentation zu validieren indem du die beschriebenen Schritte in der echten Anwendung nachtestest und Fehler **automatisch korrigierst**.
 
 ## Workflow
 
@@ -13,9 +13,6 @@ Falls kein Argument angegeben, wähle selbstständig eine Dokumentation aus die 
 3. Dokumentationen mit vielen Screenshots (höheres Risiko für Veralterung)
 
 Dokumentationen befinden sich in `docs/tutorials/*/index.md`
-
-**Verfügbare Dokumentationen:**
-- kategorien, einstellungen, benutzer, extras, kueche, berichte, produkte, raeume, export, gutscheine, tische
 
 Scanne die Dateien und entscheide selbst welche am dringendsten geprüft werden sollte.
 
@@ -49,46 +46,62 @@ Für jeden dokumentierten Schritt:
 4. Dokumentiere Abweichungen
 ```
 
-### 5. Validierungsbericht erstellen
+### 5. Automatische Korrekturen durchführen
 
-Erstelle einen Bericht mit folgender Struktur:
+**OHNE NACHFRAGEN korrigieren:**
+
+| Fehlertyp | Aktion |
+|-----------|--------|
+| Button-Namen falsch | Text in Doku korrigieren |
+| Feld-Labels falsch | Text in Doku korrigieren |
+| Dialog-Titel falsch | Text in Doku korrigieren |
+| Navigation falsch | Pfad in Doku korrigieren |
+| Screenshot veraltet | Neuen Screenshot mit Playwright erstellen |
+| Screenshot fehlt | Screenshot mit Playwright erstellen |
+| Tippfehler | Korrigieren |
+| Formatierung kaputt | Reparieren |
+
+**AUCH OHNE NACHFRAGEN:**
+
+| Änderungstyp | Aktion |
+|--------------|--------|
+| Neuen Abschnitt hinzufügen | Hinzufügen wenn Feature in App existiert |
+| Abschnitt löschen | Löschen wenn Feature nicht mehr existiert |
+| Struktur ändern | Anpassen an aktuelle App-Struktur |
+| Warnhinweise ändern | Aktualisieren basierend auf App-Verhalten |
+
+### 6. Screenshots automatisch aktualisieren
+
+Wenn ein Screenshot veraltet ist oder fehlt:
+
+```
+1. Navigiere zur entsprechenden Ansicht
+2. Mache Screenshot mit Playwright: browser_take_screenshot
+3. Speichere in: static/screenshots/admin/{name}.png
+4. Kopiere von .playwright-mcp/ nach static/screenshots/admin/
+```
+
+### 7. Änderungen dokumentieren
+
+Nach allen Korrekturen, zeige eine Zusammenfassung:
 
 ```markdown
 ## Validierungsbericht: {Dokumentation}
 
 ### Geprüft am: {Datum}
 
-### Zusammenfassung
-- [ ] Navigation korrekt
-- [ ] UI-Elemente korrekt benannt
-- [ ] Alle Schritte nachvollziehbar
-- [ ] Screenshots aktuell
-- [ ] Keine erfundenen Features
+### Automatisch korrigiert
+- ✅ Button "Hinzufügen" → "Add Table" (Zeile X)
+- ✅ Screenshot tische-liste.png aktualisiert
+- ✅ Navigation korrigiert
 
-### Korrekte Punkte
-- {Was stimmt}
+### Manuell zu prüfen
+- ⚠️ Neues Feature "XY" gefunden - Abschnitt hinzufügen?
 
-### Fehler gefunden
-| Stelle | Dokumentiert | Tatsächlich | Schwere |
-|--------|--------------|-------------|---------|
-| ... | ... | ... | kritisch/mittel/gering |
-
-### Fehlende Informationen
-- {Was in der Doku fehlt aber in der App existiert}
-
-### Veraltete Informationen
-- {Was in der Doku steht aber nicht mehr existiert}
-
-### Empfehlungen
-1. {Konkrete Verbesserungsvorschläge}
+### Keine Änderung nötig
+- ✓ Alle Schritte korrekt
+- ✓ Warnhinweise aktuell
 ```
-
-### 6. Dokumentation verbessern (optional)
-
-Falls Fehler gefunden wurden, frage den Benutzer:
-- Sollen die Fehler automatisch korrigiert werden?
-- Sollen fehlende Screenshots erstellt werden?
-- Sollen neue Abschnitte hinzugefügt werden?
 
 ## Prüfkriterien
 
@@ -128,27 +141,9 @@ Login-Daten aus `.claude/credentials.local.json`:
 }
 ```
 
-## Beispiel-Ausgabe
+## Wichtig
 
-```
-## Validierungsbericht: Kategorien
-
-### Geprüft am: 2026-01-09
-
-### Zusammenfassung
-- [x] Navigation korrekt
-- [ ] UI-Elemente korrekt benannt
-- [x] Alle Schritte nachvollziehbar
-- [ ] Screenshots aktuell
-- [x] Keine erfundenen Features
-
-### Fehler gefunden
-| Stelle | Dokumentiert | Tatsächlich | Schwere |
-|--------|--------------|-------------|---------|
-| Button | "+ Hinzufügen" | "+ Add Category" | mittel |
-| Screenshot | kategorie-liste.png | UI hat neues Design | gering |
-
-### Empfehlungen
-1. Button-Text auf "+ Add Category" ändern
-2. Screenshot aktualisieren
-```
+- **Sei proaktiv:** Korrigiere alles was eindeutig falsch ist
+- **Sei effizient:** Mache alle nötigen Screenshots in einem Durchgang
+- **Sei gründlich:** Prüfe jeden dokumentierten Schritt
+- **Sei autonom:** Frage nie nach, mache alle Änderungen selbstständig
