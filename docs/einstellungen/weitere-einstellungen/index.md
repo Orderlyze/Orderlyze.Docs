@@ -12,18 +12,20 @@ searchTerms:
   - optionen
   - allgemein
   - benutzer
-  - küche
 ---
 
 # Weitere Einstellungen
 
 **Navigation:** Verwaltung → Weitere Einstellungen
 
-Die weiteren Einstellungen ermöglichen es Ihnen, das Verhalten von Orderlyze an Ihre Bedürfnisse anzupassen. Die Einstellungen sind in drei Bereiche unterteilt:
+Die weiteren Einstellungen ermöglichen es Ihnen, das Verhalten von Orderlyze an Ihre Bedürfnisse anzupassen. Die Einstellungen sind in zwei Bereiche unterteilt:
 
 - **Allgemein** - Systemweite Einstellungen für alle Benutzer
 - **Benutzer** - Individuelle Einstellungen pro Benutzer
-- **Küche** - Einstellungen für Küchenbons und Küchenmonitore
+
+:::info Küchen-Einstellungen
+Die Einstellungen für Küchenbons finden Sie unter [Betrieb & Küche → Küchenbons](/betrieb/kuechenbons).
+:::
 
 ![Einstellungen Übersicht](/screenshots/admin/einstellungen-uebersicht.png)
 
@@ -84,41 +86,10 @@ Die Benutzer-Einstellungen ermöglichen individuelle Konfigurationen für jeden 
 
 Die verfügbaren Kategorien sind ähnlich wie bei den allgemeinen Einstellungen, aber die Werte gelten nur für den ausgewählten Benutzer.
 
-## Küchen-Einstellungen
-
-Die Küchen-Einstellungen betreffen die Ausgabe von Küchenbons und die Konfiguration der Küchenmonitore.
-
-![Küchen-Einstellungen](/screenshots/admin/einstellungen-kueche.png)
-
-### Küchenbons
-
-| Einstellung | Beschreibung |
-|-------------|--------------|
-| Storno Belege Drucken | Druckt einen Bon bei Stornierungen |
-| Cut nach jeden Gang | Schneidet das Papier nach jedem Gang |
-| Bestellungen automatisch senden | Sendet Bestellungen automatisch an die Küche |
-| Küchenzettel Schriftgröße | Small oder Large |
-| Abstand vor der Bestellung | Platz vor dem Bestelltext |
-| Abstand nach der Bestellung | Platz nach dem Bestelltext |
-| Tisch/Kunden Transfer Belege drucken | Druckt Bons bei Tischwechsel |
-
-![Küchenbons Details](/screenshots/admin/einstellungen-kueche-details.png)
-
-### Drucker-Zuweisung
-
-Für jeden Küchendrucker können Sie festlegen:
-
-- **Küchenbons drucken** - Aktiviert den Drucker für Küchenbons
-- **Kategorien** - Welche Produktkategorien an diesen Drucker gesendet werden
-
-:::tip Tipp
-Weisen Sie verschiedene Kategorien verschiedenen Druckern zu, um z.B. Getränke an der Bar und Speisen in der Küche zu drucken.
-:::
-
 ## Einstellungen ändern
 
 1. Navigieren Sie zu **Verwaltung → Weitere Einstellungen**
-2. Wählen Sie den gewünschten Bereich (Allgemein, Benutzer oder Küche)
+2. Wählen Sie den gewünschten Bereich (Allgemein oder Benutzer)
 3. Klicken Sie auf eine Kategorie um sie aufzuklappen
 4. Ändern Sie die gewünschten Einstellungen
 5. Änderungen werden **automatisch gespeichert**
