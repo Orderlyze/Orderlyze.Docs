@@ -416,3 +416,16 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Claude Code local credentials
+.claude/credentials.local.json
+
+# Docusaurus
+.docusaurus/
+build/
+
+# Playwright
+.playwright-mcp/
+
+# Temp
+nul

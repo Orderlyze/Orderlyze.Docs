@@ -1,0 +1,67 @@
+backend:
+  name: github
+  repo: Orderlyze/Orderlyze.Docs
+  branch: main
+  # Azure Static Web Apps - API ist im gleichen Projekt
+  # Nach Deployment: base_url auf deine Azure URL setzen
+  # z.B. https://deine-app.azurestaticapps.net
+  base_url: https://ambitious-cliff-0098a0303.2.azurestaticapps.net
+  auth_endpoint: /api/auth
+
+# Lokaler Entwicklungsmodus (ohne GitHub Auth)
+# Auf 'false' setzen für Produktion
+local_backend: false
+
+media_folder: static/screenshots
+public_folder: /screenshots
+
+locale: 'de'
+
+slug:
+  encoding: "ascii"
+  clean_accents: true
+
+collections:
+  - name: tutorials
+    label: "Tutorials"
+    folder: docs/tutorials
+    create: true
+    nested:
+      depth: 2
+    slug: "{{slug}}/index"
+    extension: md
+    format: frontmatter
+    fields:
+      - { name: id, label: ID, widget: string }
+      - { name: title, label: Titel, widget: string }
+      - { name: description, label: Beschreibung, widget: string }
+      - { name: sidebar_position, label: Position, widget: number, default: 1 }
+      - { name: body, label: Inhalt, widget: markdown }
+
+  - name: troubleshooting
+    label: "Problemlösung"
+    folder: docs/troubleshooting
+    create: true
+    slug: "{{slug}}"
+    extension: md
+    format: frontmatter
+    fields:
+      - { name: id, label: ID, widget: string }
+      - { name: title, label: Titel, widget: string }
+      - { name: description, label: Beschreibung, widget: string }
+      - { name: sidebar_position, label: Position, widget: number, default: 1 }
+      - { name: body, label: Inhalt, widget: markdown }
+
+  - name: faq
+    label: "FAQ"
+    folder: docs/faq
+    create: true
+    slug: "{{slug}}"
+    extension: md
+    format: frontmatter
+    fields:
+      - { name: id, label: ID, widget: string }
+      - { name: title, label: Frage, widget: string }
+      - { name: description, label: Kurze Antwort, widget: string }
+      - { name: sidebar_position, label: Position, widget: number, default: 1 }
+      - { name: body, label: Ausführliche Antwort, widget: markdown }

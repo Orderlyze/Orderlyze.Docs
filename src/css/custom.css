@@ -1,0 +1,189 @@
+:root {
+  /* Orderlyze Brand Colors */
+  --orderlyze-blue: #0659A9;
+  --orderlyze-red: #be0000;
+  --orderlyze-green: #00b531;
+  --orderlyze-yellow: #f0d81e;
+
+  /* Primary Color (Blue) */
+  --ifm-color-primary: #0659A9;
+  --ifm-color-primary-dark: #054f98;
+  --ifm-color-primary-darker: #044a8f;
+  --ifm-color-primary-darkest: #033d76;
+  --ifm-color-primary-light: #0763ba;
+  --ifm-color-primary-lighter: #086dc9;
+  --ifm-color-primary-lightest: #0a7fea;
+
+  /* Success Color (Green) */
+  --ifm-color-success: #00b531;
+  --ifm-color-success-dark: #00a22c;
+  --ifm-color-success-darker: #009929;
+  --ifm-color-success-darkest: #007e22;
+  --ifm-color-success-light: #00c836;
+  --ifm-color-success-lighter: #00d139;
+  --ifm-color-success-lightest: #00f743;
+
+  /* Danger Color (Red) */
+  --ifm-color-danger: #be0000;
+  --ifm-color-danger-dark: #ab0000;
+  --ifm-color-danger-darker: #a10000;
+  --ifm-color-danger-darkest: #850000;
+  --ifm-color-danger-light: #d10000;
+  --ifm-color-danger-lighter: #db0000;
+  --ifm-color-danger-lightest: #ff0a0a;
+
+  /* Warning Color (Yellow) */
+  --ifm-color-warning: #f0d81e;
+  --ifm-color-warning-dark: #e6cd0e;
+  --ifm-color-warning-darker: #d9c20d;
+  --ifm-color-warning-darkest: #b3a00b;
+  --ifm-color-warning-light: #f2dd35;
+  --ifm-color-warning-lighter: #f3e042;
+  --ifm-color-warning-lightest: #f6e76b;
+
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(6, 89, 169, 0.1);
+
+  /* Link color */
+  --ifm-link-color: var(--ifm-color-primary);
+
+  /* Navbar */
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-navbar-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #3a8fd9;
+  --ifm-color-primary-dark: #2a7fc9;
+  --ifm-color-primary-darker: #2578bf;
+  --ifm-color-primary-darkest: #1f639e;
+  --ifm-color-primary-light: #5aa0e0;
+  --ifm-color-primary-lighter: #6aaae4;
+  --ifm-color-primary-lightest: #8fc0ec;
+
+  --ifm-color-success: #2dd654;
+  --ifm-color-danger: #e63939;
+  --ifm-color-warning: #f5e14a;
+
+  --docusaurus-highlighted-code-line-bg: rgba(58, 143, 217, 0.2);
+}
+
+/* Screenshot Styling */
+.screenshot {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 1rem 0;
+  max-width: 100%;
+}
+
+/* Mobile screenshot - smaller width */
+.screenshot-mobile {
+  max-width: 320px;
+}
+
+/* Step Indicator */
+.step-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--ifm-color-primary);
+  color: white;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+/* Callout boxes */
+.callout-tip {
+  background: rgba(0, 181, 49, 0.1);
+  border-left: 4px solid var(--orderlyze-green);
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 0 8px 8px 0;
+}
+
+.callout-warning {
+  background: rgba(240, 216, 30, 0.15);
+  border-left: 4px solid var(--orderlyze-yellow);
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 0 8px 8px 0;
+}
+
+.callout-danger {
+  background: rgba(190, 0, 0, 0.1);
+  border-left: 4px solid var(--orderlyze-red);
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 0 8px 8px 0;
+}
+
+.callout-info {
+  background: rgba(6, 89, 169, 0.1);
+  border-left: 4px solid var(--orderlyze-blue);
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 0 8px 8px 0;
+}
+
+/* Navigation path styling */
+.nav-path {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 8px;
+  margin: 1rem 0;
+  font-size: 0.95rem;
+}
+
+.nav-path-step {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.nav-path-arrow {
+  color: var(--ifm-color-emphasis-500);
+}
+
+/* Button styling */
+.button-primary {
+  background: var(--orderlyze-blue);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.button-primary:hover {
+  background: var(--ifm-color-primary-dark);
+  color: white;
+  text-decoration: none;
+}
+
+/* Card styling for home page */
+.card {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.card:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 4px 12px rgba(6, 89, 169, 0.15);
+}
+
+.card h3 {
+  color: var(--ifm-color-primary);
+  margin-bottom: 0.75rem;
+}

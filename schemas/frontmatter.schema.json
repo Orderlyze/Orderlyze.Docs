@@ -1,0 +1,156 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Orderlyze Docs Frontmatter",
+  "description": "Schema für Markdown-Frontmatter in Orderlyze Dokumentation",
+
+  "definitions": {
+    "platform": {
+      "type": "string",
+      "enum": ["mobile", "web", "both"],
+      "description": "Plattform für die dieser Artikel gilt"
+    },
+    "deviceMode": {
+      "type": "string",
+      "enum": ["handy", "tablet"],
+      "description": "Gerätemodus für Mobile-Screenshots"
+    },
+    "screenshot": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Eindeutige ID des Screenshots"
+        },
+        "file": {
+          "type": "string",
+          "description": "Dateipfad relativ zu /static/screenshots/"
+        },
+        "alt": {
+          "type": "string",
+          "description": "Alt-Text für Barrierefreiheit"
+        },
+        "platform": { "$ref": "#/definitions/platform" },
+        "deviceMode": { "$ref": "#/definitions/deviceMode" }
+      },
+      "required": ["id", "file", "alt"]
+    },
+    "tutorialStep": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Titel des Schritts"
+        },
+        "screenshot": {
+          "type": "string",
+          "description": "Screenshot-ID für diesen Schritt"
+        }
+      },
+      "required": ["title"]
+    },
+    "navigationStep": {
+      "type": "object",
+      "properties": {
+        "action": {
+          "type": "string",
+          "description": "Aktion die der User ausführen soll"
+        },
+        "target": {
+          "type": "string",
+          "description": "Ziel der Navigation"
+        }
+      },
+      "required": ["action"]
+    }
+  },
+
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Eindeutige ID des Artikels (kebab-case)"
+    },
+    "title": {
+      "type": "string",
+      "description": "Titel des Artikels"
+    },
+    "description": {
+      "type": "string",
+      "description": "Kurzbeschreibung für SEO und Vorschau"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["tutorial", "troubleshooting", "faq", "reference"],
+      "description": "Typ des Artikels"
+    },
+    "platform": {
+      "$ref": "#/definitions/platform"
+    },
+    "sidebar_position": {
+      "type": "integer",
+      "description": "Position in der Sidebar"
+    },
+    "searchTerms": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Zusätzliche Suchbegriffe für bessere Auffindbarkeit"
+    },
+
+    "tutorial": {
+      "type": "object",
+      "description": "Tutorial-spezifische Metadaten",
+      "properties": {
+        "difficulty": {
+          "type": "string",
+          "enum": ["anfaenger", "fortgeschritten", "experte"]
+        },
+        "steps": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/tutorialStep" }
+        },
+        "navigation": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/navigationStep" },
+          "description": "Navigationspfad zum Feature"
+        }
+      }
+    },
+
+    "troubleshooting": {
+      "type": "object",
+      "description": "Troubleshooting-spezifische Metadaten",
+      "properties": {
+        "category": {
+          "type": "string",
+          "enum": ["drucker", "zahlung", "sync", "login", "netzwerk", "allgemein"],
+          "description": "Problemkategorie"
+        },
+        "symptoms": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Symptome/Fehlermeldungen die auf dieses Problem hinweisen"
+        },
+        "errorMessages": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Exakte Fehlermeldungen die auftreten können"
+        }
+      }
+    },
+
+    "screenshots": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/screenshot" },
+      "description": "Liste aller Screenshots in diesem Artikel"
+    },
+
+    "relatedArticles": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "IDs verwandter Artikel"
+    }
+  },
+
+  "required": ["id", "title", "type", "platform"]
+}

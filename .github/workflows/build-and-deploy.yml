@@ -1,0 +1,124 @@
+name: Build and Deploy Docs
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # Job 1: Build und Validierung
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate Frontmatter Schema
+        run: node scripts/validate-frontmatter.js
+
+      - name: Build Docusaurus Website
+        run: npm run build
+
+      - name: Build MCP Index
+        run: npm run build:index
+
+      - name: Build Embeddings
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: npm run build:embeddings
+
+      - name: Upload Build Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: docs-build
+          path: build/
+          retention-days: 7
+
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build/
+
+  # Job 2: Deploy zu GitHub Pages (nur main branch)
+  deploy:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  # Job 3: MCP Index zu Azure Blob hochladen (nur main branch)
+  upload-mcp-index:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download Build Artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: docs-build
+          path: build/
+
+      - name: Upload to Azure Blob Storage
+        uses: azure/CLI@v2
+        with:
+          inlineScript: |
+            az storage blob upload \
+              --account-name ${{ secrets.AZURE_STORAGE_ACCOUNT }} \
+              --container-name docs \
+              --name mcp-index.json \
+              --file build/mcp-index.json \
+              --overwrite \
+              --auth-mode key \
+              --account-key ${{ secrets.AZURE_STORAGE_KEY }}
+
+            az storage blob upload \
+              --account-name ${{ secrets.AZURE_STORAGE_ACCOUNT }} \
+              --container-name docs \
+              --name embeddings.json \
+              --file build/embeddings.json \
+              --overwrite \
+              --auth-mode key \
+              --account-key ${{ secrets.AZURE_STORAGE_KEY }}
+
+  # Job 4: MCP Server benachrichtigen
+  notify-mcp:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: upload-mcp-index
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Notify MCP Server to reload
+        run: |
+          curl -X POST \
+            -H "Authorization: Bearer ${{ secrets.MCP_WEBHOOK_SECRET }}" \
+            -H "Content-Type: application/json" \
+            -d '{"event": "docs-updated", "version": "${{ github.sha }}"}' \
+            ${{ secrets.MCP_WEBHOOK_URL }} || true
