@@ -28,6 +28,7 @@ async function buildIndex() {
     tutorials: [],
     troubleshooting: [],
     faq: [],
+    reference: [],
     all: []
   };
 
@@ -74,6 +75,9 @@ async function buildIndex() {
         case 'faq':
           index.faq.push(article);
           break;
+        case 'reference':
+          index.reference.push(article);
+          break;
       }
 
       // Auch in "all" für globale Suche
@@ -90,7 +94,8 @@ async function buildIndex() {
     totalArticles: index.all.length,
     tutorials: index.tutorials.length,
     troubleshooting: index.troubleshooting.length,
-    faq: index.faq.length
+    faq: index.faq.length,
+    reference: index.reference.length
   };
 
   // Output-Verzeichnis erstellen falls nicht vorhanden

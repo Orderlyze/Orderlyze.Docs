@@ -29,6 +29,9 @@ jobs:
       - name: Build Docusaurus
         run: npm run build
 
+      - name: Build MCP Index
+        run: npm run build:index
+
       - name: Deploy to Azure Static Web Apps
         uses: Azure/static-web-apps-deploy@v1
         with:
