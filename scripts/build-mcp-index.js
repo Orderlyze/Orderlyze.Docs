@@ -51,7 +51,7 @@ async function buildIndex() {
         description: frontmatter.description || '',
         type: frontmatter.type,
         platform: frontmatter.platform || 'both',
-        path: file.replace(/\.md$/, ''),
+        path: file.replace(/\\/g, '/').replace(/\/index\.md$/, '/').replace(/\.md$/, ''),
         searchTerms: frontmatter.searchTerms || [],
 
         // Content für Semantic Search (ohne Markdown-Syntax)
