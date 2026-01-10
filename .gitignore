@@ -429,3 +429,6 @@ build/
 
 # Temp
 nul
+
+# WoZTell data (enthält sensible Kundendaten)
+woztell-data/

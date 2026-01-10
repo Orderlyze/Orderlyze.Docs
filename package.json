@@ -20,7 +20,8 @@
     "build:all": "npm run validate && npm run build && npm run build:index && npm run build:embeddings",
     "screenshots": "node scripts/take-screenshots.js",
     "screenshots:auto": "node scripts/auto-screenshots.js",
-    "screenshots:extended": "node scripts/auto-screenshots-extended.js"
+    "screenshots:extended": "node scripts/auto-screenshots-extended.js",
+    "woztell:analyze": "node scripts/woztell-faq-analyzer.js"
   },
   "dependencies": {
     "@docusaurus/core": "^3.7.0",

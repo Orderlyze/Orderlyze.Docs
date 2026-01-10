@@ -4,7 +4,7 @@ title: Wie exportiere ich meine Daten?
 description: Anleitung zum Export von Bestellungen, Berichten und anderen Daten
 type: faq
 platform: web
-sidebar_position: 1
+sidebar_position: 9
 searchTerms:
   - export
   - daten
