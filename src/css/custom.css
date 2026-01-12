@@ -187,3 +187,37 @@
   color: var(--ifm-color-primary);
   margin-bottom: 0.75rem;
 }
+
+/* Sidebar Section Styling */
+.sidebar-section-title {
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ifm-color-emphasis-600);
+  padding: 0.5rem 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.sidebar-divider {
+  border: none;
+  border-top: 1px solid var(--ifm-color-emphasis-300);
+  margin: 0.75rem 0.5rem;
+}
+
+[data-theme='dark'] .sidebar-section-title {
+  color: var(--ifm-color-emphasis-500);
+}
+
+[data-theme='dark'] .sidebar-divider {
+  border-top-color: var(--ifm-color-emphasis-400);
+}
+
+/* App Screenshots - smaller display */
+.app-screenshot {
+  max-width: 280px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 1rem 0;
+}

@@ -17,7 +17,7 @@ searchTerms:
 
 # Bestellung
 
-![Tisch-Detailansicht](/screenshots/app/04_table_detail.png)
+<img src="/screenshots/app/04_table_detail.png" alt="Tisch-Detailansicht" width="280" />
 
 In der Tisch-Detailansicht nehmen Sie Bestellungen auf und verwalten die Produkte.
 
@@ -44,7 +44,7 @@ Nach Auswahl eines Tisches sehen Sie:
 
 ## Extras/Beilagen
 
-![Extras](/screenshots/app/21_extras_popup.png)
+<img src="/screenshots/app/21_extras_popup.png" alt="Extras" width="280" />
 
 Tippen Sie auf das **Plus-Icon** neben einem bestellten Produkt um Extras hinzuzufügen:
 
@@ -55,7 +55,7 @@ Tippen Sie auf das **Plus-Icon** neben einem bestellten Produkt um Extras hinzuz
 
 ## Gang wechseln
 
-![Gang wechseln](/screenshots/app/23_gang_wechseln.png)
+<img src="/screenshots/app/23_gang_wechseln.png" alt="Gang wechseln" width="280" />
 
 Im Bearbeiten-Modus können Sie den Gang eines Produkts ändern:
 
@@ -67,7 +67,7 @@ Im Bearbeiten-Modus können Sie den Gang eines Produkts ändern:
 
 ## Eigenes Produkt erstellen
 
-![Custom Product](/screenshots/app/24_custom_product.png)
+<img src="/screenshots/app/24_custom_product.png" alt="Custom Product" width="280" />
 
 Über den **Plus-Button** in der unteren Leiste erstellen Sie individuelle Produkte:
 
@@ -83,7 +83,7 @@ Praktisch für Sonderwünsche oder Produkte die nicht im Sortiment sind.
 
 ## Gutschein auswählen
 
-![Gutschein auswählen](/screenshots/app/25_gutschein_auswaehlen.png)
+<img src="/screenshots/app/25_gutschein_auswaehlen.png" alt="Gutschein auswählen" width="280" />
 
 Über den **Geschenk-Button** (unten rechts) können Sie Gutscheine zur Bestellung hinzufügen:
 
@@ -95,7 +95,7 @@ Praktisch für Sonderwünsche oder Produkte die nicht im Sortiment sind.
 
 ## Produkte transferieren
 
-![Produkte transferieren](/screenshots/app/27_produkte_transferieren.png)
+<img src="/screenshots/app/27_produkte_transferieren.png" alt="Produkte transferieren" width="280" />
 
 Im Bearbeiten-Modus können Sie Produkte zu einem anderen Tisch übertragen:
 

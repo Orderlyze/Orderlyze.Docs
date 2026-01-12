@@ -22,7 +22,7 @@ In diesem Bereich verwalten Sie Benutzer, den Tischplan und Zahlungsterminals.
 
 ## Benutzeransicht {#benutzeransicht}
 
-![Benutzeransicht](/screenshots/app/07_user_view.png)
+<img src="/screenshots/app/07_user_view.png" alt="Benutzeransicht" width="280" />
 
 **Navigation:** Seitenmenü -> Benutzeransicht
 
@@ -45,7 +45,7 @@ Zeigt Ihre Benutzerdaten:
 
 ### Passwort ändern
 
-![Passwort ändern](/screenshots/app/16_passwort_aendern.png)
+<img src="/screenshots/app/16_passwort_aendern.png" alt="Passwort ändern" width="280" />
 
 1. **Aktuelles Passwort** eingeben
 2. **Neues Passwort** eingeben
@@ -60,7 +60,7 @@ Nutzen Sie den Sichtbarkeits-Toggle (Auge-Icon) um Ihre Eingaben zu überprüfen
 
 ### Benutzer wechseln
 
-![Benutzer wechseln](/screenshots/app/15_benutzer_wechseln.png)
+<img src="/screenshots/app/15_benutzer_wechseln.png" alt="Benutzer wechseln" width="280" />
 
 1. Benutzer aus Dropdown auswählen
 2. Passwort des gewählten Benutzers eingeben
@@ -70,7 +70,7 @@ Nutzen Sie den Sichtbarkeits-Toggle (Auge-Icon) um Ihre Eingaben zu überprüfen
 
 ## Web-Portal (Verwaltung) {#web-portal}
 
-![Verwaltung Web-Portal](/screenshots/app/08_verwaltung.png)
+<img src="/screenshots/app/08_verwaltung.png" alt="Verwaltung Web-Portal" width="280" />
 
 **Navigation:** Seitenmenü -> Verwaltung
 
@@ -85,7 +85,7 @@ Nutzen Sie den Sichtbarkeits-Toggle (Auge-Icon) um Ihre Eingaben zu überprüfen
 
 ## Tischplan-Editor {#tischplan-editor}
 
-![Tischplan Editor](/screenshots/app/09_tischplan_editor.png)
+<img src="/screenshots/app/09_tischplan_editor.png" alt="Tischplan Editor" width="280" />
 
 **Navigation:** Seitenmenü -> Tischplan gestalten
 
@@ -101,7 +101,7 @@ Gestalten Sie das Layout Ihrer Tische per Drag & Drop:
 
 ### Tisch hinzufügen
 
-![Tisch hinzufügen](/screenshots/app/28_tisch_hinzufuegen.png)
+<img src="/screenshots/app/28_tisch_hinzufuegen.png" alt="Tisch hinzufügen" width="280" />
 
 1. **Plus-Button** im Editor tippen
 2. **Tischname** eingeben
@@ -113,7 +113,7 @@ Gestalten Sie das Layout Ihrer Tische per Drag & Drop:
 
 ### Tisch bearbeiten
 
-![Tisch Editor](/screenshots/app/10_tisch_editor.png)
+<img src="/screenshots/app/10_tisch_editor.png" alt="Tisch Editor" width="280" />
 
 Tippen Sie auf einen Tisch im Editor um ihn zu bearbeiten:
 
@@ -132,7 +132,7 @@ Tippen Sie auf einen Tisch im Editor um ihn zu bearbeiten:
 
 ## Kartenzahlung {#kartenzahlung}
 
-![Kartenzahlung](/screenshots/app/11_kartenzahlung.png)
+<img src="/screenshots/app/11_kartenzahlung.png" alt="Kartenzahlung" width="280" />
 
 **Navigation:** Seitenmenü -> Kartenzahlung
 
@@ -147,7 +147,7 @@ Verwalten Sie Ihre Zahlungsterminals:
 
 ### Terminal hinzufügen
 
-![Terminal hinzufügen](/screenshots/app/20_terminal_hinzufuegen.png)
+<img src="/screenshots/app/20_terminal_hinzufuegen.png" alt="Terminal hinzufügen" width="280" />
 
 1. **Bank Terminal hinzufügen** tippen
 2. **Anbieter** auswählen (Mollie, ZVT, TECS, etc.)

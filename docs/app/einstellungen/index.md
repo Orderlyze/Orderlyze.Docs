@@ -18,7 +18,7 @@ searchTerms:
 
 # Einstellungen
 
-![Einstellungen](/screenshots/app/06_settings.png)
+<img src="/screenshots/app/06_settings.png" alt="Einstellungen" width="280" />
 
 **Navigation:** Seitenmenü -> Einstellungen
 
@@ -35,7 +35,7 @@ searchTerms:
 
 ## Druckereinstellungen
 
-![Druckereinstellungen](/screenshots/app/14_druckereinstellungen.png)
+<img src="/screenshots/app/14_druckereinstellungen.png" alt="Druckereinstellungen" width="280" />
 
 **Navigation:** Einstellungen -> Druckereinstellungen
 
@@ -55,7 +55,7 @@ Konfigurieren Sie Ihren Bondrucker:
 
 ## Logs {#logs}
 
-![Logs](/screenshots/app/12_logs.png)
+<img src="/screenshots/app/12_logs.png" alt="Logs" width="280" />
 
 **Navigation:** Seitenmenü -> Logs
 
@@ -94,7 +94,7 @@ Bei Problemen können Sie die Logs exportieren und an den Support senden.
 
 ## Rechtliches {#rechtliches}
 
-![Rechtliches](/screenshots/app/13_rechtliches.png)
+<img src="/screenshots/app/13_rechtliches.png" alt="Rechtliches" width="280" />
 
 **Navigation:** Seitenmenü -> Rechtliches
 

@@ -16,7 +16,7 @@ searchTerms:
 
 # Orderlyze Mobile App
 
-![Tischübersicht](/screenshots/app/02_table_overview.png)
+<img src="/screenshots/app/02_table_overview.png" alt="Tischübersicht" width="280" />
 
 Die Orderlyze Mobile App ist Ihre zentrale Lösung für den Restaurantbetrieb auf Tablets und Smartphones.
 

@@ -15,7 +15,7 @@ searchTerms:
 
 # Login
 
-![Login Screen](/screenshots/app/01_login.png)
+<img src="/screenshots/app/01_login.png" alt="Login Screen" width="280" />
 
 Der Login-Screen ist der Einstiegspunkt der Orderlyze Mobile App.
 

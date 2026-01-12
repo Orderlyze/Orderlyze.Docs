@@ -15,7 +15,7 @@ searchTerms:
 
 # Tischübersicht
 
-![Tischübersicht](/screenshots/app/02_table_overview.png)
+<img src="/screenshots/app/02_table_overview.png" alt="Tischübersicht" width="280" />
 
 Die Tischübersicht ist die Hauptansicht nach dem Login und zeigt alle Tische Ihres Restaurants.
 
@@ -53,7 +53,7 @@ Am unteren Bildschirmrand können Sie zwischen verschiedenen Räumen wechseln:
 
 ## Benutzer-Statistik
 
-![Benutzer-Statistik](/screenshots/app/19_benutzer_statistik.png)
+<img src="/screenshots/app/19_benutzer_statistik.png" alt="Benutzer-Statistik" width="280" />
 
 Über das Statistik-Icon in der Toolbar können Sie die Benutzer-Umsätze einsehen:
 

@@ -18,7 +18,7 @@ searchTerms:
 
 # Zahlung
 
-![Zahlungs-Dialog](/screenshots/app/17_zahlungs_dialog.png)
+<img src="/screenshots/app/17_zahlungs_dialog.png" alt="Zahlungs-Dialog" width="280" />
 
 Der Zahlungs-Dialog ermöglicht die Abrechnung von Bestellungen.
 
@@ -38,7 +38,7 @@ Der Zahlungs-Dialog ermöglicht die Abrechnung von Bestellungen.
 
 ## Trinkgeld eingeben
 
-![Trinkgeld](/screenshots/app/22_trinkgeld_eingeben.png)
+<img src="/screenshots/app/22_trinkgeld_eingeben.png" alt="Trinkgeld" width="280" />
 
 1. Im Zahlungs-Dialog auf **Trinkgeld** tippen
 2. Gesamtbetrag inkl. Trinkgeld eingeben
@@ -50,7 +50,7 @@ Das System berechnet automatisch das Trinkgeld aus der Differenz.
 
 ## Gutschein einlösen
 
-![Gutschein einlösen](/screenshots/app/26_gutschein_einloesen.png)
+<img src="/screenshots/app/26_gutschein_einloesen.png" alt="Gutschein einlösen" width="280" />
 
 Im Zahlungs-Dialog können Sie Gutscheine einlösen:
 
@@ -70,7 +70,7 @@ Tippen Sie auf **Zwischenrechnung** um eine Teilrechnung zu erstellen ohne die B
 
 ## Rechnungsübersicht {#rechnungsuebersicht}
 
-![Rechnungsübersicht](/screenshots/app/05_invoice_overview.png)
+<img src="/screenshots/app/05_invoice_overview.png" alt="Rechnungsübersicht" width="280" />
 
 **Navigation:** Seitenmenü -> Rechnungsübersicht
 
@@ -84,7 +84,7 @@ Hier sehen Sie alle erstellten Rechnungen:
 
 ## Tagesabschluss
 
-![Tagesabschluss](/screenshots/app/18_tagesabschluss.png)
+<img src="/screenshots/app/18_tagesabschluss.png" alt="Tagesabschluss" width="280" />
 
 **Navigation:** Über Statistik-Icon in der Toolbar
 

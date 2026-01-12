@@ -14,7 +14,7 @@ searchTerms:
 
 # Navigation
 
-![Seitenmenü](/screenshots/app/03_menu.png)
+<img src="/screenshots/app/03_menu.png" alt="Seitenmenü" width="280" />
 
 Das Seitenmenü erreichen Sie über das Hamburger-Icon (drei Striche) links oben in der Tischübersicht.
 
