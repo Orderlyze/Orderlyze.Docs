@@ -53,16 +53,10 @@ const config: Config = {
       },
       items: [
         {
-          type: 'doc',
-          docId: 'home',
+          type: 'docSidebar',
+          sidebarId: 'docsSidebar',
           position: 'left',
-          label: 'Web Dashboard',
-        },
-        {
-          type: 'doc',
-          docId: 'app/app-home',
-          position: 'left',
-          label: 'Bonier App',
+          label: 'Dokumentation',
         },
         {
           to: '/faq/drucker-verbinden',
