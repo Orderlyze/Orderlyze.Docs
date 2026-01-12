@@ -100,7 +100,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'doc',
-      id: 'app-home',
+      id: 'app/app-home',
       label: 'App Übersicht',
     },
     {
