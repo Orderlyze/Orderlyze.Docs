@@ -59,12 +59,12 @@ const config: Config = {
           label: 'Dokumentation',
         },
         {
-          to: '/faq/drucker-verbinden',
+          to: '/faq',
           position: 'left',
           label: 'FAQ',
         },
         {
-          to: '/troubleshooting/drucker-druckt-nicht',
+          to: '/troubleshooting',
           position: 'left',
           label: 'Problemlösung',
         },
