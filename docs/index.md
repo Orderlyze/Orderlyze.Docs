@@ -88,6 +88,16 @@ Systemkonfiguration.
 
 ---
 
+## Mobile App
+
+Dokumentation für die Orderlyze Mobile App auf Tablets und Smartphones.
+
+| Bereich | Beschreibung |
+|---------|--------------|
+| [Mobile App](/app) | Komplette App-Dokumentation |
+
+---
+
 ## Support
 
 [support@orderlyze.com](mailto:support@orderlyze.com)
