@@ -27,7 +27,7 @@ Im Profil-Bereich verwalten Sie Ihre Unternehmens- und Benutzereinstellungen.
 
 ### Stammdaten
 
-**Navigation:** Benutzername → Einstellungen → Geschäft
+**Navigation:** Benutzername → Einstellungen → Unternehmen
 
 ![Unternehmen Stammdaten](/screenshots/profil/unternehmen-stammdaten.png)
 
@@ -35,11 +35,11 @@ Hier konfigurieren Sie die grundlegenden Unternehmensdaten:
 
 | Feld | Beschreibung |
 |------|--------------|
-| Firmenname | Der Name Ihres Unternehmens (Pflichtfeld) |
-| USt-IdNr. / Steuer-ID | Ihre Umsatzsteuer-Identifikationsnummer |
-| E-Mail-Adresse | Kontakt-E-Mail für Ihr Unternehmen |
+| Unternehmensname | Der Name Ihres Unternehmens (Pflichtfeld) |
+| Umsatzsteuer-ID / Steuer-ID | Ihre Umsatzsteuer-Identifikationsnummer |
+| E-Mail Adresse | Kontakt-E-Mail für Ihr Unternehmen |
 | Telefon | Telefonnummer |
-| Webseite | Ihre Webseite |
+| Website | Ihre Webseite |
 | Land | Land (bestimmt steuerliche Einstellungen) |
 | Währung | Währung (EUR, CHF, UGX) |
 
@@ -54,7 +54,7 @@ Nach Änderungen klicken Sie auf **Speichern**.
 Geben Sie die vollständige Geschäftsadresse ein:
 
 - **Straße** - Straße und Hausnummer (Pflichtfeld)
-- **PLZ** - Postleitzahl (Pflichtfeld)
+- **Postleitzahl** - Postleitzahl (Pflichtfeld)
 - **Stadt** - Stadt (Pflichtfeld)
 - **Land** - Land (Pflichtfeld)
 
@@ -83,15 +83,15 @@ Für den Druck des Logos auf physischen Belegen kontaktieren Sie das Orderlyze-T
 Gestalten Sie das Aussehen Ihrer Rechnungen:
 
 **Design-Optionen:**
-- **Standard-Design** - Standard-Layout
+- **Standard Design** - Standard-Layout
 - **Eigenes Design** - Eigenes Layout
 
 **Kopfzeile (Header):**
-- Firmenname
+- Unternehmensname
 - Straße
-- PLZ und Stadt
-- USt-IdNr. / Steuernummer
-- Telefon
+- Postleitzahl und Stadt
+- Ust-Id / Steuernummer
+- Telefonnummer
 - E-Mail
 - Website
 
@@ -99,6 +99,22 @@ Gestalten Sie das Aussehen Ihrer Rechnungen:
 - Individueller Text (z.B. "Vielen Dank für Ihren Besuch!")
 
 Die Vorschau zeigt, wie Ihre Rechnung aussehen wird.
+
+### Kundenrechnungen
+
+**Navigation:** Benutzername → Einstellungen → Kundenrechnungen
+
+![Kundenrechnungen](/screenshots/profil/unternehmen-kundenrechnungen.png)
+
+Hier sehen Sie eine Übersicht Ihrer Orderlyze-Lizenzen und Rechnungen:
+
+| Spalte | Beschreibung |
+|--------|--------------|
+| Rechnungsnummer | Eindeutige Nummer der Rechnung |
+| Betrag | Rechnungsbetrag |
+| Rechnungsdatum | Datum der Rechnungsstellung |
+| Fällig am | Fälligkeitsdatum |
+| Status | Zahlungsstatus der Rechnung |
 
 ### Finanzamt
 
@@ -112,11 +128,11 @@ Hier verwalten Sie die Verbindung zum Finanzamt für die Registrierkassenpflicht
 Die Einrichtung der Finanzamt-Verbindung erfolgt durch das Orderlyze-Team.
 :::
 
-### Buchhaltung
+### Buchungskonten
 
-**Navigation:** Benutzername → Einstellungen → Buchhaltung
+**Navigation:** Benutzername → Einstellungen → Buchungskonten
 
-![Buchhaltung](/screenshots/profil/unternehmen-buchhaltung.png)
+![Buchungskonten](/screenshots/profil/unternehmen-buchhaltung.png)
 
 Konfigurieren Sie die Konten für den Buchhaltungsexport (BMD, RZL, DATEV):
 
@@ -147,11 +163,11 @@ Verwalten Sie Ihre persönlichen Benutzerdaten:
 - Vorname
 - Nachname
 - Benutzername (wird in der App angezeigt)
-- E-Mail-Adresse (für Login)
+- E-Mail Adresse (für Login)
 - Passwort
 
 **Details:**
-- Geburtsdatum
+- Geburtstag
 - Telefon
 - Letzte Änderung
 

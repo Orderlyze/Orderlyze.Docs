@@ -18,77 +18,42 @@ searchTerms:
 
 # Drucker druckt nicht
 
-Wenn Ihr Bondrucker keine Belege ausdruckt, finden Sie hier mögliche Ursachen und Lösungen.
+## Ist das Druckersymbol grün?
 
-## Schnellcheck
+Prüfen Sie rechts oben in der App, ob das Druckersymbol grün ist. Wenn nicht, ist der Drucker nicht verbunden.
 
-Prüfen Sie zuerst diese Punkte:
+## Drucker offline
 
-- [ ] Ist der Drucker eingeschaltet?
-- [ ] Ist Papier eingelegt?
-- [ ] Leuchtet die Betriebs-LED?
-- [ ] Ist das Kabel/die Verbindung intakt?
+Wenn der Drucker offline ist: **Alles ausstecken, wieder einstecken und einschalten.**
 
-## Mögliche Ursachen und Lösungen
+## Drucker neu verbinden
 
-### 1. Drucker ist nicht verbunden
+Bitte laut Anleitung den Drucker neu verbinden: https://www.orderlyze.com/drucker-verbinden
 
-**Symptom:** Der Drucker erscheint als "Offline" in den Einstellungen.
+## Papier prüfen
 
-**Lösung:**
+Papier raus, neu reinlegen und die Abdeckung gut zumachen. Drucker dann neu am Strom einstecken.
 
-1. Öffnen Sie **Einstellungen** → **Drucker**
-2. Prüfen Sie den Verbindungsstatus
-3. Tippen Sie auf **Neu verbinden**
-4. Warten Sie bis die Verbindung hergestellt ist
+## Druckertyp prüfen
 
-### 2. Netzwerkproblem (bei WLAN-Druckern)
+In der App unter **Menü → Einstellungen → DruckerTyp** den richtigen Drucker einstellen (z.B. Epson 58, Epson 80, STAR).
 
-**Symptom:** Drucker und Gerät sind nicht im selben Netzwerk.
+## LAN-Drucker
 
-**Lösung:**
+Ist der Drucker mit einem LAN-Kabel am Router verbunden? LAN-Drucker funktionieren nur mit Kabel.
 
-1. Prüfen Sie ob Ihr Gerät mit dem WLAN verbunden ist
-2. Prüfen Sie ob der Drucker im selben WLAN ist
-3. Starten Sie den Router neu falls nötig
-4. Starten Sie den Drucker neu
+Anleitung für Cloud-Drucker: https://www.orderlyze.com/cloud-drucker
 
-### 3. Bluetooth-Verbindung unterbrochen
+## Bluetooth-Drucker
 
-**Symptom:** Bluetooth-Symbol zeigt keine Verbindung.
+Bitte bei der Druckerauswahl auf **Bluetooth** gehen und den Drucker auswählen.
 
-**Lösung:**
+Anleitung: https://www.orderlyze.com/bluetooth-drucker
 
-1. Öffnen Sie die Bluetooth-Einstellungen Ihres Geräts
-2. Entfernen Sie den Drucker aus der Liste
-3. Koppeln Sie den Drucker erneut
-4. Verbinden Sie in Orderlyze neu
+## Kategorien doppelt?
 
-### 4. Druckerwarteschlange blockiert
-
-**Symptom:** Druckaufträge werden nicht verarbeitet.
-
-**Lösung:**
-
-1. Öffnen Sie **Einstellungen** → **Drucker**
-2. Tippen Sie auf **Warteschlange leeren**
-3. Führen Sie einen **Testdruck** durch
-
-### 5. Papier-Problem
-
-**Symptom:** Drucker blinkt oder zeigt Fehler-LED.
-
-**Lösung:**
-
-1. Öffnen Sie die Papierabdeckung
-2. Prüfen Sie ob Papier korrekt eingelegt ist
-3. Entfernen Sie ggf. Papierstau
-4. Schließen Sie die Abdeckung
+Wenn Kategorien bei mehreren Druckern doppelt eingespeichert sind, funktionieren die Drucker nicht. Bitte eine Kategorie nur bei einem Drucker speichern.
 
 ## Problem besteht weiterhin?
 
-Wenn keine der Lösungen hilft:
-
-1. Notieren Sie die genaue Fehlermeldung
-2. Kontaktieren Sie unseren [Support](mailto:support@orderlyze.com)
-3. Halten Sie Druckermodell und Orderlyze-Version bereit
+Kontaktieren Sie den Support per WhatsApp: https://wa.me/4367761068190
