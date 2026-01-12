@@ -53,10 +53,26 @@ const config: Config = {
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'docsSidebar',
+          type: 'doc',
+          docId: 'home',
           position: 'left',
-          label: 'Dokumentation',
+          label: 'Web Dashboard',
+        },
+        {
+          type: 'doc',
+          docId: 'app/app-home',
+          position: 'left',
+          label: 'Bonier App',
+        },
+        {
+          to: '/faq/drucker-verbinden',
+          position: 'left',
+          label: 'FAQ',
+        },
+        {
+          to: '/troubleshooting/drucker-druckt-nicht',
+          position: 'left',
+          label: 'Problemlösung',
         },
       ],
     },

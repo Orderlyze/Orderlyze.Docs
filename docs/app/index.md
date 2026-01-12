@@ -1,7 +1,7 @@
 ---
 id: app-home
-title: Orderlyze Mobile App
-description: Dokumentation für die Orderlyze Mobile App
+title: Orderlyze Bonier App
+description: Dokumentation für die Orderlyze Bonier App
 type: reference
 platform: app
 slug: /app
@@ -14,11 +14,11 @@ searchTerms:
   - tablet
 ---
 
-# Orderlyze Mobile App
+# Orderlyze Bonier App
 
 <img src="/screenshots/app/02_table_overview.png" alt="Tischübersicht" width="280" />
 
-Die Orderlyze Mobile App ist Ihre zentrale Lösung für den Restaurantbetrieb auf Tablets und Smartphones.
+Die Orderlyze Bonier App ist Ihre zentrale Lösung für den Restaurantbetrieb auf Tablets und Smartphones.
 
 ---
 

@@ -88,13 +88,13 @@ Systemkonfiguration.
 
 ---
 
-## Mobile App
+## Bonier App
 
-Dokumentation für die Orderlyze Mobile App auf Tablets und Smartphones.
+Dokumentation für die Orderlyze Bonier App auf Tablets und Smartphones.
 
 | Bereich | Beschreibung |
 |---------|--------------|
-| [Mobile App](/app) | Komplette App-Dokumentation |
+| [Bonier App](/app) | Komplette App-Dokumentation |
 
 ---
 
