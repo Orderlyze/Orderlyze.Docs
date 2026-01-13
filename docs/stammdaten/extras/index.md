@@ -5,6 +5,7 @@ description: Produktzusätze und Optionen verwalten
 type: reference
 platform: web
 sidebar_position: 3
+navigation: "Verwaltung → Extras"
 searchTerms:
   - extras
   - zusätze

@@ -5,6 +5,7 @@ description: Gutscheine und Rabatte verwalten
 type: reference
 platform: web
 sidebar_position: 4
+navigation: "Verwaltung → Gutscheine"
 searchTerms:
   - gutschein
   - voucher

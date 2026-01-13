@@ -5,6 +5,7 @@ description: Stammkunden und Firmenkunden verwalten
 type: reference
 platform: web
 sidebar_position: 2
+navigation: "Verwaltung → Kunden"
 searchTerms:
   - kunden
   - stammkunden

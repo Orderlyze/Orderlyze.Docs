@@ -5,6 +5,7 @@ description: Gänge für die Küche verwalten
 type: reference
 platform: web
 sidebar_position: 2
+navigation: "Verwaltung → Gänge"
 searchTerms:
   - gang
   - gänge

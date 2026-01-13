@@ -5,6 +5,7 @@ description: Auswertungen und Statistiken für Ihren Betrieb
 type: reference
 platform: web
 sidebar_position: 1
+navigation: "Auswertung"
 searchTerms:
   - bericht
   - berichte

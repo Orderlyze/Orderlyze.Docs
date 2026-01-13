@@ -5,6 +5,9 @@ description: Lösungen wenn der Bondrucker keine Belege ausdruckt
 type: troubleshooting
 platform: both
 sidebar_position: 1
+navigation:
+  type: menu
+  path: "Menü ☰ → Einstellungen → DruckerTyp"
 searchTerms:
   - drucker
   - druckt nicht

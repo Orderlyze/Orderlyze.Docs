@@ -5,6 +5,7 @@ description: Benutzer und Zugriffsrechte verwalten
 type: reference
 platform: web
 sidebar_position: 1
+navigation: "Verwaltung → Benutzer"
 searchTerms:
   - benutzer
   - user

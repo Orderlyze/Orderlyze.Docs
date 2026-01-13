@@ -5,6 +5,7 @@ description: Raumplan und Tischverwaltung
 type: reference
 platform: web
 sidebar_position: 2
+navigation: "Verwaltung → Räume"
 searchTerms:
   - raum
   - räume

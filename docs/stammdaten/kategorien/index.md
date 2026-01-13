@@ -5,6 +5,7 @@ description: Produktkategorien verwalten
 type: reference
 platform: web
 sidebar_position: 1
+navigation: "Verwaltung → Produktkategorien"
 searchTerms:
   - kategorie
   - kategorien

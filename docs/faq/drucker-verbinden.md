@@ -5,6 +5,9 @@ description: Drucker mit Orderlyze verbinden
 type: faq
 platform: app
 sidebar_position: 2
+navigation:
+  type: menu
+  path: "Menü ☰ → Einstellungen → Drucker"
 searchTerms:
   - drucker
   - verbinden

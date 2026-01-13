@@ -5,6 +5,7 @@ description: Daten für Buchhaltung exportieren
 type: reference
 platform: web
 sidebar_position: 2
+navigation: "Auswertung → Datenexport"
 searchTerms:
   - export
   - bmd

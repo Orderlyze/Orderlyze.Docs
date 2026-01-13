@@ -5,6 +5,7 @@ description: Produkte anlegen und verwalten
 type: reference
 platform: web
 sidebar_position: 2
+navigation: "Verwaltung → Produkte"
 searchTerms:
   - produkt
   - produkte

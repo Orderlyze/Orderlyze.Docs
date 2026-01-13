@@ -57,6 +57,9 @@ async function buildIndex() {
         // Content für Semantic Search (ohne Markdown-Syntax)
         plainContent: extractPlainText(markdown),
 
+        // Navigation - strukturiert oder als String
+        ...(frontmatter.navigation && { navigation: parseNavigation(frontmatter.navigation, frontmatter.platform) }),
+
         // Metadaten basierend auf Typ
         ...(frontmatter.tutorial && { tutorial: frontmatter.tutorial }),
         ...(frontmatter.troubleshooting && { troubleshooting: frontmatter.troubleshooting }),
@@ -109,6 +112,60 @@ async function buildIndex() {
   console.log(`Stats: ${index.stats.totalArticles} articles (${index.stats.tutorials} tutorials, ${index.stats.troubleshooting} troubleshooting, ${index.stats.faq} FAQ)`);
 
   return index;
+}
+
+/**
+ * Parst Navigation aus Frontmatter
+ * Unterstützt sowohl einfache Strings als auch strukturierte Objekte
+ *
+ * Beispiele:
+ *   navigation: "Verwaltung → Produkte"
+ *   navigation:
+ *     type: menu
+ *     path: "Menü ☰ → Einstellungen"
+ *     steps:
+ *       - action: "Tippe auf"
+ *         target: "Hamburger-Menü"
+ *         location: "oben links"
+ */
+function parseNavigation(navigation, platform) {
+  // Bereits strukturiertes Objekt
+  if (typeof navigation === 'object' && navigation.path) {
+    return {
+      type: navigation.type || inferNavigationType(navigation.path, platform),
+      path: navigation.path,
+      steps: navigation.steps || []
+    };
+  }
+
+  // Einfacher String
+  if (typeof navigation === 'string') {
+    return {
+      type: inferNavigationType(navigation, platform),
+      path: navigation,
+      steps: []
+    };
+  }
+
+  return null;
+}
+
+/**
+ * Bestimmt den Navigationstyp basierend auf Pfad und Plattform
+ */
+function inferNavigationType(path, platform) {
+  if (!path) return 'hierarchical';
+
+  // App-spezifische Navigation
+  if (platform === 'app' || platform === 'mobile') {
+    if (path.includes('Menü') || path.includes('☰')) return 'menu';
+    if (path.includes('Toolbar')) return 'toolbar';
+    if (path.includes('→') && (path.includes('Tisch') || path.includes('Bestellung'))) return 'flow';
+    return 'menu';
+  }
+
+  // Web-Dashboard: immer hierarchisch
+  return 'hierarchical';
 }
 
 /**

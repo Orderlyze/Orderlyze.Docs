@@ -5,6 +5,7 @@ description: Systemkonfiguration und erweiterte Einstellungen
 type: reference
 platform: web
 sidebar_position: 1
+navigation: "Verwaltung → Weitere Einstellungen"
 searchTerms:
   - einstellungen
   - konfiguration

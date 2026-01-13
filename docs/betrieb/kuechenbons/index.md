@@ -5,6 +5,7 @@ description: Einstellungen für Küchenbons und Bondrucker
 type: reference
 platform: web
 sidebar_position: 3
+navigation: "Verwaltung → Weitere Einstellungen → Küche"
 searchTerms:
   - küchenbons
   - küchenzettel

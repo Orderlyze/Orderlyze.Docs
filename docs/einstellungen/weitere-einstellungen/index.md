@@ -5,6 +5,7 @@ description: System- und Benutzereinstellungen anpassen
 type: reference
 platform: web
 sidebar_position: 2
+navigation: "Verwaltung → Weitere Einstellungen"
 searchTerms:
   - einstellungen
   - settings

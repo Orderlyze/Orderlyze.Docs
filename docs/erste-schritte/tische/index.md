@@ -5,6 +5,7 @@ description: Tische verwalten und Räumen zuordnen
 type: reference
 platform: web
 sidebar_position: 3
+navigation: "Verwaltung → Tische"
 searchTerms:
   - tisch
   - tische

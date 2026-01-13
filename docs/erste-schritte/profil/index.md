@@ -5,6 +5,7 @@ description: Unternehmens- und Benutzereinstellungen verwalten
 type: reference
 platform: web
 sidebar_position: 1
+navigation: "Benutzername (oben rechts) → Einstellungen"
 searchTerms:
   - profil
   - unternehmen

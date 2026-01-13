@@ -5,6 +5,7 @@ description: Bestellungen in der Küche verwalten
 type: reference
 platform: web
 sidebar_position: 1
+navigation: "Küche"
 sidebar_custom_props:
   badge: "Coming Soon"
 searchTerms:
