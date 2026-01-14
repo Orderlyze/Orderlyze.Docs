@@ -13,15 +13,25 @@ searchTerms:
   - verbinden
   - bluetooth
   - bondrucker
+  - sunmi
+  - berechtigungen
 ---
 
 # Wie kann ich meinen Drucker verbinden?
 
 Anbei die Anleitung: https://www.orderlyze.com/drucker-verbinden
 
-## Bluetooth-Drucker wird nicht gefunden?
+## Bluetooth oder Sunmi Drucker wird nicht gefunden?
 
-Ist das Bluetooth vom Handy an? Wenn ja, bitte das ausprobieren:
+Wenn der Drucker in den Druckereinstellungen nicht angezeigt wird:
 
-**Einstellungen → Apps → Orderlyze → GPS muss freigegeben werden**
+1. Öffne die **Einstellungen** vom Gerät (nicht in der App)
+2. Gehe zu **Apps**
+3. Suche und öffne **Orderlyze**
+4. Tippe auf **Berechtigungen**
+5. Stelle sicher, dass **alle Berechtigungen erlaubt** sind
+
+:::tip
+Besonders wichtig sind die Berechtigungen für Bluetooth und Standort, da diese für die Druckererkennung benötigt werden.
+:::
 

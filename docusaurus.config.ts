@@ -59,12 +59,12 @@ const config: Config = {
           label: 'Dokumentation',
         },
         {
-          to: '/faq',
+          to: '/category/faq',
           position: 'left',
           label: 'FAQ',
         },
         {
-          to: '/troubleshooting',
+          to: '/category/problemlösung',
           position: 'left',
           label: 'Problemlösung',
         },
