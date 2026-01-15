@@ -180,6 +180,10 @@ function inferNavigationType(path, platform) {
 /**
  * Extrahiert Screenshots aus Markdown mit Position für Inline-Anzeige
  *
+ * Unterstützt zwei Formate:
+ * 1. Markdown: ![alt](src)
+ * 2. HTML: <img src="..." alt="..." />
+ *
  * Gibt ein Array zurück mit:
  * - id: eindeutige ID basierend auf Dateiname
  * - path: relativer Pfad zum Screenshot
@@ -189,49 +193,74 @@ function inferNavigationType(path, platform) {
  * - position: Position im Plain-Text (für Inline-Anzeige)
  */
 function extractScreenshots(markdown, plainContent) {
-  const regex = /!\[([^\]]*)\]\(([^)]+)\)/g;
   const screenshots = [];
+  const seenIds = new Set();
+
+  // 1. Markdown-Bilder: ![alt](src)
+  const markdownRegex = /!\[([^\]]*)\]\(([^)]+)\)/g;
   let match;
 
-  while ((match = regex.exec(markdown)) !== null) {
+  while ((match = markdownRegex.exec(markdown)) !== null) {
     const [fullMatch, alt, src] = match;
+    addScreenshot(screenshots, seenIds, src, alt, markdown, plainContent, match.index, fullMatch.length);
+  }
 
-    // Nur Screenshots aus dem /screenshots/ Verzeichnis
-    if (!src.includes('/screenshots/')) continue;
+  // 2. HTML img-Tags: <img src="..." alt="..." />
+  const htmlRegex = /<img\s+[^>]*src=["']([^"']+)["'][^>]*>/gi;
 
-    // ID aus Dateiname generieren
-    const fileName = src.split('/').pop().replace(/\.[^.]+$/, '');
-    const id = fileName.replace(/[^a-zA-Z0-9_-]/g, '-');
-
-    // Kontext extrahieren (100 Zeichen vor und nach dem Bild)
-    const contextStart = Math.max(0, match.index - 100);
-    const contextEnd = Math.min(markdown.length, match.index + fullMatch.length + 100);
-    const context = markdown.substring(contextStart, contextEnd)
-      .replace(/!\[.*?\]\(.*?\)/g, '') // Bild-Syntax entfernen
-      .replace(/\s+/g, ' ')
-      .trim();
-
-    // Position im Plain-Text finden (approximiert)
-    // Wir finden den nächsten Textabschnitt nach dem Bild
-    const textAfterImage = markdown.substring(match.index + fullMatch.length, match.index + fullMatch.length + 200);
-    const firstTextMatch = textAfterImage.match(/[A-Za-zÄÖÜäöüß]{3,}/);
-    let position = -1;
-    if (firstTextMatch && plainContent) {
-      const searchText = firstTextMatch[0];
-      position = plainContent.indexOf(searchText);
-    }
-
-    screenshots.push({
-      id,
-      path: src,
-      url: `https://ambitious-cliff-0098a0303.2.azurestaticapps.net${src}`,
-      alt: alt || fileName,
-      context,
-      position: position >= 0 ? position : screenshots.length * 100 // Fallback: gleichmäßig verteilen
-    });
+  while ((match = htmlRegex.exec(markdown)) !== null) {
+    const [fullMatch, src] = match;
+    // Alt-Text aus dem HTML-Tag extrahieren
+    const altMatch = fullMatch.match(/alt=["']([^"']*)["']/i);
+    const alt = altMatch ? altMatch[1] : '';
+    addScreenshot(screenshots, seenIds, src, alt, markdown, plainContent, match.index, fullMatch.length);
   }
 
   return screenshots;
+}
+
+/**
+ * Fügt einen Screenshot zur Liste hinzu (Duplikate werden vermieden)
+ */
+function addScreenshot(screenshots, seenIds, src, alt, markdown, plainContent, matchIndex, matchLength) {
+  // Nur Screenshots aus dem /screenshots/ Verzeichnis
+  if (!src.includes('/screenshots/')) return;
+
+  // ID aus Dateiname generieren
+  const fileName = src.split('/').pop().replace(/\.[^.]+$/, '');
+  const id = fileName.replace(/[^a-zA-Z0-9_-]/g, '-');
+
+  // Duplikate vermeiden
+  if (seenIds.has(id)) return;
+  seenIds.add(id);
+
+  // Kontext extrahieren (100 Zeichen vor und nach dem Bild)
+  const contextStart = Math.max(0, matchIndex - 100);
+  const contextEnd = Math.min(markdown.length, matchIndex + matchLength + 100);
+  const context = markdown.substring(contextStart, contextEnd)
+    .replace(/!\[.*?\]\(.*?\)/g, '') // Markdown-Bild-Syntax entfernen
+    .replace(/<img[^>]*>/gi, '')     // HTML-img-Tags entfernen
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  // Position im Plain-Text finden (approximiert)
+  // Wir finden den nächsten Textabschnitt nach dem Bild
+  const textAfterImage = markdown.substring(matchIndex + matchLength, matchIndex + matchLength + 200);
+  const firstTextMatch = textAfterImage.match(/[A-Za-zÄÖÜäöüß]{3,}/);
+  let position = -1;
+  if (firstTextMatch && plainContent) {
+    const searchText = firstTextMatch[0];
+    position = plainContent.indexOf(searchText);
+  }
+
+  screenshots.push({
+    id,
+    path: src,
+    url: `https://ambitious-cliff-0098a0303.2.azurestaticapps.net${src}`,
+    alt: alt || fileName,
+    context,
+    position: position >= 0 ? position : screenshots.length * 100 // Fallback: gleichmäßig verteilen
+  });
 }
 
 /**
@@ -245,8 +274,13 @@ function extractPlainText(markdown) {
     .replace(/```[\s\S]*?```/g, '')
     // Inline-Code entfernen
     .replace(/`[^`]+`/g, '')
-    // Bilder entfernen
+    // Markdown-Bilder entfernen
     .replace(/!\[.*?\]\(.*?\)/g, '')
+    // HTML img-Tags entfernen
+    .replace(/<img[^>]*>/gi, '')
+    // Docusaurus-Admonitions (:::info, :::tip, etc.) zu Text
+    .replace(/:::(info|tip|warning|danger|note)\s*/gi, '')
+    .replace(/:::/g, '')
     // Links zu Text konvertieren
     .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
     // Headers zu Text
