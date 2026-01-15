@@ -45,6 +45,12 @@ async function buildIndex() {
         continue;
       }
 
+      // Content für Semantic Search (ohne Markdown-Syntax)
+      const plainContent = extractPlainText(markdown);
+
+      // Screenshots aus Markdown extrahieren (mit Position für Inline-Anzeige)
+      const extractedScreenshots = extractScreenshots(markdown, plainContent);
+
       const article = {
         id: frontmatter.id,
         title: frontmatter.title,
@@ -55,7 +61,7 @@ async function buildIndex() {
         searchTerms: frontmatter.searchTerms || [],
 
         // Content für Semantic Search (ohne Markdown-Syntax)
-        plainContent: extractPlainText(markdown),
+        plainContent,
 
         // Navigation - strukturiert oder als String
         ...(frontmatter.navigation && { navigation: parseNavigation(frontmatter.navigation, frontmatter.platform) }),
@@ -63,7 +69,10 @@ async function buildIndex() {
         // Metadaten basierend auf Typ
         ...(frontmatter.tutorial && { tutorial: frontmatter.tutorial }),
         ...(frontmatter.troubleshooting && { troubleshooting: frontmatter.troubleshooting }),
-        ...(frontmatter.screenshots && { screenshots: frontmatter.screenshots }),
+
+        // Screenshots: Frontmatter hat Vorrang, sonst aus Markdown extrahieren
+        screenshots: frontmatter.screenshots || extractedScreenshots,
+
         ...(frontmatter.relatedArticles && { relatedArticles: frontmatter.relatedArticles }),
       };
 
@@ -166,6 +175,63 @@ function inferNavigationType(path, platform) {
 
   // Web-Dashboard: immer hierarchisch
   return 'hierarchical';
+}
+
+/**
+ * Extrahiert Screenshots aus Markdown mit Position für Inline-Anzeige
+ *
+ * Gibt ein Array zurück mit:
+ * - id: eindeutige ID basierend auf Dateiname
+ * - path: relativer Pfad zum Screenshot
+ * - url: vollständige URL
+ * - alt: Alt-Text des Bildes
+ * - context: umgebender Text für Relevanz-Matching
+ * - position: Position im Plain-Text (für Inline-Anzeige)
+ */
+function extractScreenshots(markdown, plainContent) {
+  const regex = /!\[([^\]]*)\]\(([^)]+)\)/g;
+  const screenshots = [];
+  let match;
+
+  while ((match = regex.exec(markdown)) !== null) {
+    const [fullMatch, alt, src] = match;
+
+    // Nur Screenshots aus dem /screenshots/ Verzeichnis
+    if (!src.includes('/screenshots/')) continue;
+
+    // ID aus Dateiname generieren
+    const fileName = src.split('/').pop().replace(/\.[^.]+$/, '');
+    const id = fileName.replace(/[^a-zA-Z0-9_-]/g, '-');
+
+    // Kontext extrahieren (100 Zeichen vor und nach dem Bild)
+    const contextStart = Math.max(0, match.index - 100);
+    const contextEnd = Math.min(markdown.length, match.index + fullMatch.length + 100);
+    const context = markdown.substring(contextStart, contextEnd)
+      .replace(/!\[.*?\]\(.*?\)/g, '') // Bild-Syntax entfernen
+      .replace(/\s+/g, ' ')
+      .trim();
+
+    // Position im Plain-Text finden (approximiert)
+    // Wir finden den nächsten Textabschnitt nach dem Bild
+    const textAfterImage = markdown.substring(match.index + fullMatch.length, match.index + fullMatch.length + 200);
+    const firstTextMatch = textAfterImage.match(/[A-Za-zÄÖÜäöüß]{3,}/);
+    let position = -1;
+    if (firstTextMatch && plainContent) {
+      const searchText = firstTextMatch[0];
+      position = plainContent.indexOf(searchText);
+    }
+
+    screenshots.push({
+      id,
+      path: src,
+      url: `https://docs.orderlyze.com${src}`,
+      alt: alt || fileName,
+      context,
+      position: position >= 0 ? position : screenshots.length * 100 // Fallback: gleichmäßig verteilen
+    });
+  }
+
+  return screenshots;
 }
 
 /**
