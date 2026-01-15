@@ -224,7 +224,7 @@ function extractScreenshots(markdown, plainContent) {
     screenshots.push({
       id,
       path: src,
-      url: `https://docs.orderlyze.com${src}`,
+      url: `https://ambitious-cliff-0098a0303.2.azurestaticapps.net${src}`,
       alt: alt || fileName,
       context,
       position: position >= 0 ? position : screenshots.length * 100 // Fallback: gleichmäßig verteilen
