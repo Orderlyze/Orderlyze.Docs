@@ -64,5 +64,5 @@ Auf dem iPad wird der Login-Screen in einem 3-Spalten-Layout dargestellt. Links 
 
 ## Probleme bei der Anmeldung?
 
-- **Passwort vergessen:** Kontaktieren Sie [support@orderlyze.com](mailto:support@orderlyze.com)
+- **Passwort vergessen:** Kontaktieren Sie [office@orderlyze.com](mailto:office@orderlyze.com)
 - **Kein Zugang:** Wenden Sie sich an Ihren Administrator

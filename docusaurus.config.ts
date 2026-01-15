@@ -92,7 +92,7 @@ const config: Config = {
           title: 'Orderlyze',
           items: [
             { label: 'Website', href: 'https://orderlyze.com' },
-            { label: 'Support', href: 'mailto:support@orderlyze.com' },
+            { label: 'Support', href: 'mailto:office@orderlyze.com' },
           ],
         },
       ],

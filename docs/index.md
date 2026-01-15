@@ -100,4 +100,4 @@ Dokumentation für die Orderlyze Bonier App auf Tablets und Smartphones.
 
 ## Support
 
-[support@orderlyze.com](mailto:support@orderlyze.com)
+[office@orderlyze.com](mailto:office@orderlyze.com)

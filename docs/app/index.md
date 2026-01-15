@@ -74,4 +74,4 @@ Tischübersicht (Hauptseite)
 
 ## Support
 
-[support@orderlyze.com](mailto:support@orderlyze.com)
+[office@orderlyze.com](mailto:office@orderlyze.com)

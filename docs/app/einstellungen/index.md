@@ -308,7 +308,7 @@ Jeder Eintrag enthält:
 | **Export-Symbol** | Exportiert die Logs als Datei |
 
 :::tip Support-Anfragen
-Bei Problemen exportieren Sie die Logs und senden Sie diese an support@orderlyze.com
+Bei Problemen exportieren Sie die Logs und senden Sie diese an office@orderlyze.com
 :::
 
 :::info Tablet-Ansicht
