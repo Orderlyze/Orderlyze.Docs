@@ -30,7 +30,24 @@
           "description": "Alt-Text für Barrierefreiheit"
         },
         "platform": { "$ref": "#/definitions/platform" },
-        "deviceMode": { "$ref": "#/definitions/deviceMode" }
+        "deviceMode": { "$ref": "#/definitions/deviceMode" },
+        "keywords": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Keywords für semantisches Matching in AI-Antworten (z.B. ['Tisch', 'Bon', 'Zahlung'])"
+        },
+        "section": {
+          "type": "string",
+          "description": "Section/Heading wo dieser Screenshot hingehört (z.B. 'Bestellung aufnehmen')"
+        },
+        "displayOrder": {
+          "type": "integer",
+          "description": "Anzeigereihenfolge (0 = first, höher = später)"
+        },
+        "placementHint": {
+          "type": "string",
+          "description": "Semantischer Hinweis zur Platzierung (z.B. 'after_step_1', 'before_navigation')"
+        }
       },
       "required": ["id", "file", "alt"]
     },

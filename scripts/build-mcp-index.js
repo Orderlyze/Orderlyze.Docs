@@ -178,7 +178,7 @@ function inferNavigationType(path, platform) {
 }
 
 /**
- * Extrahiert Screenshots aus Markdown mit Position für Inline-Anzeige
+ * Extrahiert Screenshots aus Markdown mit semantischen Platzierungsfeldern
  *
  * Unterstützt zwei Formate:
  * 1. Markdown: ![alt](src)
@@ -189,8 +189,12 @@ function inferNavigationType(path, platform) {
  * - path: relativer Pfad zum Screenshot
  * - url: vollständige URL
  * - alt: Alt-Text des Bildes
- * - context: umgebender Text für Relevanz-Matching
- * - position: Position im Plain-Text (für Inline-Anzeige)
+ * - context: umgebender Text für Relevanz-Matching (deprecated)
+ * - position: Position im Plain-Text (deprecated)
+ * - keywords: automatisch extrahierte Keywords aus dem Kontext
+ * - section: Section/Heading in der sich der Screenshot befindet
+ * - displayOrder: Reihenfolge der Screenshots (0-basiert)
+ * - placementHint: Hinweis zur Platzierung basierend auf Kontext
  */
 function extractScreenshots(markdown, plainContent) {
   // Sammle alle Bilder mit ihren Positionen im Markdown
@@ -232,12 +236,16 @@ function extractScreenshots(markdown, plainContent) {
   // Sortiere nach Position im Markdown
   allImages.sort((a, b) => a.markdownIndex - b.markdownIndex);
 
+  // Extrahiere alle Sections aus dem Markdown für Section-Matching
+  const sections = extractSections(markdown);
+
   // Berechne die Position im plainContent basierend auf der relativen Position im Markdown
   const screenshots = [];
   const seenIds = new Set();
   const plainContentLength = plainContent ? plainContent.length : 0;
 
-  for (const img of allImages) {
+  for (let i = 0; i < allImages.length; i++) {
+    const img = allImages[i];
     const fileName = img.src.split('/').pop().replace(/\.[^.]+$/, '');
     const id = fileName.replace(/[^a-zA-Z0-9_-]/g, '-');
 
@@ -259,17 +267,136 @@ function extractScreenshots(markdown, plainContent) {
     const relativePosition = img.markdownIndex / markdown.length;
     const position = Math.round(relativePosition * plainContentLength);
 
+    // Section finden, in der sich der Screenshot befindet
+    const section = findSectionForPosition(sections, img.markdownIndex);
+
+    // Keywords aus Kontext und Alt-Text extrahieren
+    const keywords = extractKeywords(context, img.alt);
+
+    // Placement Hint basierend auf Kontext generieren
+    const placementHint = generatePlacementHint(markdown, img.markdownIndex, i);
+
     screenshots.push({
       id,
       path: img.src,
       url: `https://ambitious-cliff-0098a0303.2.azurestaticapps.net${img.src}`,
       alt: img.alt || fileName,
       context,
-      position
+      position,
+      // Neue semantische Felder
+      keywords,
+      section,
+      displayOrder: i,
+      placementHint
     });
   }
 
   return screenshots;
+}
+
+/**
+ * Extrahiert alle Section-Headers aus dem Markdown
+ */
+function extractSections(markdown) {
+  const sections = [];
+  const headerRegex = /^(#{1,6})\s+(.+)$/gm;
+  let match;
+
+  while ((match = headerRegex.exec(markdown)) !== null) {
+    sections.push({
+      level: match[1].length,
+      title: match[2].trim(),
+      index: match.index
+    });
+  }
+
+  return sections;
+}
+
+/**
+ * Findet die Section für eine gegebene Position im Markdown
+ */
+function findSectionForPosition(sections, position) {
+  let currentSection = null;
+
+  for (const section of sections) {
+    if (section.index <= position) {
+      currentSection = section.title;
+    } else {
+      break;
+    }
+  }
+
+  return currentSection;
+}
+
+/**
+ * Extrahiert relevante Keywords aus dem Kontext und Alt-Text
+ */
+function extractKeywords(context, altText) {
+  const keywords = new Set();
+
+  // Kombiniere Alt-Text und Kontext
+  const text = `${altText} ${context}`.toLowerCase();
+
+  // Wichtige UI-Begriffe und Aktionen (Deutsch)
+  const importantTerms = [
+    'tisch', 'bestellung', 'rechnung', 'zahlung', 'produkt', 'kategorie',
+    'bon', 'drucker', 'kasse', 'kunde', 'gutschein', 'rabatt', 'trinkgeld',
+    'storno', 'einstellungen', 'verwaltung', 'menü', 'dashboard', 'übersicht',
+    'hinzufügen', 'bearbeiten', 'löschen', 'speichern', 'abbrechen',
+    'login', 'passwort', 'benutzer', 'terminal', 'sync', 'export',
+    'splitten', 'transfer', 'gang', 'beilage', 'extra', 'notiz'
+  ];
+
+  for (const term of importantTerms) {
+    if (text.includes(term)) {
+      // Ersten Buchstaben groß für bessere Lesbarkeit
+      keywords.add(term.charAt(0).toUpperCase() + term.slice(1));
+    }
+  }
+
+  // Alt-Text-Wörter hinzufügen (wenn sie aussagekräftig sind)
+  const altWords = altText.split(/[\s-_]+/).filter(w => w.length > 3);
+  for (const word of altWords) {
+    if (!['screenshot', 'bild', 'image', 'ansicht', 'view'].includes(word.toLowerCase())) {
+      keywords.add(word);
+    }
+  }
+
+  return Array.from(keywords).slice(0, 10); // Max 10 Keywords
+}
+
+/**
+ * Generiert einen Placement Hint basierend auf dem umgebenden Kontext
+ */
+function generatePlacementHint(markdown, position, index) {
+  // Suche nach Schritt-Indikatoren vor dem Bild
+  const beforeText = markdown.substring(Math.max(0, position - 200), position);
+
+  // Schritt-Nummer finden
+  const stepMatch = beforeText.match(/(?:schritt|step)\s*(\d+)/i);
+  if (stepMatch) {
+    return `after_step_${stepMatch[1]}`;
+  }
+
+  // Nummerierte Liste finden
+  const listMatch = beforeText.match(/(\d+)\.\s+[^\n]+$/);
+  if (listMatch) {
+    return `after_list_item_${listMatch[1]}`;
+  }
+
+  // Navigation-Hinweis finden
+  if (beforeText.includes('Navigation:') || beforeText.includes('So kommen Sie hierher:')) {
+    return 'after_navigation';
+  }
+
+  // Übersicht/Einleitung
+  if (index === 0 && beforeText.match(/^#[^#]/m)) {
+    return 'after_intro';
+  }
+
+  return null;
 }
 
 /**
