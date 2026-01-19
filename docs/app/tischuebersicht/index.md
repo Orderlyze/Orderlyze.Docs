@@ -88,13 +88,9 @@ Auf dem iPad nutzt die App ein **Split-View Layout**:
 | Button | Funktion |
 |--------|----------|
 | **Bearbeiten** (rot) | Bestellungen auf dem Tisch bearbeiten oder korrigieren |
-| **In Küche drucken** (orange) | Sendet die Bestellung direkt an den Küchendrucker |
-| **Gesamt Bezahlen** (blau) | Die gesamte Rechnung auf einmal begleichen |
-| **Getrennt Bezahlen** (grün) | Einzelne Positionen getrennt abrechnen |
-
-**Zusätzliche Buttons in der Kopfleiste:**
-- **Kalender-Symbol**: Schnellzugriff auf Reservierungen und Termine
-- **Benutzer-Symbol** (rot, rechts): Zeigt den angemeldeten Mitarbeiter und ermöglicht Benutzerwechsel
+| **In Küche drucken** (blau) | Sendet die Bestellung direkt an den Küchendrucker |
+| **Gesamt Bezahlen** (grün) | Die gesamte Rechnung auf einmal begleichen |
+| **Getrennt Bezahlen** (orange) | Einzelne Positionen getrennt abrechnen |
 :::
 
 ---
