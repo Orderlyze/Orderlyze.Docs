@@ -32,7 +32,9 @@ searchTerms:
 
 ## Produkt bearbeiten
 
-Produkt in der Liste anklicken → Änderungen vornehmen → **Speichern**
+Klick in der Zeile des Produkts auf das **Bearbeiten-Symbol** (Stift-Symbol rechts) → Änderungen vornehmen → **Speichern**
+
+![Produkt bearbeiten Button](/screenshots/admin/produkt-bearbeiten-button.png)
 
 ## Produkt löschen
 

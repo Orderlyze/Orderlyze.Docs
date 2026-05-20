@@ -29,7 +29,9 @@ searchTerms:
 
 ## Kategorie bearbeiten
 
-Klick auf die Kategorie in der Liste → Änderungen vornehmen → **Speichern**
+Klick in der Zeile der Kategorie auf das **Bearbeiten-Symbol** (Stift-Symbol rechts) → Änderungen vornehmen → **Speichern**
+
+![Kategorie bearbeiten Button](/screenshots/admin/kategorie-bearbeiten-button.png)
 
 ## Kategorie löschen
 
