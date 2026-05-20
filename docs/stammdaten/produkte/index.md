@@ -21,14 +21,16 @@ searchTerms:
 
 ## Neues Produkt erstellen
 
-1. Klick auf **+ Hinzufügen**
+1. Klick oben rechts auf **+ Produkt hinzufügen**
 2. Pflichtfelder ausfüllen:
    - Name
    - Preis
    - Kategorie
 3. **Speichern**
 
-![Produkt erstellen](/screenshots/admin/produkt-erstellen-dialog.png)
+![Produkt hinzufügen Button](/screenshots/admin/produkt-hinzufuegen-button.png)
+
+![Produkt erstellen Dialog](/screenshots/admin/produkt-erstellen-dialog.png)
 
 ## Produkt bearbeiten
 
@@ -38,5 +40,7 @@ Klick in der Zeile des Produkts auf das **Bearbeiten-Symbol** (Stift-Symbol rech
 
 ## Produkt löschen
 
-Produkt auswählen → **Löschen** → Bestätigen
+Klick in der Zeile des Produkts auf das **Löschen-Symbol** (Mülleimer-Symbol ganz rechts) → Bestätigen.
+
+![Produkt löschen Button](/screenshots/admin/produkt-loeschen-button.png)
 

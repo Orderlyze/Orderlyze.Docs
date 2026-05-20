@@ -19,19 +19,21 @@ searchTerms:
 
 **Navigation:** Verwaltung → Kunden
 
-![Kunden Übersicht](/screenshots/admin/kunden-liste.png)
-
 Die Kundenverwaltung ermöglicht es Ihnen, Stammkunden und Firmenkunden zu speichern. Diese können dann bei Bestellungen ausgewählt werden, um personalisierte Rechnungen zu erstellen oder Kundenbindung zu fördern.
+
+![Kunden Übersicht](/screenshots/admin/kunden-liste.png)
 
 ---
 
 ## Neuen Kunden anlegen
 
-1. Klicken Sie auf **+ Kunde hinzufügen**
-2. Füllen Sie die gewünschten Felder aus
-3. Klicken Sie auf **Speichern**
+1. Klick oben rechts auf **+ Kunde hinzufügen**
+2. Gewünschte Felder ausfüllen (mindestens Vor- und Nachname)
+3. **Speichern**
 
-![Kunden erstellen](/screenshots/admin/kunden-erstellen-dialog.png)
+![Kunde hinzufügen Button](/screenshots/admin/kunden-hinzufuegen-button.png)
+
+![Kunde erstellen Dialog](/screenshots/admin/kunden-erstellen-dialog.png)
 
 ### Verfügbare Felder
 
@@ -71,43 +73,21 @@ Markieren Sie häufige Kunden als **Favorit** (Favorit?), um sie in der App schn
 
 ---
 
-## Farbcodierung
+## Kunde bearbeiten
 
-Weisen Sie Kunden eine Farbe zu, um sie visuell zu kategorisieren:
 
-- **Aero Blue** - Hellblau
-- **Maya Blue** - Blau
-- **Pakistan Green** - Grün
-- **Orange Yellow** - Orange-Gelb
-- **Sandy Brown** - Braun
-- **Tomato** - Rot
-- **Charm Pink** - Rosa
-- **Purple Navy** - Lila
-- **White** - Weiß
+Klick in der Zeile des Kunden auf das **Bearbeiten-Symbol** (Stift-Symbol rechts) → Änderungen vornehmen → **Speichern**
+
+![Kunde bearbeiten Button](/screenshots/admin/kunden-bearbeiten-button.png)
 
 ---
 
-## Kunden bearbeiten
+## Kunde löschen
 
-1. Klicken Sie auf den Kunden in der Liste
-2. Ändern Sie die gewünschten Felder
-3. Klicken Sie auf **Speichern**
+Klick in der Zeile des Kunden auf das **Löschen-Symbol** (Mülleimer-Symbol ganz rechts) → Bestätigen.
 
----
-
-## Kunden löschen
-
-1. Klicken Sie auf das Löschen-Symbol (Mülleimer) beim Kunden
-2. Bestätigen Sie die Löschung
+![Kunde löschen Button](/screenshots/admin/kunden-loeschen-button.png)
 
 :::warning
 Gelöschte Kunden können nicht wiederhergestellt werden. Rechnungen, die diesem Kunden zugeordnet waren, behalten jedoch ihre Daten.
 :::
-
----
-
-## Tipps
-
-- Nutzen Sie die **Suchfunktion** in der Tabelle, um Kunden schnell zu finden
-- Sortieren Sie die Liste durch Klick auf die Spaltenüberschriften
-- Passen Sie die Anzahl der angezeigten Einträge mit **Einträge anzeigen** an

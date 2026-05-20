@@ -20,12 +20,15 @@ searchTerms:
 
 ## Neue Kategorie erstellen
 
-1. Klick auf **+ Hinzufügen**
-2. Name eingeben
-3. Farbe wählen (optional)
+1. Klick oben rechts auf **+ Kategorie hinzufügen**
+2. Pflichtfeld ausfüllen:
+   - Name
+3. Optional: Übergeordnete Kategorie, Mehrwertsteuer, Farbe, Reihenfolge
 4. **Speichern**
 
-![Kategorie erstellen](/screenshots/admin/kategorie-erstellen-dialog.png)
+![Kategorie hinzufügen Button](/screenshots/admin/kategorie-hinzufuegen-button.png)
+
+![Kategorie erstellen Dialog](/screenshots/admin/kategorie-erstellen-dialog.png)
 
 ## Kategorie bearbeiten
 
@@ -35,7 +38,9 @@ Klick in der Zeile der Kategorie auf das **Bearbeiten-Symbol** (Stift-Symbol rec
 
 ## Kategorie löschen
 
-Kategorie auswählen → **Löschen** → Bestätigen
+Klick in der Zeile der Kategorie auf das **Löschen-Symbol** (Mülleimer-Symbol ganz rechts) → Bestätigen.
+
+![Kategorie löschen Button](/screenshots/admin/kategorie-loeschen-button.png)
 
 :::warning
 Beim Löschen einer Kategorie werden alle zugeordneten Produkte in "Ohne Kategorie" verschoben.

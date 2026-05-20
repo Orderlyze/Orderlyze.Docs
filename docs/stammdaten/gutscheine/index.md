@@ -20,7 +20,7 @@ searchTerms:
 
 Mit der Gutscheinverwaltung erstellen und verwalten Sie Wertgutscheine für Ihr Unternehmen. Das System arbeitet mit Gutschein-Vorlagen, aus denen Sie beliebig viele individuelle Gutschein-Codes generieren können.
 
-![Gutscheine Übersicht](/screenshots/admin/gutscheine-uebersicht.png)
+![Gutscheine Übersicht](/screenshots/admin/gutscheine-liste.png)
 
 ## Übersicht
 
@@ -31,8 +31,8 @@ Die Gutschein-Übersicht zeigt alle Ihre Gutschein-Vorlagen mit folgenden Inform
 | Name | Name der Gutschein-Vorlage |
 | Kategorie | Zugeordnete Kategorie |
 | Wert | Wert des Gutscheins in Euro |
-| Verfügbare Gutscheine | Anzahl der erstellten Gutscheine |
-| Verbleibende Gutscheine | Noch nicht eingelöste Gutscheine |
+| Vorhandene Gutscheine | Anzahl der erstellten Gutscheine |
+| Gutscheine im Umlauf | Noch nicht eingelöste Gutscheine |
 | Eingelöste Gutscheine | Bereits eingelöste Gutscheine |
 
 ---
@@ -41,14 +41,16 @@ Die Gutschein-Übersicht zeigt alle Ihre Gutschein-Vorlagen mit folgenden Inform
 
 Eine Gutschein-Vorlage definiert den Wert und die Anzahl der Gutscheine, die generiert werden sollen.
 
-1. Klick auf **+ Gutschein-Vorlage hinzufügen**
-2. Formular ausfüllen:
-   - **Name** - Bezeichnung der Vorlage (z.B. "50€ Geschenkgutschein")
-   - **Wert** - Gutscheinwert in Euro
-   - **Anzahl der Gutscheine** - Wie viele Gutscheine generiert werden sollen
-3. **Speichern** klicken
+1. Klick oben rechts auf **+ Gutscheinvorlage hinzufügen**
+2. Pflichtfelder ausfüllen:
+   - **Name** — Bezeichnung der Vorlage (z.B. "Geschenkgutschein 25€")
+   - **Wert** — Gutscheinwert in Euro
+   - **Anzahl der Gutscheine** — Wie viele Gutscheine generiert werden sollen
+3. **Speichern**
 
-![Gutschein-Vorlage erstellen](/screenshots/admin/gutscheine-erstellen-dialog.png)
+![Gutscheinvorlage hinzufügen Button](/screenshots/admin/gutscheine-hinzufuegen-button.png)
+
+![Gutscheinvorlage erstellen Dialog](/screenshots/admin/gutscheine-erstellen-dialog.png)
 
 :::tip
 Erstellen Sie verschiedene Vorlagen für unterschiedliche Gutscheinwerte, z.B. "10€ Gutschein", "25€ Gutschein", "50€ Gutschein".
@@ -56,11 +58,11 @@ Erstellen Sie verschiedene Vorlagen für unterschiedliche Gutscheinwerte, z.B. "
 
 ---
 
-## Gutschein-Details anzeigen
+## Gutscheine anzeigen
 
-Klicken Sie auf das **Info-Symbol** (ℹ️) bei einer Gutschein-Vorlage, um die einzelnen Gutschein-Codes anzuzeigen.
+Klick in der Zeile der Vorlage auf das **Zeige-Gutscheine-Symbol** (Lupe ganz rechts) um die einzelnen Gutschein-Codes anzuzeigen.
 
-![Gutschein-Details](/screenshots/admin/gutscheine-details.png)
+![Gutscheine anzeigen Button](/screenshots/admin/gutscheine-anzeigen-button.png)
 
 Die Detailansicht zeigt:
 
@@ -81,20 +83,23 @@ Die Detailansicht zeigt:
 
 ---
 
-## Weitere Gutscheine hinzufügen
+## Weitere Gutscheine erzeugen
 
-Um mehr Gutscheine zu einer bestehenden Vorlage hinzuzufügen:
+Um zu einer bestehenden Vorlage weitere Gutschein-Codes zu generieren:
 
-1. Klick auf das **Plus-Symbol** (➕) bei der gewünschten Vorlage
+1. Klick in der Zeile der Vorlage auf das **Gutscheine-erzeugen-Symbol** (Plus-Symbol mittig rechts)
 2. Anzahl der neuen Gutscheine eingeben
-3. **Bestätigen** klicken
+3. **Bestätigen**
+
+![Gutscheine erzeugen Button](/screenshots/admin/gutscheine-erzeugen-button.png)
 
 ---
 
 ## Gutschein-Vorlage löschen
 
-1. Klick auf das **Mülleimer-Symbol** (🗑️) bei der Vorlage
-2. Löschen bestätigen
+Klick in der Zeile der Vorlage auf das **Löschen-Symbol** (Mülleimer ganz rechts) → Bestätigen.
+
+![Gutscheinvorlage löschen Button](/screenshots/admin/gutscheine-loeschen-button.png)
 
 :::warning
 Beim Löschen einer Vorlage werden alle zugehörigen Gutschein-Codes unwiderruflich gelöscht. Bereits eingelöste Gutscheine können nicht mehr nachverfolgt werden.
@@ -106,7 +111,7 @@ Beim Löschen einer Vorlage werden alle zugehörigen Gutschein-Codes unwiderrufl
 
 In der Detailansicht können Sie einzelne Gutscheine löschen:
 
-1. Gutschein-Details öffnen (Info-Symbol)
+1. Gutscheine anzeigen öffnen (Zeige-Gutscheine-Symbol)
 2. Beim gewünschten Gutschein auf das **Mülleimer-Symbol** klicken
 3. Löschen bestätigen
 
@@ -139,7 +144,7 @@ Gutscheine können auch teilweise eingelöst werden. Der Restwert bleibt auf dem
 
 ### Wie erkenne ich, ob ein Gutschein bereits eingelöst wurde?
 
-In der Übersicht sehen Sie die Spalten "Verbleibende Gutscheine" (noch offen) und "Eingelöste Gutscheine" (eingelöst). In den Details zeigt die Spalte "Gutschein-Status" den genauen Status jedes einzelnen Gutscheins.
+In der Übersicht sehen Sie die Spalten "Gutscheine im Umlauf" (noch offen) und "Eingelöste Gutscheine" (eingelöst). In den Details zeigt die Spalte "Gutschein-Status" den genauen Status jedes einzelnen Gutscheins.
 
 ### Kann ein Gutschein mehrfach verwendet werden?
 

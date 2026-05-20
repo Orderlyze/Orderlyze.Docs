@@ -1,7 +1,7 @@
 ---
 id: benutzer
 title: Benutzer
-description: Benutzer und Zugriffsrechte verwalten
+description: Benutzerkonten für Mitarbeiter verwalten
 type: reference
 platform: web
 sidebar_position: 1
@@ -10,33 +10,51 @@ searchTerms:
   - benutzer
   - user
   - mitarbeiter
-  - rechte
-  - zugriff
+  - account
+  - login
 ---
 
 # Benutzer
 
 **Navigation:** Verwaltung → Benutzer
 
-![Benutzer Liste](/screenshots/admin/benutzer-liste.png)
+In der Benutzerverwaltung legen Sie Konten für Ihre Mitarbeiter an. Jeder Mitarbeiter erhält eigene Zugangsdaten für die Orderlyze App und das Web-Portal.
+
+![Benutzer Übersicht](/screenshots/admin/benutzer-liste.png)
+
+---
 
 ## Neuen Benutzer anlegen
 
-1. **+ Hinzufügen** klicken
-2. Name und E-Mail eingeben
-3. Rolle/Berechtigungen wählen
+1. Klick oben rechts auf **+ Benutzer hinzufügen**
+2. Pflichtfelder ausfüllen:
+   - **Benutzername** — Kurzname für den Login
+   - **Vorname** und **Nachname**
+   - **E-Mail Adresse**
+   - **Passwort**
+3. Optional: Geburtstag, Telefon
 4. **Speichern**
 
-![Benutzer Dialog](/screenshots/admin/benutzer-dialog.png)
+![Benutzer hinzufügen Button](/screenshots/admin/benutzer-hinzufuegen-button.png)
 
-## Berechtigungen
+![Benutzer erstellen Dialog](/screenshots/admin/benutzer-erstellen-dialog.png)
 
-| Rolle | Beschreibung |
-|-------|--------------|
-| Admin | Vollzugriff |
-| Kellner | Bestellungen, keine Einstellungen |
-| Küche | Nur Küchenmonitor |
+---
 
-## Benutzer bearbeiten/löschen
+## Benutzer bearbeiten
 
-Benutzer in Liste anklicken → Ändern oder **Löschen**
+Klick in der Zeile des Benutzers auf das **Bearbeiten-Symbol** (Stift-Symbol rechts) → Änderungen vornehmen → **Speichern**
+
+![Benutzer bearbeiten Button](/screenshots/admin/benutzer-bearbeiten-button.png)
+
+---
+
+## Benutzer löschen
+
+Klick in der Zeile des Benutzers auf das **Löschen-Symbol** (Mülleimer-Symbol ganz rechts) → Bestätigen.
+
+![Benutzer löschen Button](/screenshots/admin/benutzer-loeschen-button.png)
+
+:::warning
+Gelöschte Benutzer können sich nicht mehr anmelden. Stattdessen empfiehlt es sich oft, einfach das Passwort zu ändern oder den Benutzer im Login-Bildschirm zu sperren.
+:::

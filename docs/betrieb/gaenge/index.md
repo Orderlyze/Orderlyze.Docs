@@ -29,20 +29,23 @@ Jeder Gang kann Kategorien oder einzelne Produkte enthalten. Wenn ein Produkt be
 
 ## Neuen Gang erstellen
 
-1. Klick auf **+ Gang hinzufügen**
-2. Namen eingeben (z.B. "Vorspeise", "Hauptgang", "Dessert")
+1. Klick unten auf **+ Gang hinzufügen**
+2. **Name** eingeben (z.B. "Vorspeise", "Hauptgang", "Dessert")
 3. **Speichern**
 
-![Gang erstellen](/screenshots/admin/gaenge-erstellen-dialog.png)
+![Gang hinzufügen Button](/screenshots/admin/gaenge-hinzufuegen-button.png)
+
+![Gang erstellen Dialog](/screenshots/admin/gaenge-erstellen-dialog.png)
 
 ## Kategorien oder Produkte zuordnen
 
 Nach dem Erstellen eines Gangs können Sie Kategorien oder einzelne Produkte zuordnen:
 
-1. Klick auf **+ Kategorie/Produkt hinzufügen** unter dem gewünschten Gang
-2. Wählen Sie die gewünschten Kategorien aus der Liste
-3. Wählen Sie optional einzelne Produkte aus
-4. **Speichern**
+1. Klick unter dem gewünschten Gang auf **+ Kategorie/Produkt hinzufügen**
+2. Eine **Kategorie** oder ein **Produkt** auswählen
+3. **Speichern**
+
+![Kategorie/Produkt hinzufügen Link](/screenshots/admin/gaenge-zuordnung-link.png)
 
 ![Kategorie oder Produkt zuordnen](/screenshots/admin/gaenge-zuordnung-dialog.png)
 
@@ -52,7 +55,9 @@ Wenn Sie eine ganze Kategorie zuordnen, werden automatisch alle Produkte dieser 
 
 ## Gang bearbeiten
 
-Klick auf das **Bearbeiten-Symbol** (Stift) neben dem Gang-Namen → Namen ändern → **Speichern**
+Klick rechts neben dem Gang-Namen auf das **Bearbeiten-Symbol** (Stift) → Namen ändern → **Speichern**
+
+![Gang bearbeiten Button](/screenshots/admin/gaenge-bearbeiten-button.png)
 
 ## Zuordnung entfernen
 
@@ -60,7 +65,9 @@ Klick auf das **X** neben der Kategorie oder dem Produkt, um die Zuordnung zu en
 
 ## Gang löschen
 
-Klick auf das **Löschen-Symbol** (Mülleimer) neben dem Gang-Namen → Bestätigen
+Klick rechts neben dem Gang-Namen auf das **Löschen-Symbol** (Mülleimer) → Bestätigen.
+
+![Gang löschen Button](/screenshots/admin/gaenge-loeschen-button.png)
 
 :::warning
 Beim Löschen eines Gangs werden alle Zuordnungen zu Kategorien und Produkten entfernt. Die Kategorien und Produkte selbst bleiben erhalten.
