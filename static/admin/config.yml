@@ -2,14 +2,9 @@ backend:
   name: github
   repo: Orderlyze/Orderlyze.Docs
   branch: main
-  # Azure Static Web Apps - API ist im gleichen Projekt
-  # Nach Deployment: base_url auf deine Azure URL setzen
-  # z.B. https://deine-app.azurestaticapps.net
   base_url: https://ambitious-cliff-0098a0303.2.azurestaticapps.net
   auth_endpoint: /api/auth
 
-# Lokaler Entwicklungsmodus (ohne GitHub Auth)
-# Auf 'false' setzen für Produktion
 local_backend: false
 
 media_folder: static/screenshots
@@ -22,20 +17,144 @@ slug:
   clean_accents: true
 
 collections:
-  - name: tutorials
-    label: "Tutorials"
-    folder: docs/tutorials
+  - name: erste-schritte
+    label: "Erste Schritte"
+    folder: docs/erste-schritte
     create: true
-    nested:
-      depth: 2
+    nested: { depth: 2 }
     slug: "{{slug}}/index"
+    path: "{{slug}}/index"
     extension: md
     format: frontmatter
     fields:
       - { name: id, label: ID, widget: string }
       - { name: title, label: Titel, widget: string }
       - { name: description, label: Beschreibung, widget: string }
-      - { name: sidebar_position, label: Position, widget: number, default: 1 }
+      - { name: type, label: Typ, widget: string, required: false }
+      - { name: platform, label: Plattform, widget: select, options: [web, app, both], required: false }
+      - { name: sidebar_position, label: Position, widget: number, default: 1, required: false }
+      - { name: navigation, label: Navigation, widget: string, required: false }
+      - { name: searchTerms, label: Suchbegriffe, widget: list, required: false }
+      - { name: body, label: Inhalt, widget: markdown }
+
+  - name: app
+    label: "App"
+    folder: docs/app
+    create: true
+    nested: { depth: 2 }
+    slug: "{{slug}}/index"
+    path: "{{slug}}/index"
+    extension: md
+    format: frontmatter
+    fields:
+      - { name: id, label: ID, widget: string }
+      - { name: title, label: Titel, widget: string }
+      - { name: description, label: Beschreibung, widget: string }
+      - { name: type, label: Typ, widget: string, required: false }
+      - { name: platform, label: Plattform, widget: select, options: [web, app, both], required: false }
+      - { name: sidebar_position, label: Position, widget: number, default: 1, required: false }
+      - { name: navigation, label: Navigation, widget: string, required: false }
+      - { name: searchTerms, label: Suchbegriffe, widget: list, required: false }
+      - { name: body, label: Inhalt, widget: markdown }
+
+  - name: stammdaten
+    label: "Stammdaten"
+    folder: docs/stammdaten
+    create: true
+    nested: { depth: 2 }
+    slug: "{{slug}}/index"
+    path: "{{slug}}/index"
+    extension: md
+    format: frontmatter
+    fields:
+      - { name: id, label: ID, widget: string }
+      - { name: title, label: Titel, widget: string }
+      - { name: description, label: Beschreibung, widget: string }
+      - { name: type, label: Typ, widget: string, required: false }
+      - { name: platform, label: Plattform, widget: select, options: [web, app, both], required: false }
+      - { name: sidebar_position, label: Position, widget: number, default: 1, required: false }
+      - { name: navigation, label: Navigation, widget: string, required: false }
+      - { name: searchTerms, label: Suchbegriffe, widget: list, required: false }
+      - { name: body, label: Inhalt, widget: markdown }
+
+  - name: einstellungen
+    label: "Einstellungen"
+    folder: docs/einstellungen
+    create: true
+    nested: { depth: 2 }
+    slug: "{{slug}}/index"
+    path: "{{slug}}/index"
+    extension: md
+    format: frontmatter
+    fields:
+      - { name: id, label: ID, widget: string }
+      - { name: title, label: Titel, widget: string }
+      - { name: description, label: Beschreibung, widget: string }
+      - { name: type, label: Typ, widget: string, required: false }
+      - { name: platform, label: Plattform, widget: select, options: [web, app, both], required: false }
+      - { name: sidebar_position, label: Position, widget: number, default: 1, required: false }
+      - { name: navigation, label: Navigation, widget: string, required: false }
+      - { name: searchTerms, label: Suchbegriffe, widget: list, required: false }
+      - { name: body, label: Inhalt, widget: markdown }
+
+  - name: personal
+    label: "Personal"
+    folder: docs/personal
+    create: true
+    nested: { depth: 2 }
+    slug: "{{slug}}/index"
+    path: "{{slug}}/index"
+    extension: md
+    format: frontmatter
+    fields:
+      - { name: id, label: ID, widget: string }
+      - { name: title, label: Titel, widget: string }
+      - { name: description, label: Beschreibung, widget: string }
+      - { name: type, label: Typ, widget: string, required: false }
+      - { name: platform, label: Plattform, widget: select, options: [web, app, both], required: false }
+      - { name: sidebar_position, label: Position, widget: number, default: 1, required: false }
+      - { name: navigation, label: Navigation, widget: string, required: false }
+      - { name: searchTerms, label: Suchbegriffe, widget: list, required: false }
+      - { name: body, label: Inhalt, widget: markdown }
+
+  - name: betrieb
+    label: "Betrieb"
+    folder: docs/betrieb
+    create: true
+    nested: { depth: 2 }
+    slug: "{{slug}}/index"
+    path: "{{slug}}/index"
+    extension: md
+    format: frontmatter
+    fields:
+      - { name: id, label: ID, widget: string }
+      - { name: title, label: Titel, widget: string }
+      - { name: description, label: Beschreibung, widget: string }
+      - { name: type, label: Typ, widget: string, required: false }
+      - { name: platform, label: Plattform, widget: select, options: [web, app, both], required: false }
+      - { name: sidebar_position, label: Position, widget: number, default: 1, required: false }
+      - { name: navigation, label: Navigation, widget: string, required: false }
+      - { name: searchTerms, label: Suchbegriffe, widget: list, required: false }
+      - { name: body, label: Inhalt, widget: markdown }
+
+  - name: auswertung
+    label: "Auswertung"
+    folder: docs/auswertung
+    create: true
+    nested: { depth: 2 }
+    slug: "{{slug}}/index"
+    path: "{{slug}}/index"
+    extension: md
+    format: frontmatter
+    fields:
+      - { name: id, label: ID, widget: string }
+      - { name: title, label: Titel, widget: string }
+      - { name: description, label: Beschreibung, widget: string }
+      - { name: type, label: Typ, widget: string, required: false }
+      - { name: platform, label: Plattform, widget: select, options: [web, app, both], required: false }
+      - { name: sidebar_position, label: Position, widget: number, default: 1, required: false }
+      - { name: navigation, label: Navigation, widget: string, required: false }
+      - { name: searchTerms, label: Suchbegriffe, widget: list, required: false }
       - { name: body, label: Inhalt, widget: markdown }
 
   - name: troubleshooting
@@ -49,7 +168,10 @@ collections:
       - { name: id, label: ID, widget: string }
       - { name: title, label: Titel, widget: string }
       - { name: description, label: Beschreibung, widget: string }
-      - { name: sidebar_position, label: Position, widget: number, default: 1 }
+      - { name: type, label: Typ, widget: string, required: false }
+      - { name: platform, label: Plattform, widget: select, options: [web, app, both], required: false }
+      - { name: sidebar_position, label: Position, widget: number, default: 1, required: false }
+      - { name: searchTerms, label: Suchbegriffe, widget: list, required: false }
       - { name: body, label: Inhalt, widget: markdown }
 
   - name: faq
@@ -63,5 +185,8 @@ collections:
       - { name: id, label: ID, widget: string }
       - { name: title, label: Frage, widget: string }
       - { name: description, label: Kurze Antwort, widget: string }
-      - { name: sidebar_position, label: Position, widget: number, default: 1 }
+      - { name: type, label: Typ, widget: string, required: false }
+      - { name: platform, label: Plattform, widget: select, options: [web, app, both], required: false }
+      - { name: sidebar_position, label: Position, widget: number, default: 1, required: false }
+      - { name: searchTerms, label: Suchbegriffe, widget: list, required: false }
       - { name: body, label: Ausführliche Antwort, widget: markdown }
