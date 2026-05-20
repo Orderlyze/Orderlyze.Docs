@@ -1,21 +1,44 @@
 ---
 id: funktionen-bewirtungsbeleg
 title: Bewirtungsbeleg
-description: Steuerlich anerkannten Bewirtungsbeleg ausstellen
-type: reference
-platform: web
+description: Steuerlich anerkannten Bewirtungsbeleg für Geschäftskunden ausstellen
+type: tutorial
+platform: app
 sidebar_position: 8
 searchTerms:
   - bewirtungsbeleg
-  - bewirtung
   - geschäftsessen
   - spesen
+  - bewirtung
 ---
 
 # Bewirtungsbeleg
 
-Ein Bewirtungsbeleg ist eine spezielle Rechnung für Geschäftsessen, die der Gast für seine Steuererklärung benötigt. Sie enthält zusätzliche Angaben (Anlass, Teilnehmer, bewirtende Person).
+Ein Bewirtungsbeleg ist eine spezielle Quittung für **Geschäftsessen**. Sie enthält zusätzlich zu den Pflichtangaben einer Rechnung die für die Steuererklärung benötigten Felder (Anlass, Teilnehmer, bewirtende Person).
 
-:::info
-Vollständige Schritt-für-Schritt-Anleitung: [orderlyze.com/bewirtungsbeleg](https://www.orderlyze.com/bewirtungsbeleg)
+## Variante A — Bewirtungsbeleg drucken (Beleg mit Leerzeilen)
+
+1. Im Bezahlfenster oberhalb der Zahlungsarten auf **Bewirtungsinformationen hinzufügen** tippen
+2. Mit **OK** bestätigen
+
+Der Beleg wird mit **leeren Linien** für die handschriftliche Eintragung der Bewirtungsdaten (Anlass, Teilnehmer) gedruckt.
+
+![Bewirtungsbeleg drucken](/screenshots/funktionen/bewirtungsbeleg/1.jpg)
+
+---
+
+## Variante B — Bewirtungsdaten digital eingeben
+
+1. In die **Rechnungsübersicht** wechseln und die gewünschte Rechnung auswählen
+2. Unten links auf das **blaue Quadrat** tippen
+3. Im E-Beleg ganz nach unten scrollen und auf **Mehr** tippen
+4. **Bewirtungsinformationen hinzufügen** auswählen
+5. Felder vollständig ausfüllen — die **Umsatzsteuer-ID** ist zwingend erforderlich
+6. Mit **Speichern** bestätigen
+7. Anschließend nach unten scrollen und den Beleg per E-Mail oder digitalem Teilen versenden
+
+![Bewirtungsdaten digital eingeben](/screenshots/funktionen/bewirtungsbeleg/2.jpg)
+
+:::tip
+Variante A eignet sich, wenn die Daten direkt am Tisch handschriftlich nachgetragen werden sollen. Variante B ist ideal für die nachträgliche Abwicklung mit Geschäftskunden, die einen vollständig ausgefüllten Beleg per E-Mail erhalten möchten.
 :::

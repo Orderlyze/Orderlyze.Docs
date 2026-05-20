@@ -1,23 +1,57 @@
 ---
 id: funktionen-zahlungsarten
 title: Zahlungsarten
-description: Zahlungsarten konfigurieren (Bar, Karte, Gutschein, Rechnung, ...)
-type: reference
-platform: web
+description: Beim Bezahlen die passende Zahlungsart wählen — Bar, Karte, Gutschein etc.
+type: tutorial
+platform: app
 sidebar_position: 3
 searchTerms:
   - zahlungsart
   - bar
-  - kartenzahlung
-  - rechnung
+  - bankomat
+  - kreditkarte
+  - überweisung
   - gutschein
-  - bezahlmethode
+  - gesamt bezahlen
+  - getrennt bezahlen
+  - rabatt
 ---
 
 # Zahlungsarten
 
-Orderlyze unterstützt verschiedene Zahlungsarten — Bar, Karte (EC/Kreditkarte), Gutschein, Rechnung auf Stammkunden u.a. Die verfügbaren Zahlungsarten werden im Web-Portal konfiguriert und stehen anschließend in der Bezahl-Maske der App zur Auswahl.
+Beim Abschluss einer Bestellung lässt sich die Zahlung auf verschiedene Arten abwickeln.
 
-:::info
-Vollständige Schritt-für-Schritt-Anleitung: [orderlyze.com/zahlungsarten](https://www.orderlyze.com/zahlungsarten)
-:::
+## Gesamt oder getrennt bezahlen
+
+In der Rechnungsansicht stehen zwei Buttons zur Auswahl:
+
+- **Gesamt bezahlen** — die komplette Rechnung wird in einem Vorgang bezahlt
+- **Getrennt bezahlen** — die Positionen werden auf mehrere Personen aufgeteilt
+
+![Gesamt oder getrennt bezahlen](/screenshots/funktionen/zahlungsarten/1.jpg)
+
+## Getrennt bezahlen
+
+Bei der getrennten Bezahlung wählst du auf der linken Seite die Produkte für die erste Person an. Anschließend klickst du auf **Person 1 bezahlen**.
+
+![Person auswählen](/screenshots/funktionen/zahlungsarten/2.jpg)
+
+## Zahlungsart wählen
+
+Im Bezahl-Popup wählst du links unten die gewünschte Zahlungsart:
+
+- **Bar**
+- **Bankomat**
+- **Kreditkarte**
+- **Überweisung**
+- **Gutschein**
+
+![Zahlungsart wählen](/screenshots/funktionen/zahlungsarten/3.jpg)
+
+## Rabatt gewähren (optional)
+
+Unterhalb der Zahlungsart kannst du einen Rabatt anwenden. Vorgegebene Rabatt-Stufen stehen zur Auswahl, oder du wählst **Anderer**, um einen individuellen Betrag einzugeben.
+
+![Rabatt](/screenshots/funktionen/zahlungsarten/4.jpg)
+
+Nach Bestätigung wird die Zahlung verbucht und der Beleg gedruckt bzw. digital ausgestellt.

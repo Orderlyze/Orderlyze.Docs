@@ -14,7 +14,7 @@ const sidebars: SidebarsConfig = {
         id: 'home',
       },
       items: [
-        'erste-schritte',
+        'erste-schritte/erste-schritte',
         {
           type: 'category',
           label: 'Verwaltung',
