@@ -12,7 +12,7 @@ navigation: "Auswertungen → Weitere Berichte → Stornobericht"
 
 **Navigation:** Sidebar → **Weitere Berichte → Stornobericht**
 
-![Stornobericht in der Sidebar](/screenshots/admin/weitere-berichte-stornobericht.png)
+<BrowserFrame src="/screenshots/admin/weitere-berichte-stornobericht.png" alt="Stornobericht in der Sidebar" />
 
 Tabellenspalten:
 

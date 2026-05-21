@@ -12,7 +12,7 @@ navigation: "Auswertungen → Weitere Berichte → Rechnungsbericht"
 
 **Navigation:** Sidebar → **Weitere Berichte → Rechnungsbericht**
 
-![Rechnungsbericht in der Sidebar](/screenshots/admin/weitere-berichte-rechnungsbericht.png)
+<BrowserFrame src="/screenshots/admin/weitere-berichte-rechnungsbericht.png" alt="Rechnungsbericht in der Sidebar" />
 
 Tabellenspalten:
 

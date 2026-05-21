@@ -12,7 +12,7 @@ navigation: "Auswertungen → Weitere Berichte → Kategoriebericht"
 
 **Navigation:** Sidebar → **Weitere Berichte → Kategoriebericht**
 
-![Kategoriebericht in der Sidebar](/screenshots/admin/weitere-berichte-kategoriebericht.png)
+<BrowserFrame src="/screenshots/admin/weitere-berichte-kategoriebericht.png" alt="Kategoriebericht in der Sidebar" />
 
 Tabellenspalten:
 

@@ -16,7 +16,7 @@ searchTerms:
 
 **Navigation:** Verwaltung → Produktkategorien
 
-![Kategorien Übersicht](/screenshots/admin/kategorie-liste.png)
+<BrowserFrame src="/screenshots/admin/kategorie-liste.png" alt="Kategorien Übersicht" />
 
 ## Neue Kategorie erstellen
 
@@ -26,21 +26,21 @@ searchTerms:
 3. Optional: Übergeordnete Kategorie, Mehrwertsteuer, Farbe, Reihenfolge
 4. **Speichern**
 
-![Kategorie hinzufügen Button](/screenshots/admin/kategorie-hinzufuegen-button.png)
+<BrowserFrame src="/screenshots/admin/kategorie-hinzufuegen-button.png" alt="Kategorie hinzufügen Button" />
 
-![Kategorie erstellen Dialog](/screenshots/admin/kategorie-erstellen-dialog.png)
+<BrowserFrame src="/screenshots/admin/kategorie-erstellen-dialog.png" alt="Kategorie erstellen Dialog" />
 
 ## Kategorie bearbeiten
 
 Klick in der Zeile der Kategorie auf das **Bearbeiten-Symbol** (Stift-Symbol rechts) → Änderungen vornehmen → **Speichern**
 
-![Kategorie bearbeiten Button](/screenshots/admin/kategorie-bearbeiten-button.png)
+<BrowserFrame src="/screenshots/admin/kategorie-bearbeiten-button.png" alt="Kategorie bearbeiten Button" />
 
 ## Kategorie löschen
 
 Klick in der Zeile der Kategorie auf das **Löschen-Symbol** (Mülleimer-Symbol ganz rechts) → Bestätigen.
 
-![Kategorie löschen Button](/screenshots/admin/kategorie-loeschen-button.png)
+<BrowserFrame src="/screenshots/admin/kategorie-loeschen-button.png" alt="Kategorie löschen Button" />
 
 :::warning
 Beim Löschen einer Kategorie werden alle zugeordneten Produkte in "Ohne Kategorie" verschoben.

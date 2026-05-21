@@ -21,7 +21,7 @@ searchTerms:
 
 Hier konfigurieren Sie die Ausgabe von Küchenbons und die Zuweisung von Druckern.
 
-![Küchenbons Einstellungen](/screenshots/admin/einstellungen-kueche-details.png)
+<BrowserFrame src="/screenshots/admin/einstellungen-kueche-details.png" alt="Küchenbons Einstellungen" />
 
 ## Einstellungen
 
@@ -39,7 +39,7 @@ Hier konfigurieren Sie die Ausgabe von Küchenbons und die Zuweisung von Drucker
 
 Jeder Drucker kann eigene Kategorien zugewiesen bekommen. So können z.B. Getränke an der Bar und Speisen in der Küche gedruckt werden.
 
-![Drucker-Zuweisung](/screenshots/admin/einstellungen-kuechenbons-drucker.png)
+<BrowserFrame src="/screenshots/admin/einstellungen-kuechenbons-drucker.png" alt="Drucker-Zuweisung" />
 
 ### Drucker aktivieren
 

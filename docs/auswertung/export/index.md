@@ -23,7 +23,7 @@ Orderlyze unterstützt verschiedene Exportformate für die Buchhaltung.
 
 ## DATEV Export
 
-![DATEV Export](/screenshots/export/datev.png)
+<BrowserFrame src="/screenshots/export/datev.png" alt="DATEV Export" />
 
 DATEV ist das meistgenutzte Buchhaltungsformat in Deutschland und Österreich.
 
@@ -46,7 +46,7 @@ Die exportierte CSV-Datei kann direkt in DATEV importiert werden.
 
 ## BMD Export
 
-![BMD Export](/screenshots/export/bmd.png)
+<BrowserFrame src="/screenshots/export/bmd.png" alt="BMD Export" />
 
 BMD ist eine österreichische Buchhaltungssoftware.
 
@@ -56,7 +56,7 @@ BMD ist eine österreichische Buchhaltungssoftware.
 
 ## RZL Export
 
-![RZL Export](/screenshots/export/rzl.png)
+<BrowserFrame src="/screenshots/export/rzl.png" alt="RZL Export" />
 
 RZL ist eine weitere österreichische Buchhaltungslösung.
 

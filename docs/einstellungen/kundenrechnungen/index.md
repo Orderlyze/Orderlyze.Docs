@@ -21,7 +21,7 @@ searchTerms:
 
 Hier sehen Sie alle **Rechnungen von Orderlyze an Ihr Unternehmen** — also die monatlichen Abrechnungen Ihrer Orderlyze-Lizenz. Sie können jede Rechnung einzeln als PDF herunterladen, z.B. für Ihre Buchhaltung oder den Steuerberater.
 
-![Kundenrechnungen Übersicht](/screenshots/einstellungen/kundenrechnungen/1.png)
+<BrowserFrame src="/screenshots/einstellungen/kundenrechnungen/1.png" alt="Kundenrechnungen Übersicht" />
 
 ## Ihre aktuellen Lizenzen
 

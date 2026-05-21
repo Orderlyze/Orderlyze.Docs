@@ -22,7 +22,7 @@ Extras sind Zusatzoptionen für Produkte:
 - Größen (Klein, Mittel, Groß)
 - Extras (Extra Käse, Ohne Zwiebeln)
 
-![Extras Liste](/screenshots/admin/extras-liste.png)
+<BrowserFrame src="/screenshots/admin/extras-liste.png" alt="Extras Liste" />
 
 ## Extra erstellen
 
@@ -34,21 +34,21 @@ Extras sind Zusatzoptionen für Produkte:
 3. Optional eine Zuweisung wählen (siehe unten)
 4. **Speichern**
 
-![Extra hinzufügen Button](/screenshots/admin/extras-hinzufuegen-button.png)
+<BrowserFrame src="/screenshots/admin/extras-hinzufuegen-button.png" alt="Extra hinzufügen Button" />
 
-![Extra erstellen Dialog](/screenshots/admin/extras-erstellen-dialog.png)
+<BrowserFrame src="/screenshots/admin/extras-erstellen-dialog.png" alt="Extra erstellen Dialog" />
 
 ## Extra bearbeiten
 
 Klick in der Zeile des Extras auf das **Bearbeiten-Symbol** (Stift-Symbol rechts) → Änderungen vornehmen → **Speichern**
 
-![Extra bearbeiten Button](/screenshots/admin/extras-bearbeiten-button.png)
+<BrowserFrame src="/screenshots/admin/extras-bearbeiten-button.png" alt="Extra bearbeiten Button" />
 
 ## Extra löschen
 
 Klick in der Zeile des Extras auf das **Löschen-Symbol** (Mülleimer-Symbol ganz rechts) → Bestätigen.
 
-![Extra löschen Button](/screenshots/admin/extras-loeschen-button.png)
+<BrowserFrame src="/screenshots/admin/extras-loeschen-button.png" alt="Extra löschen Button" />
 
 ## Extra zuweisen
 
@@ -58,10 +58,10 @@ Im Abschnitt **Zuweisung** des Extra-Bearbeiten-Dialogs lässt sich das Extra en
 
 Schalter **"Extra auf Produkt zuweisen"** aktivieren, dann unter **Zuweisung Produkt** das gewünschte Produkt wählen. Das Extra ist anschließend nur für dieses Produkt verfügbar.
 
-![Extra einem Produkt zuweisen](/screenshots/admin/extras-zuweisung-produkt.png)
+<BrowserFrame src="/screenshots/admin/extras-zuweisung-produkt.png" alt="Extra einem Produkt zuweisen" />
 
 ### Einer Kategorie zuweisen
 
 Schalter **"Extra auf Kategorie zuweisen"** aktivieren, dann unter **Zuweisung Kategorie** die gewünschte Kategorie wählen (z.B. *Speisen*, *Getränke*). Das Extra ist dann für **alle Produkte dieser Kategorie** verfügbar.
 
-![Extra einer Kategorie zuweisen](/screenshots/admin/extras-zuweisung-kategorie.png)
+<BrowserFrame src="/screenshots/admin/extras-zuweisung-kategorie.png" alt="Extra einer Kategorie zuweisen" />

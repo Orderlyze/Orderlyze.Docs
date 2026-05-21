@@ -112,6 +112,14 @@ const config: Config = {
             { label: 'Support', href: 'mailto:office@orderlyze.com' },
           ],
         },
+        {
+          title: 'Rechtliches',
+          items: [
+            { label: 'Impressum', href: 'https://www.orderlyze.com/impressum' },
+            { label: 'AGB', href: 'https://www.orderlyze.com/agb' },
+            { label: 'Datenschutz', href: 'https://www.orderlyze.com/datenschutzerklaerung' },
+          ],
+        },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Orderlyze. Alle Rechte vorbehalten.`,
     },

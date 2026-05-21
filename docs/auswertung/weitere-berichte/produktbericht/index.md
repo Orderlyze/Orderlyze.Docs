@@ -12,7 +12,7 @@ navigation: "Auswertungen → Weitere Berichte → Produktbericht"
 
 **Navigation:** Sidebar → **Weitere Berichte → Produktbericht**
 
-![Produktbericht in der Sidebar](/screenshots/admin/weitere-berichte-produktbericht.png)
+<BrowserFrame src="/screenshots/admin/weitere-berichte-produktbericht.png" alt="Produktbericht in der Sidebar" />
 
 Tabellenspalten:
 

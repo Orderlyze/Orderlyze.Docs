@@ -25,7 +25,6 @@ Diese Sektion sammelt Detail-Anleitungen zu speziellen Orderlyze-Funktionen, die
 - [Dynamisches Produkt](dynamisches-produkt)
 - [Rechnungen nachträglich bearbeiten/stornieren](rechnungen-bearbeiten)
 - [Bewirtungsbeleg](bewirtungsbeleg)
-- [Farbeinstellungen](farbeinstellungen)
 - [Abholung](abholung)
 - [Pfand](pfand)
 - [Steuer ändern](steuer-aendern)

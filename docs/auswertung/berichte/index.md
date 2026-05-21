@@ -25,7 +25,7 @@ searchTerms:
 2. Den gewünschten **Monat** wählen
 3. Der Bericht wird automatisch als **PDF** heruntergeladen — bereit zum Weiterleiten an die Steuerberatung
 
-![Monatsbericht](/screenshots/berichte/monatsbericht.png)
+<BrowserFrame src="/screenshots/berichte/monatsbericht.png" alt="Monatsbericht" />
 
 ## So erstellst du einen Jahresbericht
 
@@ -34,7 +34,7 @@ searchTerms:
 3. Auf den blauen **Herunterladen**-Button klicken
 4. Der Bericht wird automatisch als **PDF** heruntergeladen
 
-![Jahresbericht](/screenshots/berichte/jahresbericht.png)
+<BrowserFrame src="/screenshots/berichte/jahresbericht.png" alt="Jahresbericht" />
 
 ## Weitere Berichte
 
@@ -46,4 +46,4 @@ Unter **Weitere Berichte** in der Sidebar finden Sie spezialisierte Auswertungen
 
 Eine ausführliche Beschreibung der einzelnen Berichte finden Sie unter [Weitere Berichte](/auswertung/weitere-berichte).
 
-![Weitere Berichte](/screenshots/berichte/weitere-berichte.png)
+<BrowserFrame src="/screenshots/berichte/weitere-berichte.png" alt="Weitere Berichte" />

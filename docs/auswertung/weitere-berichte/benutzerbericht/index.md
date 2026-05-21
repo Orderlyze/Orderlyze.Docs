@@ -12,7 +12,7 @@ navigation: "Auswertungen → Weitere Berichte → Benutzerbericht"
 
 **Navigation:** Sidebar → **Weitere Berichte → Benutzerbericht**
 
-![Benutzerbericht in der Sidebar](/screenshots/admin/weitere-berichte-benutzerbericht.png)
+<BrowserFrame src="/screenshots/admin/weitere-berichte-benutzerbericht.png" alt="Benutzerbericht in der Sidebar" />
 
 Tabellenspalten:
 

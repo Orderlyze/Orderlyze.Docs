@@ -12,7 +12,7 @@ navigation: "Auswertungen → Weitere Berichte → Zahlungsartenbericht"
 
 **Navigation:** Sidebar → **Weitere Berichte → Zahlungsartenbericht**
 
-![Zahlungsartenbericht in der Sidebar](/screenshots/admin/weitere-berichte-zahlungsartenbericht.png)
+<BrowserFrame src="/screenshots/admin/weitere-berichte-zahlungsartenbericht.png" alt="Zahlungsartenbericht in der Sidebar" />
 
 Tabellenspalten:
 

@@ -21,7 +21,7 @@ searchTerms:
 
 Auf dieser Seite hinterlegen Sie die Stammdaten Ihres Unternehmens. Diese Angaben erscheinen auf Rechnungen und werden vom System für Exporte und steuerliche Auswertungen verwendet.
 
-![Unternehmen Einstellungen](/screenshots/admin/einstellungen-unternehmen.png)
+<BrowserFrame src="/screenshots/admin/einstellungen-unternehmen.png" alt="Unternehmen Einstellungen" />
 
 ## Felder
 

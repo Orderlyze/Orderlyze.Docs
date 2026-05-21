@@ -12,7 +12,7 @@ navigation: "Auswertungen → Weitere Berichte → Tagesumsatzbericht"
 
 **Navigation:** Sidebar → **Weitere Berichte → Tagesumsatzbericht**
 
-![Tagesumsatzbericht in der Sidebar](/screenshots/admin/weitere-berichte-tagesumsatzbericht.png)
+<BrowserFrame src="/screenshots/admin/weitere-berichte-tagesumsatzbericht.png" alt="Tagesumsatzbericht in der Sidebar" />
 
 Tabellenspalten:
 

@@ -20,7 +20,7 @@ searchTerms:
 
 Die Benutzer-Einstellungen überschreiben die [Allgemein](../allgemein)-Konfiguration für einen **einzelnen Benutzer**. Damit lässt sich die App für jeden Mitarbeiter individuell anpassen (z.B. Service-Personal sieht andere Funktionen als die Küche).
 
-![Benutzer Übersicht](/screenshots/admin/features-benutzer-uebersicht.png)
+<BrowserFrame src="/screenshots/admin/features-benutzer-uebersicht.png" alt="Benutzer Übersicht" />
 
 ## Benutzer auswählen
 
@@ -34,7 +34,7 @@ Die Sektionen entsprechen denen der Allgemein-Seite — mit Ausnahme von "Hauptf
 
 Pro Benutzer einstellbar, welche Menüpunkte in der Orderlyze App sichtbar sind. Praktisch, um z.B. Servicekräften die Statistik auszublenden.
 
-![Menüpunkte (Benutzer)](/screenshots/admin/features-benutzer-menuepunkte.png)
+<BrowserFrame src="/screenshots/admin/features-benutzer-menuepunkte.png" alt="Menüpunkte (Benutzer)" />
 
 ---
 
@@ -42,7 +42,7 @@ Pro Benutzer einstellbar, welche Menüpunkte in der Orderlyze App sichtbar sind.
 
 Pro Benutzer einstellbar, wie der Bezahlvorgang abläuft. So kann z.B. nur dem Kassenleiter erlaubt werden, mehrere Zahlungsarten zu kombinieren.
 
-![Zahlungsprozess (Benutzer)](/screenshots/admin/features-benutzer-zahlungsprozess.png)
+<BrowserFrame src="/screenshots/admin/features-benutzer-zahlungsprozess.png" alt="Zahlungsprozess (Benutzer)" />
 
 ---
 
@@ -50,7 +50,7 @@ Pro Benutzer einstellbar, wie der Bezahlvorgang abläuft. So kann z.B. nur dem K
 
 Pro Benutzer einstellbar, wie Produkte aufgenommen werden. So lassen sich z.B. unterschiedliche Eingabe-Geschwindigkeiten je nach Erfahrungsstand des Personals festlegen.
 
-![Produkte bonieren (Benutzer)](/screenshots/admin/features-benutzer-produkte-bonieren.png)
+<BrowserFrame src="/screenshots/admin/features-benutzer-produkte-bonieren.png" alt="Produkte bonieren (Benutzer)" />
 
 ---
 
@@ -58,7 +58,7 @@ Pro Benutzer einstellbar, wie Produkte aufgenommen werden. So lassen sich z.B. u
 
 Pro Benutzer einstellbar, welche Auswertungs-Optionen sichtbar sind. So sieht z.B. die Küche keine Umsatzdaten.
 
-![Umsatzauswertung (Benutzer)](/screenshots/admin/features-benutzer-umsatzauswertung.png)
+<BrowserFrame src="/screenshots/admin/features-benutzer-umsatzauswertung.png" alt="Umsatzauswertung (Benutzer)" />
 
 ---
 
@@ -66,7 +66,7 @@ Pro Benutzer einstellbar, welche Auswertungs-Optionen sichtbar sind. So sieht z.
 
 Sonstige benutzerspezifische Einstellungen.
 
-![Sonstige (Benutzer)](/screenshots/admin/features-benutzer-sonstige.png)
+<BrowserFrame src="/screenshots/admin/features-benutzer-sonstige.png" alt="Sonstige (Benutzer)" />
 
 ---
 

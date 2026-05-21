@@ -21,7 +21,7 @@ searchTerms:
 
 Gänge ermöglichen es, Bestellungen in der Küche in einer bestimmten Reihenfolge abzuarbeiten. So können Sie beispielsweise sicherstellen, dass Vorspeisen vor Hauptspeisen zubereitet werden.
 
-![Gänge Übersicht](/screenshots/admin/gaenge-liste.png)
+<BrowserFrame src="/screenshots/admin/gaenge-liste.png" alt="Gänge Übersicht" />
 
 ## Funktionsweise
 
@@ -33,9 +33,9 @@ Jeder Gang kann Kategorien oder einzelne Produkte enthalten. Wenn ein Produkt be
 2. **Name** eingeben (z.B. "Vorspeise", "Hauptgang", "Dessert")
 3. **Speichern**
 
-![Gang hinzufügen Button](/screenshots/admin/gaenge-hinzufuegen-button.png)
+<BrowserFrame src="/screenshots/admin/gaenge-hinzufuegen-button.png" alt="Gang hinzufügen Button" />
 
-![Gang erstellen Dialog](/screenshots/admin/gaenge-erstellen-dialog.png)
+<BrowserFrame src="/screenshots/admin/gaenge-erstellen-dialog.png" alt="Gang erstellen Dialog" />
 
 ## Kategorien oder Produkte zuordnen
 
@@ -45,9 +45,9 @@ Nach dem Erstellen eines Gangs können Sie Kategorien oder einzelne Produkte zuo
 2. Eine **Kategorie** oder ein **Produkt** auswählen
 3. **Speichern**
 
-![Kategorie/Produkt hinzufügen Link](/screenshots/admin/gaenge-zuordnung-link.png)
+<BrowserFrame src="/screenshots/admin/gaenge-zuordnung-link.png" alt="Kategorie/Produkt hinzufügen Link" />
 
-![Kategorie oder Produkt zuordnen](/screenshots/admin/gaenge-zuordnung-dialog.png)
+<BrowserFrame src="/screenshots/admin/gaenge-zuordnung-dialog.png" alt="Kategorie oder Produkt zuordnen" />
 
 :::tip
 Wenn Sie eine ganze Kategorie zuordnen, werden automatisch alle Produkte dieser Kategorie dem Gang zugewiesen.
@@ -57,7 +57,7 @@ Wenn Sie eine ganze Kategorie zuordnen, werden automatisch alle Produkte dieser 
 
 Klick rechts neben dem Gang-Namen auf das **Bearbeiten-Symbol** (Stift) → Namen ändern → **Speichern**
 
-![Gang bearbeiten Button](/screenshots/admin/gaenge-bearbeiten-button.png)
+<BrowserFrame src="/screenshots/admin/gaenge-bearbeiten-button.png" alt="Gang bearbeiten Button" />
 
 ## Zuordnung entfernen
 
@@ -67,7 +67,7 @@ Klick auf das **X** neben der Kategorie oder dem Produkt, um die Zuordnung zu en
 
 Klick rechts neben dem Gang-Namen auf das **Löschen-Symbol** (Mülleimer) → Bestätigen.
 
-![Gang löschen Button](/screenshots/admin/gaenge-loeschen-button.png)
+<BrowserFrame src="/screenshots/admin/gaenge-loeschen-button.png" alt="Gang löschen Button" />
 
 :::warning
 Beim Löschen eines Gangs werden alle Zuordnungen zu Kategorien und Produkten entfernt. Die Kategorien und Produkte selbst bleiben erhalten.

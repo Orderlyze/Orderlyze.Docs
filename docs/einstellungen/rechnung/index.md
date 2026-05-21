@@ -20,7 +20,7 @@ searchTerms:
 
 Hier legen Sie fest, wie Belege und Rechnungen für Endkunden aussehen — Rechnungsnummern, Kopf- und Fußtexte, Layout-Optionen.
 
-![Rechnung Einstellungen](/screenshots/admin/einstellungen-rechnung.png)
+<BrowserFrame src="/screenshots/admin/einstellungen-rechnung.png" alt="Rechnung Einstellungen" />
 
 ## Typische Optionen
 

@@ -23,7 +23,7 @@ searchTerms:
 
 Über die Buchungskonten ordnen Sie Ihre Zahlungsarten, Erlös- und Gutschein-Buchungen den passenden Konten Ihres Kontenrahmens zu. Das fertige Mapping wird beim **CSV-Export** verwendet, damit Ihre Steuerberatung die Daten direkt in das jeweilige Buchhaltungsprogramm einlesen kann.
 
-![Buchungskonten Einstellungen aufrufen](/screenshots/buchungskonten/buchungskonten-1.png)
+<BrowserFrame src="/screenshots/buchungskonten/buchungskonten-1.png" alt="Buchungskonten Einstellungen aufrufen" />
 
 ---
 
@@ -31,7 +31,7 @@ searchTerms:
 
 Bestandskonten bilden Bank, Kassa und ggf. weitere Liquiditäts-Konten ab. Jedes Bestandskonto bekommt eine oder mehrere **Zahlungsarten** zugewiesen — alle Einnahmen über die jeweilige Zahlungsart werden später beim Export auf dieses Konto gebucht.
 
-![Bestandskonten Übersicht](/screenshots/buchungskonten/buchungskonten-2.png)
+<BrowserFrame src="/screenshots/buchungskonten/buchungskonten-2.png" alt="Bestandskonten Übersicht" />
 
 ### Neues Bestandskonto anlegen
 
@@ -39,7 +39,7 @@ Bestandskonten bilden Bank, Kassa und ggf. weitere Liquiditäts-Konten ab. Jedes
 2. **Kontonummer** und **Kontoname** eintragen (bei Bestandskonten ist keine MwSt zu hinterlegen)
 3. **Speichern**
 
-![Konto hinzufügen Dialog](/screenshots/buchungskonten/buchungskonten-5.png)
+<BrowserFrame src="/screenshots/buchungskonten/buchungskonten-5.png" alt="Konto hinzufügen Dialog" />
 
 ### Zahlungsarten einem Bestandskonto zuweisen
 
@@ -47,11 +47,11 @@ Bestandskonten bilden Bank, Kassa und ggf. weitere Liquiditäts-Konten ab. Jedes
 2. Im Dropdown die Zahlungsart auswählen
 3. **Speichern**
 
-![Zahlungsart hinzufügen](/screenshots/buchungskonten/buchungskonten-3.png)
+<BrowserFrame src="/screenshots/buchungskonten/buchungskonten-3.png" alt="Zahlungsart hinzufügen" />
 
 Bereits zugewiesene Zahlungsarten erscheinen als blaue Chips. Über das **×** lassen sie sich wieder entfernen.
 
-![Zugewiesene Zahlungsarten](/screenshots/buchungskonten/buchungskonten-4.png)
+<BrowserFrame src="/screenshots/buchungskonten/buchungskonten-4.png" alt="Zugewiesene Zahlungsarten" />
 
 :::warning Wichtig
 **Alle** Zahlungsmethoden müssen einem Bestandskonto zugewiesen sein, sonst ist der CSV-Export unvollständig.
@@ -63,7 +63,7 @@ Bereits zugewiesene Zahlungsarten erscheinen als blaue Chips. Über das **×** l
 
 Erlöskonten gruppieren Ihre Umsätze nach Mehrwertsteuersatz und/oder Sortiment (z.B. "Erlöse Speisen 10%", "Erlöse Getränke 20%"). Jedem Erlöskonto werden eine MwSt und eine oder mehrere **Produktkategorien** zugewiesen.
 
-![Erlöskonten Übersicht](/screenshots/buchungskonten/buchungskonten-6.png)
+<BrowserFrame src="/screenshots/buchungskonten/buchungskonten-6.png" alt="Erlöskonten Übersicht" />
 
 ### Neues Erlöskonto anlegen
 
@@ -72,11 +72,11 @@ Erlöskonten gruppieren Ihre Umsätze nach Mehrwertsteuersatz und/oder Sortiment
 3. **Mehrwertsteuer** im Dropdown wählen
 4. **Speichern**
 
-![Erlöskonto anlegen](/screenshots/buchungskonten/buchungskonten-7.png)
+<BrowserFrame src="/screenshots/buchungskonten/buchungskonten-7.png" alt="Erlöskonto anlegen" />
 
 Das angelegte Konto erscheint anschließend in der Liste.
 
-![Erlöskonto in Liste](/screenshots/buchungskonten/buchungskonten-8.png)
+<BrowserFrame src="/screenshots/buchungskonten/buchungskonten-8.png" alt="Erlöskonto in Liste" />
 
 ### Produktkategorien einem Erlöskonto zuweisen
 
@@ -84,11 +84,11 @@ Das angelegte Konto erscheint anschließend in der Liste.
 2. Produktkategorie aus der Liste auswählen
 3. **Speichern**
 
-![Kategorie zuweisen](/screenshots/buchungskonten/buchungskonten-9.png)
+<BrowserFrame src="/screenshots/buchungskonten/buchungskonten-9.png" alt="Kategorie zuweisen" />
 
 Bereits zugewiesene Kategorien lassen sich per **×** wieder entfernen.
 
-![Zugewiesene Kategorien](/screenshots/buchungskonten/buchungskonten-10.png)
+<BrowserFrame src="/screenshots/buchungskonten/buchungskonten-10.png" alt="Zugewiesene Kategorien" />
 
 :::warning Wichtig
 Alle Produkte einer Kategorie müssen denselben Mehrwertsteuersatz haben wie das Erlöskonto, dem die Kategorie zugewiesen ist. Außerdem muss **jede** Produktkategorie genau einem Erlöskonto zugewiesen sein.
@@ -100,11 +100,11 @@ Alle Produkte einer Kategorie müssen denselben Mehrwertsteuersatz haben wie das
 
 Das Gutscheinkonto bucht ausgegebene und eingelöste Gutscheine getrennt. In den meisten Fällen müssen Sie hier nichts ändern.
 
-![Gutscheinkonto Übersicht](/screenshots/buchungskonten/buchungskonten-11.png)
+<BrowserFrame src="/screenshots/buchungskonten/buchungskonten-11.png" alt="Gutscheinkonto Übersicht" />
 
 Bei Bedarf können Sie über das **Bearbeiten-Symbol** (rechts unten) die Kontonummer oder den Namen anpassen — sprechen Sie das vorher mit Ihrer Steuerberatung ab.
 
-![Gutscheinkonto bearbeiten](/screenshots/buchungskonten/buchungskonten-12.png)
+<BrowserFrame src="/screenshots/buchungskonten/buchungskonten-12.png" alt="Gutscheinkonto bearbeiten" />
 
 ---
 
@@ -116,19 +116,19 @@ Sobald alle Konten und Zuweisungen stehen, können Sie die Buchungsdaten als CSV
 
 Klick auf **CSV Exporte** in der linken Seitenleiste.
 
-![CSV Exporte Bereich](/screenshots/buchungskonten/buchungskonten-13.png)
+<BrowserFrame src="/screenshots/buchungskonten/buchungskonten-13.png" alt="CSV Exporte Bereich" />
 
 ### Schritt 2: Zeitraum wählen
 
 In das Datumsfeld klicken, anschließend Start- und Enddatum auswählen (oder zweimal das gleiche Datum für einen einzelnen Tag). Mit **Festlegen** bestätigen.
 
-![Zeitraum festlegen](/screenshots/buchungskonten/buchungskonten-14.png)
+<BrowserFrame src="/screenshots/buchungskonten/buchungskonten-14.png" alt="Zeitraum festlegen" />
 
 ### Schritt 3: CSV herunterladen
 
 Über den jeweiligen blauen Button die CSV-Datei für Ihr Buchhaltungsprogramm herunterladen.
 
-![CSV Download](/screenshots/buchungskonten/buchungskonten-15.png)
+<BrowserFrame src="/screenshots/buchungskonten/buchungskonten-15.png" alt="CSV Download" />
 
 :::info
 Die heruntergeladene Datei kann direkt in der Buchhaltungssoftware Ihrer Steuerberatung importiert werden.

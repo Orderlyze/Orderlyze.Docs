@@ -27,39 +27,54 @@ searchTerms:
   </figure>
 </div>
 
-Die Orderlyze Bonier App ist Ihre zentrale Lösung für den Restaurantbetrieb auf Tablets und Smartphones.
+Die **Orderlyze Bonier App** ist Ihre Lösung für den Restaurantbetrieb auf Tablets und Smartphones. Die Inhalte sind passend zur linken Navigation in folgende Bereiche gegliedert:
 
 ---
 
-## Erste Schritte
+## Einstieg
 
 | Bereich | Beschreibung |
 |---------|--------------|
 | [Login](/app/login) | Anmeldung in der App |
-| [Tischübersicht](/app/tischuebersicht) | Hauptansicht mit allen Tischen |
-| [Navigation](/app/navigation) | Seitenmenü & alle Bereiche |
+| [Seitenmenü](/app/navigation) | Navigation zu allen Bereichen |
 
 ---
 
-## Bestellung & Zahlung
+## Hauptseite
+
+Die zentralen Funktionen für den täglichen Betrieb.
 
 | Bereich | Beschreibung |
 |---------|--------------|
-| [Bestellung](/app/bestellung) | Produkte hinzufügen & verwalten |
-| [Zahlung](/app/zahlung) | Bezahlung & Tagesabschluss |
+| [Tischübersicht](/app/tischuebersicht) | Alle Tische im Blick, Split-View auf Tablets |
+| [Bestellung](/app/bestellung) | Produkte hinzufügen, Bestellung verwalten |
+| [Zahlung](/app/zahlung) | Bezahlung, Trinkgeld, Gutscheine |
+| [Drucker verbinden](/app/drucker) | Bluetooth- und Cloud-Drucker einrichten |
 
 ---
 
-## Verwaltung & Einstellungen
+## Berichte & Auswertungen
 
 | Bereich | Beschreibung |
 |---------|--------------|
-| [Verwaltung](/app/verwaltung) | Benutzer, Tischplan, Terminals |
-| [Einstellungen](/app/einstellungen) | Drucker, Logs, Rechtliches |
+| [Benutzeransicht](/app/benutzeransicht) | Statistik pro Mitarbeiter |
+| [Rechnungsübersicht](/app/rechnungsuebersicht) | Alle Rechnungen anzeigen |
+| [Tagesabschluss](/app/tagesabschluss) | Tag abschließen und Bericht drucken |
 
 ---
 
-## App Flow
+## Konfiguration
+
+| Bereich | Beschreibung |
+|---------|--------------|
+| [Verwaltung (Web-Portal)](/app/verwaltung) | Sprung ins Web Dashboard |
+| [Tischplan](/app/tischplan) | Tische und Räume gestalten |
+| [Kartenzahlung](/app/kartenzahlung) | Kartenterminal einrichten |
+| [Einstellungen](/app/einstellungen) | Druckertyp und Rechtliches |
+
+---
+
+## App-Flow
 
 ```
 Login Screen
@@ -67,20 +82,24 @@ Login Screen
     ▼
 Tischübersicht (Hauptseite)
     │
-    ├──► Seitenmenü (Navigation zu allen Bereichen)
+    ├──► Seitenmenü ─► alle Bereiche (Berichte, Verwaltung …)
     │
     └──► Tisch auswählen
             │
             ▼
-        Tisch-Detailansicht
+        Bestellung
             │
-            ├──► Produkte hinzufügen
-            │
-            └──► Rechnung erstellen/bezahlen
+            └──► Zahlung
 ```
 
 ---
 
-## Support
+## Kontakt mit dem Orderlyze-Team
 
-[office@orderlyze.com](mailto:office@orderlyze.com)
+Bei Fragen oder Problemen erreichen Sie uns auf drei Wegen:
+
+| Kontaktweg | Adresse |
+|------------|---------|
+| **WhatsApp** | [+43 677 61068190](https://wa.me/4367761068190) |
+| **E-Mail** | [office@orderlyze.com](mailto:office@orderlyze.com) |
+| **Telefon** | [0800 400 4511](tel:08004004511) (kostenlos aus Österreich) |

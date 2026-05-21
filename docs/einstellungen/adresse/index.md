@@ -21,7 +21,7 @@ searchTerms:
 
 Hier hinterlegen Sie die offizielle Geschäftsadresse Ihres Unternehmens. Die Adresse wird auf Rechnungen, Belegen und in steuerlichen Exporten verwendet.
 
-![Adresse Einstellungen](/screenshots/admin/einstellungen-adresse.png)
+<BrowserFrame src="/screenshots/admin/einstellungen-adresse.png" alt="Adresse Einstellungen" />
 
 ## Felder
 

@@ -24,7 +24,7 @@ Dieses Feature befindet sich noch in Entwicklung und ist noch nicht für den pro
 
 **Navigation:** Küche
 
-![Küchen Monitor](/screenshots/kueche/monitor.png)
+<BrowserFrame src="/screenshots/kueche/monitor.png" alt="Küchen Monitor" />
 
 ## Übersicht
 

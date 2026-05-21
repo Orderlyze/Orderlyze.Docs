@@ -20,7 +20,7 @@ searchTerms:
 
 In der Benutzerverwaltung legen Sie Konten für Ihre Mitarbeiter an. Jeder Mitarbeiter erhält eigene Zugangsdaten für die Orderlyze App und das Web-Portal.
 
-![Benutzer Übersicht](/screenshots/admin/benutzer-liste.png)
+<BrowserFrame src="/screenshots/admin/benutzer-liste.png" alt="Benutzer Übersicht" />
 
 ---
 
@@ -35,9 +35,9 @@ In der Benutzerverwaltung legen Sie Konten für Ihre Mitarbeiter an. Jeder Mitar
 3. Optional: Geburtstag, Telefon
 4. **Speichern**
 
-![Benutzer hinzufügen Button](/screenshots/admin/benutzer-hinzufuegen-button.png)
+<BrowserFrame src="/screenshots/admin/benutzer-hinzufuegen-button.png" alt="Benutzer hinzufügen Button" />
 
-![Benutzer erstellen Dialog](/screenshots/admin/benutzer-erstellen-dialog.png)
+<BrowserFrame src="/screenshots/admin/benutzer-erstellen-dialog.png" alt="Benutzer erstellen Dialog" />
 
 ---
 
@@ -45,7 +45,7 @@ In der Benutzerverwaltung legen Sie Konten für Ihre Mitarbeiter an. Jeder Mitar
 
 Klick in der Zeile des Benutzers auf das **Bearbeiten-Symbol** (Stift-Symbol rechts) → Änderungen vornehmen → **Speichern**
 
-![Benutzer bearbeiten Button](/screenshots/admin/benutzer-bearbeiten-button.png)
+<BrowserFrame src="/screenshots/admin/benutzer-bearbeiten-button.png" alt="Benutzer bearbeiten Button" />
 
 ---
 
@@ -53,7 +53,7 @@ Klick in der Zeile des Benutzers auf das **Bearbeiten-Symbol** (Stift-Symbol rec
 
 Klick in der Zeile des Benutzers auf das **Löschen-Symbol** (Mülleimer-Symbol ganz rechts) → Bestätigen.
 
-![Benutzer löschen Button](/screenshots/admin/benutzer-loeschen-button.png)
+<BrowserFrame src="/screenshots/admin/benutzer-loeschen-button.png" alt="Benutzer löschen Button" />
 
 :::warning
 Gelöschte Benutzer können sich nicht mehr anmelden. Stattdessen empfiehlt es sich oft, einfach das Passwort zu ändern oder den Benutzer im Login-Bildschirm zu sperren.

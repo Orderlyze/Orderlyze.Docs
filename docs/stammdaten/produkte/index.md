@@ -17,7 +17,7 @@ searchTerms:
 
 **Navigation:** Verwaltung → Produkte
 
-![Produkte Übersicht](/screenshots/admin/produkt-liste.png)
+<BrowserFrame src="/screenshots/admin/produkt-liste.png" alt="Produkte Übersicht" />
 
 ## Neues Produkt erstellen
 
@@ -28,19 +28,19 @@ searchTerms:
    - Kategorie
 3. **Speichern**
 
-![Produkt hinzufügen Button](/screenshots/admin/produkt-hinzufuegen-button.png)
+<BrowserFrame src="/screenshots/admin/produkt-hinzufuegen-button.png" alt="Produkt hinzufügen Button" />
 
-![Produkt erstellen Dialog](/screenshots/admin/produkt-erstellen-dialog.png)
+<BrowserFrame src="/screenshots/admin/produkt-erstellen-dialog.png" alt="Produkt erstellen Dialog" />
 
 ## Produkt bearbeiten
 
 Klick in der Zeile des Produkts auf das **Bearbeiten-Symbol** (Stift-Symbol rechts) → Änderungen vornehmen → **Speichern**
 
-![Produkt bearbeiten Button](/screenshots/admin/produkt-bearbeiten-button.png)
+<BrowserFrame src="/screenshots/admin/produkt-bearbeiten-button.png" alt="Produkt bearbeiten Button" />
 
 ## Produkt löschen
 
 Klick in der Zeile des Produkts auf das **Löschen-Symbol** (Mülleimer-Symbol ganz rechts) → Bestätigen.
 
-![Produkt löschen Button](/screenshots/admin/produkt-loeschen-button.png)
+<BrowserFrame src="/screenshots/admin/produkt-loeschen-button.png" alt="Produkt löschen Button" />
 

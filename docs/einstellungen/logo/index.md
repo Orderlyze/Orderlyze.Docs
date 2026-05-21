@@ -19,7 +19,7 @@ searchTerms:
 
 Auf dieser Seite laden Sie das Firmenlogo hoch. Das Logo erscheint auf Rechnungen und Belegen.
 
-![Logo Einstellungen](/screenshots/admin/einstellungen-logo.png)
+<BrowserFrame src="/screenshots/admin/einstellungen-logo.png" alt="Logo Einstellungen" />
 
 ## So laden Sie ein Logo hoch
 

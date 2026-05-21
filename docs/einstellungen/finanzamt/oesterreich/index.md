@@ -26,7 +26,7 @@ searchTerms:
 
 Diese Seite zeigt den Status Ihrer Kasse gemäß der österreichischen **Registrierkassensicherheitsverordnung (RKSV)**. Orderlyze erfüllt alle gesetzlichen Anforderungen automatisch — Sie sehen hier nur den aktuellen Status und können die gesetzlich vorgeschriebenen Exporte für das Finanzamt herunterladen.
 
-![Finanzamt Einstellungen Österreich](/screenshots/einstellungen/finanzamt/at-scu.png)
+<BrowserFrame src="/screenshots/einstellungen/finanzamt/at-scu.png" alt="Finanzamt Einstellungen Österreich" />
 
 :::tip Status grün
 Steht oben "Dein Kassensystem ist mit dem Finanzamt verbunden", ist alles in Ordnung — die Signaturkette ist aktiv und Belege werden RKSV-konform signiert.
@@ -85,7 +85,7 @@ Sie können jeden QR-Code mit der kostenlosen **"BMF Belegcheck"-App** (Bundesmi
 
 ## DEP131 / DEP7 herunterladen
 
-![Dep131 und Dep7 Download](/screenshots/einstellungen/finanzamt/at-download.png)
+<BrowserFrame src="/screenshots/einstellungen/finanzamt/at-download.png" alt="Dep131 und Dep7 Download" />
 
 Das **Datenerfassungsprotokoll (DEP)** ist die gesetzlich vorgeschriebene, manipulationssichere Aufzeichnung aller Geschäftsvorfälle. Bei einer Finanzamtsprüfung müssen Sie dieses Protokoll vorlegen können.
 

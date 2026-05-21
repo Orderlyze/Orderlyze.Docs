@@ -22,7 +22,7 @@ searchTerms:
 
 Die Allgemein-Einstellungen gelten **systemweit für alle Benutzer**. Sie sind in sieben Abschnitte gegliedert. Klicken Sie auf einen Abschnitt, um ihn aufzuklappen und die enthaltenen Schalter anzuzeigen.
 
-![Allgemein Übersicht](/screenshots/admin/features-allgemein-uebersicht.png)
+<BrowserFrame src="/screenshots/admin/features-allgemein-uebersicht.png" alt="Allgemein Übersicht" />
 
 ---
 
@@ -30,7 +30,7 @@ Die Allgemein-Einstellungen gelten **systemweit für alle Benutzer**. Sie sind i
 
 Steuert, welche Menüpunkte in der Orderlyze Mobile App sichtbar sind (z.B. Tischplan-Editor, Kartenzahlung, Statistik, Einstellungen). Schalter aktivieren = Menüpunkt wird angezeigt, deaktivieren = ausgeblendet.
 
-![Menüpunkte in der App](/screenshots/admin/features-allgemein-menuepunkte.png)
+<BrowserFrame src="/screenshots/admin/features-allgemein-menuepunkte.png" alt="Menüpunkte in der App" />
 
 ---
 
@@ -38,7 +38,7 @@ Steuert, welche Menüpunkte in der Orderlyze Mobile App sichtbar sind (z.B. Tisc
 
 Aktiviert oder deaktiviert zentrale App-Funktionen wie Gänge, Extras, Gutscheine oder das Bezahlen am Tisch. Was hier deaktiviert ist, erscheint nirgends in der App.
 
-![Hauptfunktionen](/screenshots/admin/features-allgemein-hauptfunktionen.png)
+<BrowserFrame src="/screenshots/admin/features-allgemein-hauptfunktionen.png" alt="Hauptfunktionen" />
 
 ---
 
@@ -46,7 +46,7 @@ Aktiviert oder deaktiviert zentrale App-Funktionen wie Gänge, Extras, Gutschein
 
 Konfiguriert das Verhalten beim Bezahlen — z.B. ob ein Beleg automatisch gedruckt wird, ob ein Trinkgeld-Dialog erscheint, ob mehrere Zahlungsarten erlaubt sind oder ob die Bezahlung in Teilbeträgen möglich ist.
 
-![Zahlungsprozess](/screenshots/admin/features-allgemein-zahlungsprozess.png)
+<BrowserFrame src="/screenshots/admin/features-allgemein-zahlungsprozess.png" alt="Zahlungsprozess" />
 
 ---
 
@@ -54,7 +54,7 @@ Konfiguriert das Verhalten beim Bezahlen — z.B. ob ein Beleg automatisch gedru
 
 Bestimmt, wie Produkte aufgenommen werden — z.B. ob Mengeneingabe direkt nach Tippen möglich ist, ob das Bestätigen mit einem Doppeltipp erfolgt oder ob Produkte automatisch in die Küche gesendet werden.
 
-![Produkte bonieren](/screenshots/admin/features-allgemein-produkte-bonieren.png)
+<BrowserFrame src="/screenshots/admin/features-allgemein-produkte-bonieren.png" alt="Produkte bonieren" />
 
 ---
 
@@ -62,7 +62,7 @@ Bestimmt, wie Produkte aufgenommen werden — z.B. ob Mengeneingabe direkt nach 
 
 Druckerbezogene Optionen — welche Drucker für welche Belege verwendet werden, ob Küchenbons automatisch gedruckt werden, ob ein Beleg-Druck Pflicht ist.
 
-![Drucker](/screenshots/admin/features-allgemein-drucker.png)
+<BrowserFrame src="/screenshots/admin/features-allgemein-drucker.png" alt="Drucker" />
 
 ---
 
@@ -70,7 +70,7 @@ Druckerbezogene Optionen — welche Drucker für welche Belege verwendet werden,
 
 Konfiguriert die Darstellung in Tages-, Monats- und Jahresberichten — z.B. ob Trinkgeld separat ausgewiesen wird, ob nach Mehrwertsteuersätzen aufgeschlüsselt wird, ob bestimmte Spalten ein- oder ausgeblendet werden.
 
-![Umsatzauswertung](/screenshots/admin/features-allgemein-umsatzauswertung.png)
+<BrowserFrame src="/screenshots/admin/features-allgemein-umsatzauswertung.png" alt="Umsatzauswertung" />
 
 ---
 
@@ -78,7 +78,7 @@ Konfiguriert die Darstellung in Tages-, Monats- und Jahresberichten — z.B. ob 
 
 Sonstige Einstellungen, die in keine der obigen Kategorien fallen — z.B. Logout-Verhalten, Standardsprache, Hinweise und Bestätigungs-Dialoge.
 
-![Sonstige](/screenshots/admin/features-allgemein-sonstige.png)
+<BrowserFrame src="/screenshots/admin/features-allgemein-sonstige.png" alt="Sonstige" />
 
 ---
 

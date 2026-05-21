@@ -14,88 +14,74 @@ searchTerms:
 
 # Orderlyze Web Dashboard
 
-![Dashboard](/screenshots/home/dashboard.png)
+<BrowserFrame src="/screenshots/home/dashboard.png" alt="Orderlyze Web Dashboard" />
+
+Das **Web Dashboard** ist die Verwaltungsoberfläche unter [web.orderlyze.com](https://web.orderlyze.com). Hier pflegen Sie Stammdaten, sehen Berichte und konfigurieren Ihr System. Die Inhalte sind in vier Hauptbereiche gegliedert — passend zur linken Navigation.
 
 ---
 
-## Erste Schritte
+## Verwaltung
 
-Einrichtung Ihres Orderlyze-Systems.
+Kategorien, Produkte, Extras, Gutscheine, Gänge, Benutzer und Stammkunden verwalten.
 
 | Bereich | Beschreibung |
 |---------|--------------|
-| [Erste Schritte](/erste-schritte) | Profil, Räume, Tische & komplette Einrichtung |
+| [Produktkategorien](/stammdaten/kategorien) | Kategorien für die Produkt-Struktur |
+| [Produkte](/stammdaten/produkte) | Produkte verwalten und bearbeiten |
+| [Extras](/stammdaten/extras) | Produktzusätze und Optionen |
+| [Gutscheine](/stammdaten/gutscheine) | Rabatte und Coupons |
+| [Gänge](/betrieb/gaenge) | Gänge für die Speisefolge |
+| [Stammkunden](/personal/kunden) | Stammkunden verwalten |
+| [Benutzer](/personal/benutzer) | Mitarbeiter und Rechte |
 
 ---
 
-## Stammdaten
+## Küche
 
-Produkte und Kategorien verwalten.
-
-| Bereich | Beschreibung |
-|---------|--------------|
-| [Kategorien](/stammdaten/kategorien) | Produktkategorien |
-| [Produkte](/stammdaten/produkte) | Produkte verwalten |
-| [Extras](/stammdaten/extras) | Produktzusätze |
-| [Gutscheine](/stammdaten/gutscheine) | Rabatte & Coupons |
-
----
-
-## Personal & Kunden
-
-Benutzer und Stammkunden verwalten.
+Küchenmonitor und Küchenbons verwalten.
 
 | Bereich | Beschreibung |
 |---------|--------------|
-| [Benutzer](/personal/benutzer) | Mitarbeiter & Rechte |
-| [Kunden](/personal/kunden) | Stammkunden verwalten |
-
----
-
-## Betrieb & Küche
-
-Täglicher Betrieb und Küchenmanagement.
-
-| Bereich | Beschreibung |
-|---------|--------------|
-| [Küchenmonitor](/betrieb/kueche) | Bestellungsanzeige |
-| [Gänge](/betrieb/gaenge) | Gänge für Speisefolge |
-| [Küchenbons](/betrieb/kuechenbons) | Bondrucker & Einstellungen |
+| [Küchenmonitor](/betrieb/kueche) | Bestellungsanzeige für die Küche |
+| [Küchenbons](/betrieb/kuechenbons) | Bondrucker und Druck-Einstellungen |
 
 ---
 
 ## Auswertung & Berichte
 
-Statistiken und Buchhaltungsexport.
+Berichte, Statistiken und Buchhaltungs-Export.
 
 | Bereich | Beschreibung |
 |---------|--------------|
-| [Berichte](/auswertung/berichte) | Alle Berichte & Statistiken |
-| [Export](/auswertung/export) | BMD, RZL, DATEV Export |
+| [Berichte](/auswertung/berichte) | Tages-, Monats- und Jahresberichte |
+| [Weitere Berichte](/auswertung/weitere-berichte) | Rechnungen, Produkte, Kategorien, Storno u.v.m. |
+| [Datenexport](/auswertung/export) | BMD-, RZL- und DATEV-Export |
 
 ---
 
 ## Einstellungen
 
-Systemkonfiguration.
+Unternehmens-Stammdaten, Rechnungsoptionen und Buchhaltung konfigurieren.
 
 | Bereich | Beschreibung |
 |---------|--------------|
-| [Einstellungen](/einstellungen/unternehmen) | Allgemeine Konfiguration |
-| [Weitere Einstellungen](/einstellungen/features) | Erweiterte Optionen |
+| [Unternehmen](/einstellungen/unternehmen) | Firmenname, Steuer-ID, Kontakt |
+| [Adresse](/einstellungen/adresse) | Geschäftsadresse |
+| [Logo](/einstellungen/logo) | Firmenlogo für Rechnungen |
+| [Rechnung](/einstellungen/rechnung) | Rechnungs- und Belegtexte |
+| [Kundenrechnungen](/einstellungen/kundenrechnungen) | Orderlyze-Lizenzrechnungen herunterladen |
+| [Finanzamt](/einstellungen/finanzamt) | RKSV (AT) und TSE (DE) |
+| [Buchungskonten](/einstellungen/buchungskonten) | DATEV-Mapping und CSV-Export |
+| [Features aktivieren/deaktivieren](/einstellungen/features) | Erweiterte Optionen |
 
 ---
 
-## Bonier App
+## Kontakt mit dem Orderlyze-Team
 
-Dokumentation für die Orderlyze Bonier App auf Tablets und Smartphones.
+Bei Fragen oder Problemen erreichen Sie uns auf drei Wegen:
 
-| Bereich | Beschreibung |
-|---------|--------------|
-| [Bonier App](/app) | Komplette App-Dokumentation |
-
----
-
-## Support
-
-[office@orderlyze.com](mailto:office@orderlyze.com)
+| Kontaktweg | Adresse |
+|------------|---------|
+| **WhatsApp** | [+43 677 61068190](https://wa.me/4367761068190) |
+| **E-Mail** | [office@orderlyze.com](mailto:office@orderlyze.com) |
+| **Telefon** | [0800 400 4511](tel:08004004511) (kostenlos aus Österreich) |

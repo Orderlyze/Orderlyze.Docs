@@ -21,7 +21,7 @@ searchTerms:
 
 Die Kundenverwaltung ermöglicht es Ihnen, Stammkunden und Firmenkunden zu speichern. Diese können dann bei Bestellungen ausgewählt werden, um personalisierte Rechnungen zu erstellen oder Kundenbindung zu fördern.
 
-![Kunden Übersicht](/screenshots/admin/kunden-liste.png)
+<BrowserFrame src="/screenshots/admin/kunden-liste.png" alt="Kunden Übersicht" />
 
 ---
 
@@ -31,9 +31,9 @@ Die Kundenverwaltung ermöglicht es Ihnen, Stammkunden und Firmenkunden zu speic
 2. Gewünschte Felder ausfüllen (mindestens Vor- und Nachname)
 3. **Speichern**
 
-![Kunde hinzufügen Button](/screenshots/admin/kunden-hinzufuegen-button.png)
+<BrowserFrame src="/screenshots/admin/kunden-hinzufuegen-button.png" alt="Kunde hinzufügen Button" />
 
-![Kunde erstellen Dialog](/screenshots/admin/kunden-erstellen-dialog.png)
+<BrowserFrame src="/screenshots/admin/kunden-erstellen-dialog.png" alt="Kunde erstellen Dialog" />
 
 ### Verfügbare Felder
 
@@ -78,7 +78,7 @@ Markieren Sie häufige Kunden als **Favorit** (Favorit?), um sie in der App schn
 
 Klick in der Zeile des Kunden auf das **Bearbeiten-Symbol** (Stift-Symbol rechts) → Änderungen vornehmen → **Speichern**
 
-![Kunde bearbeiten Button](/screenshots/admin/kunden-bearbeiten-button.png)
+<BrowserFrame src="/screenshots/admin/kunden-bearbeiten-button.png" alt="Kunde bearbeiten Button" />
 
 ---
 
@@ -86,7 +86,7 @@ Klick in der Zeile des Kunden auf das **Bearbeiten-Symbol** (Stift-Symbol rechts
 
 Klick in der Zeile des Kunden auf das **Löschen-Symbol** (Mülleimer-Symbol ganz rechts) → Bestätigen.
 
-![Kunde löschen Button](/screenshots/admin/kunden-loeschen-button.png)
+<BrowserFrame src="/screenshots/admin/kunden-loeschen-button.png" alt="Kunde löschen Button" />
 
 :::warning
 Gelöschte Kunden können nicht wiederhergestellt werden. Rechnungen, die diesem Kunden zugeordnet waren, behalten jedoch ihre Daten.

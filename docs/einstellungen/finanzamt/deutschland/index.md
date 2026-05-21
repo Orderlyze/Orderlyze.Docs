@@ -25,7 +25,7 @@ searchTerms:
 
 Diese Seite zeigt den Status Ihrer Kasse gemäß der deutschen **Kassensicherungsverordnung (KassenSichV)**. Orderlyze nutzt eine zertifizierte **TSE (Technische Sicherheitseinrichtung)**, die jeden Geschäftsvorfall manipulationssicher signiert. Sie sehen hier den aktuellen Status, können das TSE-Zertifikat herunterladen und die gesetzlich vorgeschriebenen Exporte (TSE / DSFinV-K) für eine Kassen-Nachschau erzeugen.
 
-![TSE Einstellungen Deutschland](/screenshots/einstellungen/finanzamt/de-tse.png)
+<BrowserFrame src="/screenshots/einstellungen/finanzamt/de-tse.png" alt="TSE Einstellungen Deutschland" />
 
 :::tip Status grün
 Steht oben "Dein Kassensystem ist mit dem Finanzamt verbunden", ist alles in Ordnung — die TSE ist aktiv und Belege werden gemäß KassenSichV signiert.
@@ -73,7 +73,7 @@ Die **TSE (Technische Sicherheitseinrichtung)** ist die zertifizierte Komponente
 
 ## TSE / DSFinV-K herunterladen
 
-![TSE und DSFinV-K Download](/screenshots/einstellungen/finanzamt/de-download.png)
+<BrowserFrame src="/screenshots/einstellungen/finanzamt/de-download.png" alt="TSE und DSFinV-K Download" />
 
 Bei einer **Kassen-Nachschau** (§ 146b AO) oder einer **Betriebsprüfung** müssen Sie dem Finanzamt zwei Arten von Exporten zur Verfügung stellen:
 

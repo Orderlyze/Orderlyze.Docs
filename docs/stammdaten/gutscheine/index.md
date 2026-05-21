@@ -20,7 +20,7 @@ searchTerms:
 
 Mit der Gutscheinverwaltung erstellen und verwalten Sie Wertgutscheine für Ihr Unternehmen. Das System arbeitet mit Gutschein-Vorlagen, aus denen Sie beliebig viele individuelle Gutschein-Codes generieren können.
 
-![Gutscheine Übersicht](/screenshots/admin/gutscheine-liste.png)
+<BrowserFrame src="/screenshots/admin/gutscheine-liste.png" alt="Gutscheine Übersicht" />
 
 ## Übersicht
 
@@ -48,9 +48,9 @@ Eine Gutschein-Vorlage definiert den Wert und die Anzahl der Gutscheine, die gen
    - **Anzahl der Gutscheine** — Wie viele Gutscheine generiert werden sollen
 3. **Speichern**
 
-![Gutscheinvorlage hinzufügen Button](/screenshots/admin/gutscheine-hinzufuegen-button.png)
+<BrowserFrame src="/screenshots/admin/gutscheine-hinzufuegen-button.png" alt="Gutscheinvorlage hinzufügen Button" />
 
-![Gutscheinvorlage erstellen Dialog](/screenshots/admin/gutscheine-erstellen-dialog.png)
+<BrowserFrame src="/screenshots/admin/gutscheine-erstellen-dialog.png" alt="Gutscheinvorlage erstellen Dialog" />
 
 :::tip
 Erstellen Sie verschiedene Vorlagen für unterschiedliche Gutscheinwerte, z.B. "10€ Gutschein", "25€ Gutschein", "50€ Gutschein".
@@ -62,7 +62,7 @@ Erstellen Sie verschiedene Vorlagen für unterschiedliche Gutscheinwerte, z.B. "
 
 Klick in der Zeile der Vorlage auf das **Zeige-Gutscheine-Symbol** (Lupe ganz rechts) um die einzelnen Gutschein-Codes anzuzeigen.
 
-![Gutscheine anzeigen Button](/screenshots/admin/gutscheine-anzeigen-button.png)
+<BrowserFrame src="/screenshots/admin/gutscheine-anzeigen-button.png" alt="Gutscheine anzeigen Button" />
 
 Die Detailansicht zeigt:
 
@@ -91,7 +91,7 @@ Um zu einer bestehenden Vorlage weitere Gutschein-Codes zu generieren:
 2. Anzahl der neuen Gutscheine eingeben
 3. **Bestätigen**
 
-![Gutscheine erzeugen Button](/screenshots/admin/gutscheine-erzeugen-button.png)
+<BrowserFrame src="/screenshots/admin/gutscheine-erzeugen-button.png" alt="Gutscheine erzeugen Button" />
 
 ---
 
@@ -99,7 +99,7 @@ Um zu einer bestehenden Vorlage weitere Gutschein-Codes zu generieren:
 
 Klick in der Zeile der Vorlage auf das **Löschen-Symbol** (Mülleimer ganz rechts) → Bestätigen.
 
-![Gutscheinvorlage löschen Button](/screenshots/admin/gutscheine-loeschen-button.png)
+<BrowserFrame src="/screenshots/admin/gutscheine-loeschen-button.png" alt="Gutscheinvorlage löschen Button" />
 
 :::warning
 Beim Löschen einer Vorlage werden alle zugehörigen Gutschein-Codes unwiderruflich gelöscht. Bereits eingelöste Gutscheine können nicht mehr nachverfolgt werden.
