@@ -1,7 +1,7 @@
 ---
 id: home
-title: Orderlyze Hilfe
-description: Dokumentation für das Orderlyze Web Dashboard
+title: Orderlyze Hilfe-Center
+description: Anleitungen und Hilfestellung für Orderlyze
 type: reference
 platform: web
 slug: /

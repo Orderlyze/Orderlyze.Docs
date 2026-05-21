@@ -3,9 +3,16 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Orderlyze Hilfe',
-  tagline: 'Dokumentation und Hilfe für Orderlyze',
+  title: 'Orderlyze Hilfe-Center',
+  tagline: 'Anleitungen und Hilfestellung für Orderlyze',
   favicon: 'img/favicon.ico',
+
+  headTags: [
+    { tagName: 'link', attributes: { rel: 'manifest', href: '/manifest.json' } },
+    { tagName: 'link', attributes: { rel: 'apple-touch-icon', href: '/img/apple-touch-icon.png' } },
+    { tagName: 'meta', attributes: { name: 'theme-color', content: '#2563eb' } },
+    { tagName: 'meta', attributes: { name: 'apple-mobile-web-app-title', content: 'Orderlyze Hilfe' } },
+  ],
 
   url: 'https://docs.orderlyze.com',
   baseUrl: '/',
@@ -46,10 +53,10 @@ const config: Config = {
   themeConfig: {
     image: 'img/orderlyze-social-card.jpg',
     navbar: {
-      title: 'Orderlyze Hilfe',
+      title: 'Orderlyze Hilfe-Center',
       logo: {
         alt: 'Orderlyze Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {
