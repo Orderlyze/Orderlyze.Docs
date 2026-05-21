@@ -53,20 +53,24 @@ const config: Config = {
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'docsSidebar',
+          to: '/erste-schritte',
           position: 'left',
-          label: 'Dokumentation',
+          label: 'Erste Schritte',
         },
         {
-          to: '/category/faq',
+          to: '/handbuch',
           position: 'left',
-          label: 'FAQ',
+          label: 'Handbuch',
         },
         {
-          to: '/category/problemlösung',
+          to: '/funktionen',
           position: 'left',
-          label: 'Problemlösung',
+          label: 'Funktionen',
+        },
+        {
+          to: '/faq',
+          position: 'left',
+          label: 'Häufig gestellte Fragen',
         },
       ],
     },
@@ -77,15 +81,21 @@ const config: Config = {
           title: 'Dokumentation',
           items: [
             { label: 'Erste Schritte', to: '/erste-schritte' },
-            { label: 'Stammdaten', to: '/stammdaten/kategorien' },
-            { label: 'Auswertung', to: '/auswertung/berichte' },
+            { label: 'Handbuch', to: '/handbuch' },
+            { label: 'Funktionen', to: '/funktionen' },
+          ],
+        },
+        {
+          title: 'Handbuch',
+          items: [
+            { label: 'Web Dashboard', to: '/' },
+            { label: 'Bonier App', to: '/app' },
           ],
         },
         {
           title: 'Hilfe',
           items: [
-            { label: 'Problemlösung', to: '/troubleshooting/drucker-druckt-nicht' },
-            { label: 'FAQ', to: '/category/faq' },
+            { label: 'Häufig gestellte Fragen', to: '/faq' },
           ],
         },
         {
