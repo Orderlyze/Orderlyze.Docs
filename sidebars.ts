@@ -204,11 +204,10 @@ const sidebars: SidebarsConfig = {
       ],
     },
 
-    // Datenschutzerklärung (externer Link)
+    // Kontakt
     {
-      type: 'link',
-      label: 'Datenschutzerklärung',
-      href: 'https://www.orderlyze.com/datenschutzerklaerung',
+      type: 'doc',
+      id: 'kontakt',
       className: 'sidebar-section-header',
     },
   ],
