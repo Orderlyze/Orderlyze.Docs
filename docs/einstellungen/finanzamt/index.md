@@ -1,36 +1,38 @@
 ---
 id: einstellungen-finanzamt
 title: Finanzamt
-description: Finanzamt-Daten für Steuermeldungen hinterlegen
+description: Finanzamt-Anbindung und gesetzliche Kassen-Konformität (RKSV, TSE)
 type: reference
 platform: web
 sidebar_position: 6
 navigation: "Test Account → Einstellungen → Finanzamt"
 searchTerms:
   - finanzamt
+  - rksv
+  - tse
   - steuer
-  - steuernummer
-  - umsatzsteuer
-  - meldung
+  - signatur
+  - dep131
+  - dep7
+  - nullbeleg
 ---
 
 # Finanzamt
 
 **Navigation:** Test-Account-Menü (oben rechts) → **Einstellungen** → **Finanzamt**
 
-Auf dieser Seite hinterlegen Sie die Daten Ihres zuständigen Finanzamts. Diese werden für steuerliche Exporte und behördliche Meldungen (z.B. RKSV in Österreich, GoBD in Deutschland) benötigt.
+Im Bereich **Finanzamt** finden Sie alle Informationen zur gesetzlichen Anbindung Ihrer Kasse an die Finanzbehörde. Die Anforderungen unterscheiden sich je nach Land:
 
-![Finanzamt Einstellungen](/screenshots/admin/einstellungen-finanzamt.png)
+| Land | Gesetzliche Grundlage | Zweck |
+|------|----------------------|-------|
+| **Österreich** | RKSV (Registrierkassensicherheitsverordnung) | Signaturkette, Nullbelege, DEP-Exporte |
+| **Deutschland** | KassenSichV / GoBD | TSE (Technische Sicherheitseinrichtung), DSFinV-K |
 
-## Typische Felder
-
-- **Finanzamt-Name** und **Adresse**
-- **Steuernummer** des Unternehmens beim Finanzamt
-- **Steuer-Identifikationsnummer**
-- Ggf. zusätzliche länderspezifische Felder (USt-Voranmeldungsturnus, etc.)
-
-Änderungen mit **Speichern** übernehmen.
-
-:::info
-Diese Daten ändern sich selten — meist nur bei Umzug des Unternehmens oder Zuständigkeitsänderung beim Finanzamt.
+:::info Automatische Konfiguration
+Die Finanzamt-Anbindung wird bei der Ersteinrichtung Ihres Kassensystems durch Orderlyze konfiguriert. Sie sehen hier den aktuellen Status und können die gesetzlich vorgeschriebenen Exporte herunterladen.
 :::
+
+## Unterseiten
+
+- [**Österreich**](/einstellungen/finanzamt/oesterreich) — SCU, Nullbelege und DEP131/DEP7-Export gemäß RKSV
+- [**Deutschland**](/einstellungen/finanzamt/deutschland) — TSE und DSFinV-K gemäß KassenSichV

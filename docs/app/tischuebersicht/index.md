@@ -17,9 +17,18 @@ searchTerms:
 
 # Tischübersicht
 
-<img src="/screenshots/app/02_table_overview.png" alt="Tischübersicht" width="280" />
+<div className="device-gallery">
+  <figure className="device-figure">
+    <img src="/screenshots/app/02_table_overview.png" alt="Tischübersicht (Handy)" width="220" />
+    <figcaption>Handy</figcaption>
+  </figure>
+  <figure className="device-figure">
+    <img src="/screenshots/app/tablet/02_table_overview.png" alt="Tischübersicht (Tablet)" width="500" />
+    <figcaption>iPad</figcaption>
+  </figure>
+</div>
 
-Die Tischübersicht ist Ihre zentrale Anlaufstelle für den täglichen Betrieb. Hier haben Sie alle Tische Ihres Restaurants im Blick und können sofort mit der Arbeit beginnen.
+Die Tischübersicht ist Ihre zentrale Anlaufstelle für den täglichen Betrieb. Hier haben Sie alle Tische Ihres Restaurants im Blick und können sofort mit der Arbeit beginnen. Auf dem iPad nutzt die App ein **Split-View Layout** mit Rechnungsbereich links und Tischplan rechts.
 
 ---
 
@@ -69,21 +78,7 @@ Tippen Sie auf einen Tisch, um zur [Tisch-Detailansicht](/app/bestellung) zu gel
 
 ---
 
-:::info Tablet-Ansicht
-<img src="/screenshots/app/tablet/02_table_overview.png" alt="Tischübersicht (Tablet)" width="500" />
-
-Auf dem iPad nutzt die App ein **Split-View Layout**:
-
-**Bildschirmaufbau:**
-
-| Bereich | Position | Funktion |
-|---------|----------|----------|
-| Rechnungsbereich | Links (ca. 40%) | Zeigt die aktuelle Rechnung mit Summe |
-| Tischplan | Rechts (ca. 60%) | Visuelle Darstellung aller Tische |
-| Raumleiste | Unten | Schnellwahl zwischen verschiedenen Räumen |
-| Kopfleiste | Oben | Navigation und Schnellzugriff |
-
-**Buttons im Rechnungsbereich (linke Seite):**
+## Tablet-Ansicht (iPad) — Buttons im Rechnungsbereich
 
 | Button | Funktion |
 |--------|----------|
@@ -91,10 +86,40 @@ Auf dem iPad nutzt die App ein **Split-View Layout**:
 | **In Küche drucken** (blau) | Sendet die Bestellung direkt an den Küchendrucker |
 | **Gesamt Bezahlen** (grün) | Die gesamte Rechnung auf einmal begleichen |
 | **Getrennt Bezahlen** (orange) | Einzelne Positionen getrennt abrechnen |
-:::
 
 ---
 
 ## Tipp für den Alltag
 
 Beginnen Sie Ihren Arbeitstag hier und behalten Sie stets den Überblick über alle Tische. Ein Blick genügt, um zu sehen, wo Gäste warten oder wo abkassiert werden muss.
+
+---
+
+## Benutzer-Statistik {#benutzer-statistik}
+
+<img src="/screenshots/app/tablet/19_benutzer_statistik.png" alt="Benutzer-Statistik" width="500" />
+
+**Navigation:** Tischübersicht → Statistik-Symbol (Diagramm, oben rechts)
+
+Die Benutzer-Statistik zeigt Ihnen die Umsätze Ihrer Mitarbeiter in einem bestimmten Zeitraum.
+
+**Was Sie hier tun können:**
+
+- **Umsätze pro Mitarbeiter einsehen:** Wie viel hat jeder Mitarbeiter erwirtschaftet
+- **Zeitraum frei wählen:** Einzelne Tage, Wochen oder längere Zeiträume
+- **Teamleistung vergleichen:** Umsätze verschiedener Mitarbeiter vergleichen
+- **Gesamtsumme prüfen:** Summe aller Umsätze im gewählten Zeitraum
+
+**Bedienelemente:**
+
+| Element | Funktion |
+|---------|----------|
+| **"Von:" mit Datum** | Startdatum und -uhrzeit |
+| **"Bis:" mit Datum** | Enddatum und -uhrzeit |
+| **Mitarbeiterliste** | Alle Mitarbeiter mit ihren Umsätzen |
+| **"Summe:"** | Gesamtumsatz im gewählten Zeitraum |
+| **X-Symbol** | Dialog schließen |
+
+:::info Hinweis
+Die angezeigten Umsätze basieren auf abgeschlossenen Rechnungen. Noch nicht abgerechnete Bestellungen werden nicht berücksichtigt.
+:::

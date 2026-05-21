@@ -31,15 +31,15 @@ Dynamische Produkte müssen unter **Weitere Einstellungen** aktiviert sein. Ersc
 4. Eine **Produktkategorie** zuweisen
 5. Speichern
 
-![Dynamisches Produkt anlegen](/screenshots/funktionen/dynamisches-produkt/1.jpg)
+<img src="/screenshots/funktionen/dynamisches-produkt/1.jpg" alt="Dynamisches Produkt anlegen" width="320" />
 
-![Felder ausfüllen](/screenshots/funktionen/dynamisches-produkt/2.jpg)
+<img src="/screenshots/funktionen/dynamisches-produkt/2.jpg" alt="Felder ausfüllen" width="320" />
 
 ## Ergebnis prüfen
 
 Wechsle in den **Rechnungs-Tab** — das eben angelegte Produkt erscheint dort als Position der aktuellen Rechnung.
 
-![Im Rechnungs-Tab](/screenshots/funktionen/dynamisches-produkt/3.jpg)
+<img src="/screenshots/funktionen/dynamisches-produkt/3.jpg" alt="Im Rechnungs-Tab" width="320" />
 
 :::tip
 Praktisch z.B. für Tagespreise, Sondergerichte oder Sammelpositionen, die du nicht extra als Stammdaten anlegen willst.

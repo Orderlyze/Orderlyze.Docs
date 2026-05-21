@@ -34,4 +34,4 @@ Pfandbeträge (z.B. auf Mehrwegflaschen oder -gefäße) werden in Orderlyze übe
 
 Beim Erstellen einer Rechnung das Produkt **Pfand** für die Ausgabe bzw. **Pfand retour** für die Rückgabe hinzufügen. Der jeweilige Betrag wird automatisch in der Rechnungs-Summe berücksichtigt.
 
-![Pfand verbuchen](/screenshots/funktionen/pfand/1.jpg)
+<img src="/screenshots/funktionen/pfand/1.jpg" alt="Pfand verbuchen" width="320" />

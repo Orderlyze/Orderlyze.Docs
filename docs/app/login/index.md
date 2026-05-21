@@ -9,16 +9,24 @@ searchTerms:
   - login
   - anmeldung
   - passwort
-  - demo
   - einloggen
   - sprachauswahl
 ---
 
 # Login
 
-<img src="/screenshots/app/01_login.png" alt="Login Screen" width="280" />
+<div className="device-gallery">
+  <figure className="device-figure">
+    <img src="/screenshots/app/01_login.png" alt="Login Screen (Handy)" width="220" />
+    <figcaption>Handy</figcaption>
+  </figure>
+  <figure className="device-figure">
+    <img src="/screenshots/app/tablet/01_login.png" alt="Login Screen (Tablet)" width="500" />
+    <figcaption>iPad</figcaption>
+  </figure>
+</div>
 
-Der Login-Screen ist der Einstiegspunkt der Orderlyze Mobile App. Diese Seite erscheint automatisch beim Starten der App.
+Der Login-Screen ist der Einstiegspunkt der Orderlyze Mobile App. Diese Seite erscheint automatisch beim Starten der App. Auf dem iPad wird er in einem 3-Spalten-Layout mit Versionsinformationen, Login-Bereich und zusätzlichen Buttons dargestellt.
 
 ---
 
@@ -34,12 +42,6 @@ Nach erfolgreicher Anmeldung werden Sie zur Tischübersicht weitergeleitet.
 
 ---
 
-## Demo-Modus
-
-Tippen Sie auf **Demo starten**, um die App ohne Anmeldung zu testen. Der Demo-Modus zeigt alle Funktionen mit Beispieldaten. Ideal zum Kennenlernen der App.
-
----
-
 ## Bedienelemente
 
 | Element | Beschreibung |
@@ -49,16 +51,6 @@ Tippen Sie auf **Demo starten**, um die App ohne Anmeldung zu testen. Der Demo-M
 | Datenschutzerklärung | Link zu den Datenschutzbestimmungen |
 | Allgemeine Geschäftsbedingungen | Link zu den AGB |
 | Impressum | Zeigt Firmeninformationen |
-
----
-
-## Tablet-Ansicht
-
-:::info Tablet-Ansicht
-Auf dem iPad wird der Login-Screen in einem 3-Spalten-Layout dargestellt. Links sehen Sie Versionsinformationen, in der Mitte den Login-Bereich und rechts zusätzliche Buttons. Die breiteren Eingabefelder und die optimierte Tastatur machen die Bedienung besonders komfortabel.
-
-<img src="/screenshots/app/tablet/01_login.png" alt="Login Screen (Tablet)" width="500" />
-:::
 
 ---
 

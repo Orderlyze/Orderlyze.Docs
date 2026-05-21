@@ -27,11 +27,11 @@ Der Tischplan wird in der Orderlyze App auf Tablet oder Smartphone gestaltet —
 5. **Speichern** antippen
 6. Den neu erstellten Tisch an die gewünschte Position ziehen
 
-![Tisch hinzufügen](/screenshots/funktionen/tischplan/1.png)
+<img src="/screenshots/funktionen/tischplan/1.png" alt="Tisch hinzufügen" width="320" />
 
-![Tischname eingeben](/screenshots/funktionen/tischplan/2.png)
+<img src="/screenshots/funktionen/tischplan/2.png" alt="Tischname eingeben" width="320" />
 
-![Positionierter Tisch](/screenshots/funktionen/tischplan/3.png)
+<img src="/screenshots/funktionen/tischplan/3.png" alt="Positionierter Tisch" width="320" />
 
 ---
 
@@ -42,7 +42,7 @@ Der Tischplan wird in der Orderlyze App auf Tablet oder Smartphone gestaltet —
 3. Mit **Fertig** Änderungen übernehmen
 4. Mit **Löschen** den Tisch entfernen (optional)
 
-![Tisch bearbeiten](/screenshots/funktionen/tischplan/4.png)
+<img src="/screenshots/funktionen/tischplan/4.png" alt="Tisch bearbeiten" width="320" />
 
 ---
 
@@ -52,7 +52,7 @@ Der Tischplan wird in der Orderlyze App auf Tablet oder Smartphone gestaltet —
 2. Eine neue Trennlinie wird automatisch oben links eingefügt
 3. Die Trennlinie an die gewünschte Position ziehen
 
-![Trennlinie hinzufügen](/screenshots/funktionen/tischplan/5.png)
+<img src="/screenshots/funktionen/tischplan/5.png" alt="Trennlinie hinzufügen" width="320" />
 
 ---
 
@@ -63,4 +63,4 @@ Der Tischplan wird in der Orderlyze App auf Tablet oder Smartphone gestaltet —
 3. Mit **Fertig** bestätigen
 4. Mit **Löschen** die Trennlinie entfernen (optional)
 
-![Trennlinie bearbeiten](/screenshots/funktionen/tischplan/6.png)
+<img src="/screenshots/funktionen/tischplan/6.png" alt="Trennlinie bearbeiten" width="320" />

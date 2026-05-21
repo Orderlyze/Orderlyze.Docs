@@ -37,4 +37,4 @@ Für Abhol- bzw. Außer-Haus-Bestellungen gilt in vielen Ländern ein reduzierte
 
 Die Rechnung wird automatisch mit den hinterlegten Außer-Haus-Steuersätzen erstellt.
 
-![Mitnahme beim Bezahlen](/screenshots/funktionen/abholung/2.jpg)
+<img src="/screenshots/funktionen/abholung/2.jpg" alt="Mitnahme beim Bezahlen" width="320" />

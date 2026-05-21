@@ -20,9 +20,18 @@ searchTerms:
 
 # Bestellung
 
-<img src="/screenshots/app/04_table_detail.png" alt="Tisch-Detailansicht" width="280" />
+<div className="device-gallery">
+  <figure className="device-figure">
+    <img src="/screenshots/app/04_table_detail.png" alt="Tisch-Detailansicht (Handy)" width="220" />
+    <figcaption>Handy</figcaption>
+  </figure>
+  <figure className="device-figure">
+    <img src="/screenshots/app/tablet/04_table_detail.png" alt="Tisch-Detailansicht (Tablet)" width="500" />
+    <figcaption>iPad</figcaption>
+  </figure>
+</div>
 
-In der Tisch-Detailansicht nehmen Sie Bestellungen auf und verwalten die Produkte.
+In der Tisch-Detailansicht nehmen Sie Bestellungen auf und verwalten die Produkte. Auf dem iPad sehen Sie Rechnung (links, ca. 30 %) und Produktraster (rechts, ca. 70 %) gleichzeitig im **Split-View Layout** — kein Tab-Wechsel nötig.
 
 ---
 
@@ -56,16 +65,6 @@ Nach Auswahl eines Tisches sehen Sie:
 Je nach gewählter Hauptkategorie sehen Sie hier weitere Unterteilungen:
 - Bei Getränken z.B.: AF (alkoholfrei), Bier, Flaschenweine, Heissgetränke, Longdrinks
 
-:::info Tablet-Ansicht
-<img src="/screenshots/app/tablet/04_table_detail.png" alt="Tisch-Detailansicht (Tablet)" width="500" />
-
-Auf dem iPad nutzen Sie das **Split-View Layout**:
-- **Links (ca. 30%):** Die aktuelle Rechnung mit allen Bestellungen
-- **Rechts (ca. 70%):** Das Produktraster mit bis zu 36 Produkten auf einen Blick
-
-Sie sehen Rechnung und Produkte gleichzeitig - kein Tab-Wechsel nötig.
-:::
-
 ---
 
 ## Produkte hinzufügen
@@ -83,7 +82,16 @@ Tippen Sie mehrfach auf dasselbe Produkt, um die Menge zu erhöhen. Wechseln Sie
 
 ## Extras/Beilagen
 
-<img src="/screenshots/app/21_extras_popup.png" alt="Extras hinzufügen" width="280" />
+<div className="device-gallery">
+  <figure className="device-figure">
+    <img src="/screenshots/app/21_extras_popup.png" alt="Extras hinzufügen (Handy)" width="220" />
+    <figcaption>Handy</figcaption>
+  </figure>
+  <figure className="device-figure">
+    <img src="/screenshots/app/tablet/21_extras_popup.png" alt="Extras hinzufügen (Tablet)" width="500" />
+    <figcaption>iPad</figcaption>
+  </figure>
+</div>
 
 **So kommen Sie hierher:**
 Tab "Rechnung" → Auf ein bestelltes Produkt tippen
@@ -115,12 +123,6 @@ Der Extras-Dialog ermöglicht es Ihnen, Sonderwünsche und Beilagen zu einem bes
 | **Extra-Zeile antippen** | Fügt das gewählte Extra zum Produkt hinzu |
 | **X-Symbol** | Schließt den Dialog ohne Änderungen |
 
-:::info Tablet-Ansicht
-<img src="/screenshots/app/tablet/21_extras_popup.png" alt="Extras hinzufügen (Tablet)" width="500" />
-
-Auf dem iPad erscheint das Extras-Popup zentral, während die Bestellübersicht links weiterhin sichtbar bleibt. Die Extras-Optionen sind größer dargestellt für einfacheres Antippen.
-:::
-
 :::note Hinweis
 Die verfügbaren Extras werden in der Verwaltung (Web-Portal) konfiguriert. Falls Sie bestimmte Extras vermissen oder neue hinzufügen möchten, wenden Sie sich an Ihren Administrator.
 :::
@@ -129,7 +131,16 @@ Die verfügbaren Extras werden in der Verwaltung (Web-Portal) konfiguriert. Fall
 
 ## Gang wechseln
 
-<img src="/screenshots/app/23_gang_wechseln.png" alt="Gang wechseln" width="280" />
+<div className="device-gallery">
+  <figure className="device-figure">
+    <img src="/screenshots/app/23_gang_wechseln.png" alt="Gang wechseln (Handy)" width="220" />
+    <figcaption>Handy</figcaption>
+  </figure>
+  <figure className="device-figure">
+    <img src="/screenshots/app/tablet/23_gang_wechseln.png" alt="Gang wechseln (Tablet)" width="500" />
+    <figcaption>iPad</figcaption>
+  </figure>
+</div>
 
 **So kommen Sie hierher:**
 Tab "Rechnung" → "Bearbeiten" → Gang-Button bei einem Produkt
@@ -153,12 +164,6 @@ Im Bearbeiten-Modus können Sie den Gang eines Produkts ändern:
 | **Gang 3** | Desserts |
 | **Gang 4/5** | Für umfangreichere Menüs |
 
-:::info Tablet-Ansicht
-<img src="/screenshots/app/tablet/23_gang_wechseln.png" alt="Gang wechseln (Tablet)" width="500" />
-
-Der Gang-Dialog erscheint zentral, während die Bestellliste im Hintergrund sichtbar bleibt. Im Split-View sehen Sie die Gang-Gruppierung der Produkte auf einen Blick.
-:::
-
 :::tip
 Nutzen Sie Gänge, um Vorspeisen, Hauptgerichte und Desserts zu organisieren. Die Küche kann dann Gang für Gang arbeiten.
 :::
@@ -167,7 +172,16 @@ Nutzen Sie Gänge, um Vorspeisen, Hauptgerichte und Desserts zu organisieren. Di
 
 ## Eigenes Produkt erstellen
 
-<img src="/screenshots/app/24_custom_product.png" alt="Eigenes Produkt erstellen" width="280" />
+<div className="device-gallery">
+  <figure className="device-figure">
+    <img src="/screenshots/app/24_custom_product.png" alt="Eigenes Produkt erstellen (Handy)" width="220" />
+    <figcaption>Handy</figcaption>
+  </figure>
+  <figure className="device-figure">
+    <img src="/screenshots/app/tablet/24_custom_product.png" alt="Eigenes Produkt erstellen (Tablet)" width="500" />
+    <figcaption>iPad</figcaption>
+  </figure>
+</div>
 
 **So kommen Sie hierher:**
 Tab "Hinzufügen" → Plus-Symbol (+) unten rechts in der Leiste
@@ -206,12 +220,6 @@ Mit dieser Funktion können Sie ein individuelles Produkt erstellen, das nicht i
 | **Hinzufügen** (grün) | Fügt das eigene Produkt zur aktuellen Bestellung hinzu |
 | **X-Symbol** | Schließt den Dialog ohne Änderungen |
 
-:::info Tablet-Ansicht
-<img src="/screenshots/app/tablet/24_custom_product.png" alt="Eigenes Produkt erstellen (Tablet)" width="500" />
-
-Der Dialog erscheint zentral, während die aktuelle Rechnung links sichtbar bleibt. Die Eingabefelder und Dropdowns sind auf dem größeren Display komfortabler zu bedienen.
-:::
-
 :::tip
 Achten Sie darauf, den richtigen Steuersatz zu wählen (z.B. reduzierter Steuersatz für Speisen zum Mitnehmen). Die Kategorie hilft bei der späteren Auswertung Ihrer Umsätze.
 :::
@@ -220,7 +228,16 @@ Achten Sie darauf, den richtigen Steuersatz zu wählen (z.B. reduzierter Steuers
 
 ## Gutschein auswählen
 
-<img src="/screenshots/app/25_gutschein_auswaehlen.png" alt="Gutschein auswählen" width="280" />
+<div className="device-gallery">
+  <figure className="device-figure">
+    <img src="/screenshots/app/25_gutschein_auswaehlen.png" alt="Gutschein auswählen (Handy)" width="220" />
+    <figcaption>Handy</figcaption>
+  </figure>
+  <figure className="device-figure">
+    <img src="/screenshots/app/tablet/25_gutschein_auswaehlen.png" alt="Gutschein auswählen (Tablet)" width="500" />
+    <figcaption>iPad</figcaption>
+  </figure>
+</div>
 
 **So kommen Sie hierher:**
 Tisch öffnen → Geschenk-Symbol (unten rechts im Bestellbereich)
@@ -242,12 +259,6 @@ Dieser Dialog zeigt Ihnen alle im System hinterlegten Gutscheine an, die Sie ein
 | **Gutschein-Zeile** | Tippen Sie auf eine Zeile, um diesen Gutschein anzuwenden |
 | **X-Symbol** | Schließt den Dialog ohne Änderungen |
 
-:::info Tablet-Ansicht
-<img src="/screenshots/app/tablet/25_gutschein_auswaehlen.png" alt="Gutschein auswählen (Tablet)" width="500" />
-
-Der Gutschein-Dialog erscheint zentriert über der Produktansicht. Im Hintergrund bleibt die Rechnungsübersicht links sichtbar.
-:::
-
 :::note Hinweis
 Falls die Liste leer ist, wurden noch keine Gutscheine im System angelegt. Gutscheine können über die Verwaltung im Backend erstellt werden.
 :::
@@ -256,7 +267,16 @@ Falls die Liste leer ist, wurden noch keine Gutscheine im System angelegt. Gutsc
 
 ## Produkte transferieren
 
-<img src="/screenshots/app/27_produkte_transferieren.png" alt="Produkte transferieren" width="280" />
+<div className="device-gallery">
+  <figure className="device-figure">
+    <img src="/screenshots/app/27_produkte_transferieren.png" alt="Produkte transferieren (Handy)" width="220" />
+    <figcaption>Handy</figcaption>
+  </figure>
+  <figure className="device-figure">
+    <img src="/screenshots/app/tablet/27_produkte_transferieren.png" alt="Produkte transferieren (Tablet)" width="500" />
+    <figcaption>iPad</figcaption>
+  </figure>
+</div>
 
 **So kommen Sie hierher:**
 Tab "Rechnung" → Button "Bearbeiten" → Button "Produkte transferieren" (blau)
@@ -284,12 +304,6 @@ Mit dieser Funktion können Sie Produkte von einem Tisch auf einen anderen versc
 | **Produkte transferieren** (grün) | Führt die Verschiebung durch |
 | **X-Symbol** | Schließt den Dialog ohne Änderungen |
 
-:::info Tablet-Ansicht
-<img src="/screenshots/app/tablet/27_produkte_transferieren.png" alt="Produkte transferieren (Tablet)" width="500" />
-
-Der Dialog wird als zentriertes Overlay angezeigt. Die Produktliste nutzt die größere Bildschirmfläche für bessere Übersichtlichkeit. Im Hintergrund bleibt der aktuelle Tisch mit der Rechnung sichtbar.
-:::
-
 :::tip
 Möchten Gäste von drinnen nach draußen wechseln? Wählen Sie einfach "Alle Produkte" und den neuen Tisch aus. Nach dem Transfer finden Sie die Produkte automatisch auf dem Zieltisch.
 :::
@@ -306,3 +320,56 @@ Möchten Gäste von drinnen nach draußen wechseln? Wählen Sie einfach "Alle Pr
 | Statistik-Symbol | Zeigt Umsatzstatistiken für diesen Tisch |
 | Geschenk-Icon | Gutschein auswählen |
 | Plus-Icon | Eigenes Produkt erstellen |
+
+---
+
+## Bearbeiten-Modus {#bearbeiten-modus}
+
+<div className="device-gallery">
+  <figure className="device-figure">
+    <img src="/screenshots/app/29_bearbeiten_modus.png" alt="Bearbeiten-Modus (Handy)" width="220" />
+    <figcaption>Handy</figcaption>
+  </figure>
+  <figure className="device-figure">
+    <img src="/screenshots/app/tablet/29_bearbeiten_modus.png" alt="Bearbeiten-Modus (Tablet)" width="500" />
+    <figcaption>iPad</figcaption>
+  </figure>
+</div>
+
+**Navigation:** Tischübersicht → Tisch antippen → Tab "Rechnung" → Button "Bearbeiten"
+
+Der Bearbeiten-Modus ermöglicht es Ihnen, bereits aufgenommene Bestellungen nachträglich zu korrigieren.
+
+**Was Sie hier tun können:**
+
+- **Mengen anpassen:** Anzahl einzelner Produkte erhöhen oder verringern
+- **Produkte entfernen:** Einzelne Artikel löschen
+- **Bestellung aufteilen:** Produkte zu einem anderen Tisch verschieben
+- **Fehler korrigieren:** Eingabefehler schnell beheben
+
+**Produktliste zeigt:**
+
+- Produktname
+- Menge (anpassbar mit +/-)
+- Einzelpreis
+- Gesamtpreis
+
+**Buttons bei jedem Produkt:**
+
+| Button | Farbe | Funktion |
+|--------|-------|----------|
+| **Minus (-)** | Rot | Menge um 1 verringern |
+| **Plus (+)** | Grün | Menge um 1 erhöhen |
+| **Stift-Symbol** | Grau | Weitere Bearbeitungsoptionen (Extras ändern) |
+
+**Buttons am unteren Bildschirmrand:**
+
+| Button | Farbe | Funktion |
+|--------|-------|----------|
+| **Alles löschen** | Weiß/Grau | ALLE Produkte entfernen |
+| **Produkte transferieren** | Blau | Produkte zu anderem Tisch verschieben |
+| **Bearbeiten beenden** | Rot | Modus schließen, Änderungen werden gespeichert |
+
+:::warning Wichtig
+Änderungen im Bearbeiten-Modus werden sofort gespeichert. Es gibt keine "Abbrechen"-Funktion. Entfernte Produkte müssen über "Hinzufügen" erneut hinzugefügt werden.
+:::

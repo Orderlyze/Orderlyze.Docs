@@ -23,7 +23,7 @@ Ein Bewirtungsbeleg ist eine spezielle Quittung für **Geschäftsessen**. Sie en
 
 Der Beleg wird mit **leeren Linien** für die handschriftliche Eintragung der Bewirtungsdaten (Anlass, Teilnehmer) gedruckt.
 
-![Bewirtungsbeleg drucken](/screenshots/funktionen/bewirtungsbeleg/1.jpg)
+<img src="/screenshots/funktionen/bewirtungsbeleg/1.jpg" alt="Bewirtungsbeleg drucken" width="320" />
 
 ---
 
@@ -37,7 +37,7 @@ Der Beleg wird mit **leeren Linien** für die handschriftliche Eintragung der Be
 6. Mit **Speichern** bestätigen
 7. Anschließend nach unten scrollen und den Beleg per E-Mail oder digitalem Teilen versenden
 
-![Bewirtungsdaten digital eingeben](/screenshots/funktionen/bewirtungsbeleg/2.jpg)
+<img src="/screenshots/funktionen/bewirtungsbeleg/2.jpg" alt="Bewirtungsdaten digital eingeben" width="320" />
 
 :::tip
 Variante A eignet sich, wenn die Daten direkt am Tisch handschriftlich nachgetragen werden sollen. Variante B ist ideal für die nachträgliche Abwicklung mit Geschäftskunden, die einen vollständig ausgefüllten Beleg per E-Mail erhalten möchten.

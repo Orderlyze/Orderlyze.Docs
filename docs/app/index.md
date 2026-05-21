@@ -16,7 +16,16 @@ searchTerms:
 
 # Orderlyze Bonier App
 
-<img src="/screenshots/app/02_table_overview.png" alt="Tischübersicht" width="280" />
+<div className="device-gallery">
+  <figure className="device-figure">
+    <img src="/screenshots/app/02_table_overview.png" alt="Tischübersicht (Handy)" width="220" />
+    <figcaption>Handy</figcaption>
+  </figure>
+  <figure className="device-figure">
+    <img src="/screenshots/app/tablet/02_table_overview.png" alt="Tischübersicht (Tablet)" width="500" />
+    <figcaption>iPad</figcaption>
+  </figure>
+</div>
 
 Die Orderlyze Bonier App ist Ihre zentrale Lösung für den Restaurantbetrieb auf Tablets und Smartphones.
 
@@ -26,7 +35,7 @@ Die Orderlyze Bonier App ist Ihre zentrale Lösung für den Restaurantbetrieb au
 
 | Bereich | Beschreibung |
 |---------|--------------|
-| [Login](/app/login) | Anmeldung & Demo-Modus |
+| [Login](/app/login) | Anmeldung in der App |
 | [Tischübersicht](/app/tischuebersicht) | Hauptansicht mit allen Tischen |
 | [Navigation](/app/navigation) | Seitenmenü & alle Bereiche |
 

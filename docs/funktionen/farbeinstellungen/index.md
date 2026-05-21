@@ -23,18 +23,18 @@ Mit Farbeinstellungen lassen sich Produkte und Produktkategorien optisch hervorh
 2. **Einstellungen** auswählen
 3. Auf **Produktfarben** tippen
 
-![Menü öffnen](/screenshots/funktionen/farbeinstellungen/1.png)
+<img src="/screenshots/funktionen/farbeinstellungen/1.png" alt="Menü öffnen" width="320" />
 
 4. Mit dem **Pfeil-Symbol nach unten** lässt sich eine Produktkategorie aufklappen, um Unterkategorien und Produkte zu sehen
 
-![Kategorien aufklappen](/screenshots/funktionen/farbeinstellungen/2.png)
+<img src="/screenshots/funktionen/farbeinstellungen/2.png" alt="Kategorien aufklappen" width="320" />
 
 5. Beim gewünschten Eintrag auf **Farbe auswählen** tippen und im Popup die gewünschte Farbe wählen
 
-![Farbe auswählen](/screenshots/funktionen/farbeinstellungen/3.png)
+<img src="/screenshots/funktionen/farbeinstellungen/3.png" alt="Farbe auswählen" width="320" />
 
 6. Mit dem **runden Pfeil-Symbol** kann ein Produkt oder eine Gruppe auf **Weiß** (= keine Farbe) zurückgesetzt werden
 7. Oben rechts auf das **weiße Speichern-Symbol** tippen
 8. Über das Menü zurück zur Haupt-Ansicht — beim nächsten Bonier-Vorgang erscheinen die Produkte in den gewählten Farben
 
-![Speichern](/screenshots/funktionen/farbeinstellungen/4.png)
+<img src="/screenshots/funktionen/farbeinstellungen/4.png" alt="Speichern" width="320" />

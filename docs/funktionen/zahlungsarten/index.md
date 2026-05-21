@@ -28,13 +28,13 @@ In der Rechnungsansicht stehen zwei Buttons zur Auswahl:
 - **Gesamt bezahlen** — die komplette Rechnung wird in einem Vorgang bezahlt
 - **Getrennt bezahlen** — die Positionen werden auf mehrere Personen aufgeteilt
 
-![Gesamt oder getrennt bezahlen](/screenshots/funktionen/zahlungsarten/1.jpg)
+<img src="/screenshots/funktionen/zahlungsarten/1.jpg" alt="Gesamt oder getrennt bezahlen" width="320" />
 
 ## Getrennt bezahlen
 
 Bei der getrennten Bezahlung wählst du auf der linken Seite die Produkte für die erste Person an. Anschließend klickst du auf **Person 1 bezahlen**.
 
-![Person auswählen](/screenshots/funktionen/zahlungsarten/2.jpg)
+<img src="/screenshots/funktionen/zahlungsarten/2.jpg" alt="Person auswählen" width="320" />
 
 ## Zahlungsart wählen
 
@@ -46,12 +46,12 @@ Im Bezahl-Popup wählst du links unten die gewünschte Zahlungsart:
 - **Überweisung**
 - **Gutschein**
 
-![Zahlungsart wählen](/screenshots/funktionen/zahlungsarten/3.jpg)
+<img src="/screenshots/funktionen/zahlungsarten/3.jpg" alt="Zahlungsart wählen" width="320" />
 
 ## Rabatt gewähren (optional)
 
 Unterhalb der Zahlungsart kannst du einen Rabatt anwenden. Vorgegebene Rabatt-Stufen stehen zur Auswahl, oder du wählst **Anderer**, um einen individuellen Betrag einzugeben.
 
-![Rabatt](/screenshots/funktionen/zahlungsarten/4.jpg)
+<img src="/screenshots/funktionen/zahlungsarten/4.jpg" alt="Rabatt" width="320" />
 
 Nach Bestätigung wird die Zahlung verbucht und der Beleg gedruckt bzw. digital ausgestellt.

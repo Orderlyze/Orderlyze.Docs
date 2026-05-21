@@ -1,6 +1,6 @@
 ---
 id: app-navigation
-title: Navigation
+title: Seitenmenü
 description: Seitenmenü und Navigation in der Orderlyze Mobile App
 type: reference
 platform: app

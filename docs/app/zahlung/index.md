@@ -14,14 +14,22 @@ searchTerms:
   - getrennt zahlen
   - bar
   - karte
-  - rechnungsuebersicht
 ---
 
 # Zahlung
 
-<img src="/screenshots/app/17_zahlungs_dialog.png" alt="Zahlungs-Dialog" width="280" />
+<div className="device-gallery">
+  <figure className="device-figure">
+    <img src="/screenshots/app/17_zahlungs_dialog.png" alt="Zahlungs-Dialog (Handy)" width="220" />
+    <figcaption>Handy</figcaption>
+  </figure>
+  <figure className="device-figure">
+    <img src="/screenshots/app/tablet/17_zahlungs_dialog.png" alt="Zahlungs-Dialog (Tablet)" width="500" />
+    <figcaption>iPad</figcaption>
+  </figure>
+</div>
 
-Der Zahlungs-Dialog ist der zentrale Ort, um eine Bestellung abzuschliessen und die Bezahlung entgegenzunehmen. Hier haben Sie alle Optionen, um den Zahlungsvorgang flexibel zu gestalten.
+Der Zahlungs-Dialog ist der zentrale Ort, um eine Bestellung abzuschliessen und die Bezahlung entgegenzunehmen. Hier haben Sie alle Optionen, um den Zahlungsvorgang flexibel zu gestalten. Auf dem iPad erscheint der Dialog als übersichtliches Popup, während der Tischplan im Hintergrund sichtbar bleibt.
 
 ---
 
@@ -46,17 +54,20 @@ Der Zahlungs-Dialog ist der zentrale Ort, um eine Bestellung abzuschliessen und 
 | **OK** | Schliesst die Zahlung ab |
 | **Zwischenrechnung** | Erstellt eine Teilrechnung ohne abzuschliessen |
 
-:::info Tablet-Ansicht
-Auf dem iPad erscheint der Zahlungs-Dialog als übersichtliches Popup in der Bildschirmmitte. Der Tischplan bleibt im Hintergrund sichtbar.
-
-<img src="/screenshots/app/tablet/17_zahlungs_dialog.png" alt="Zahlungs-Dialog (Tablet)" width="500" />
-:::
-
 ---
 
 ## Trinkgeld eingeben
 
-<img src="/screenshots/app/22_trinkgeld_eingeben.png" alt="Trinkgeld eingeben" width="280" />
+<div className="device-gallery">
+  <figure className="device-figure">
+    <img src="/screenshots/app/22_trinkgeld_eingeben.png" alt="Trinkgeld eingeben (Handy)" width="220" />
+    <figcaption>Handy</figcaption>
+  </figure>
+  <figure className="device-figure">
+    <img src="/screenshots/app/tablet/22_trinkgeld_eingeben.png" alt="Trinkgeld eingeben (Tablet)" width="500" />
+    <figcaption>iPad</figcaption>
+  </figure>
+</div>
 
 **Navigation:** Zahlungs-Dialog → **Trinkgeld** tippen
 
@@ -77,15 +88,20 @@ Das System berechnet automatisch das Trinkgeld aus der Differenz zwischen dem ei
 | **Ok** | Bestätigt den Betrag und berechnet das Trinkgeld |
 | **Clear** | Löscht die Eingabe |
 
-:::info Tablet-Ansicht
-<img src="/screenshots/app/tablet/22_trinkgeld_eingeben.png" alt="Trinkgeld eingeben (Tablet)" width="500" />
-:::
-
 ---
 
 ## Gutschein einlösen
 
-<img src="/screenshots/app/26_gutschein_einloesen.png" alt="Gutschein einlösen" width="280" />
+<div className="device-gallery">
+  <figure className="device-figure">
+    <img src="/screenshots/app/26_gutschein_einloesen.png" alt="Gutschein einlösen (Handy)" width="220" />
+    <figcaption>Handy</figcaption>
+  </figure>
+  <figure className="device-figure">
+    <img src="/screenshots/app/tablet/26_gutschein_einloesen.png" alt="Gutschein einlösen (Tablet)" width="500" />
+    <figcaption>iPad</figcaption>
+  </figure>
+</div>
 
 **Navigation:** Zahlungs-Dialog → **Gutschein einlösen**
 
@@ -108,17 +124,20 @@ Hier können Sie Gutschein-Codes Ihrer Gäste einlösen. Der Gutscheinwert wird 
 | **Einlösen** | Bestätigt den Code und zieht den Wert ab |
 | **X-Symbol** | Schliesst den Dialog ohne Änderungen |
 
-:::info Tablet-Ansicht
-Der Dialog wird als zentriertes Overlay über dem Split-View-Layout angezeigt.
-
-<img src="/screenshots/app/tablet/26_gutschein_einloesen.png" alt="Gutschein einlösen (Tablet)" width="500" />
-:::
-
 ---
 
 ## Getrennt Bezahlen
 
-<img src="/screenshots/app/34_getrennt_zahlen.png" alt="Getrennt Bezahlen" width="280" />
+<div className="device-gallery">
+  <figure className="device-figure">
+    <img src="/screenshots/app/34_getrennt_zahlen.png" alt="Getrennt Bezahlen (Handy)" width="220" />
+    <figcaption>Handy</figcaption>
+  </figure>
+  <figure className="device-figure">
+    <img src="/screenshots/app/tablet/34_getrennt_zahlen.png" alt="Getrennt Bezahlen (Tablet)" width="500" />
+    <figcaption>iPad</figcaption>
+  </figure>
+</div>
 
 **Navigation:** Tischübersicht → Tisch antippen → Tab "Rechnung" → **Getrennt Bezahlen**
 
@@ -153,12 +172,6 @@ Dieser Dialog ermöglicht es Ihnen, eine Rechnung auf mehrere Gäste aufzuteilen
 - Bei grösseren Gruppen arbeiten Sie am besten Person für Person ab
 - Der Dialog zeigt immer die aktuelle Summe für jede Person an
 
-:::info Tablet-Ansicht
-Auf dem iPad wird dieser Dialog als Overlay über dem Split-View Layout angezeigt. Im Hintergrund bleibt die Tischübersicht sichtbar.
-
-<img src="/screenshots/app/tablet/34_getrennt_zahlen.png" alt="Getrennt Bezahlen (Tablet)" width="500" />
-:::
-
 ---
 
 ## Zwischenrechnung
@@ -169,54 +182,4 @@ Tippen Sie auf **Zwischenrechnung**, um eine Teilrechnung zu erstellen, ohne die
 
 ---
 
-## Rechnungsübersicht {#rechnungsuebersicht}
-
-<img src="/screenshots/app/05_invoice_overview.png" alt="Rechnungsübersicht" width="280" />
-
-**Navigation:** Menü-Symbol (drei Striche) → **Rechnungsübersicht**
-
-Die Rechnungsübersicht ist Ihr digitales Kassenbuch. Hier finden Sie alle abgeschlossenen Rechnungen des Tages oder eines beliebigen Zeitraums.
-
-**Funktionen:**
-
-| Element | Beschreibung |
-|---------|--------------|
-| **Datumsfilter** | Wählen Sie ein bestimmtes Datum, um nur Rechnungen dieses Tages anzuzeigen |
-| **Export-Button** | Exportieren Sie Ihre Rechnungsdaten für die Buchhaltung |
-| **Rechnungsliste** | Alle Rechnungen mit Nummer, Datum, Uhrzeit und Betrag |
-
-**Informationen pro Rechnung:**
-
-| Spalte | Beschreibung |
-|--------|--------------|
-| **Nr.** (blau) | Die fortlaufende Rechnungsnummer |
-| **Datum** | Datum der Rechnung |
-| **Uhrzeit** | Uhrzeit der Erstellung |
-| **Mitarbeiter** | Name des Mitarbeiters, der abkassiert hat |
-| **Betrag** | Gesamtbetrag der Rechnung |
-
-Tippen Sie auf eine Rechnung, um Details anzuzeigen oder sie erneut zu drucken.
-
-:::info Tablet-Ansicht
-Auf dem iPad haben Sie eine breitere Listenansicht mit mehr Informationen pro Rechnung ohne Scrollen.
-
-<img src="/screenshots/app/tablet/05_invoice_overview.png" alt="Rechnungsübersicht (Tablet)" width="500" />
-:::
-
----
-
-## Rechnungsdetail
-
-<img src="/screenshots/app/35_rechnungsuebersicht.png" alt="Rechnungsdetail" width="280" />
-
-**Navigation:** Menü → Rechnungsübersicht → Auf eine Rechnung tippen
-
-In der Detailansicht sehen Sie alle Positionen einer abgeschlossenen Rechnung. Diese Ansicht ist nützlich für:
-
-- Nachverfolgung einzelner Bestellungen
-- Erneutes Drucken eines Belegs für den Gast
-- Kontrolle der Buchhaltung
-
-:::info Tablet-Ansicht
-<img src="/screenshots/app/tablet/35_rechnungsuebersicht.png" alt="Rechnungsdetail (Tablet)" width="500" />
-:::
+Eine Übersicht aller abgeschlossenen Rechnungen finden Sie unter [Rechnungsübersicht](/app/rechnungsuebersicht).
