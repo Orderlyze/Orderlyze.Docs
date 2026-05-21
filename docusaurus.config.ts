@@ -14,7 +14,7 @@ const config: Config = {
     { tagName: 'meta', attributes: { name: 'apple-mobile-web-app-title', content: 'Orderlyze Hilfe' } },
   ],
 
-  url: 'https://docs.orderlyze.com',
+  url: 'https://hilfe.orderlyze.com',
   baseUrl: '/',
 
   organizationName: 'orderlyze',

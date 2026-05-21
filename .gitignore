@@ -432,3 +432,6 @@ nul
 
 # WoZTell data (enthält sensible Kundendaten)
 woztell-data/
+
+# DNS-Zonen-Backups (lokal)
+dns-zone-backup-*.json
