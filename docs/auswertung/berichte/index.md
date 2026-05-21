@@ -17,7 +17,7 @@ searchTerms:
 
 # Berichte
 
-Über die Auswertungen in der linken Sidebar erstellen Sie Berichte für Ihre Buchhaltung und Steuerberatung. Die häufigsten Berichte sind in einer eigenen Sidebar-Sektion aufgeführt, weitere finden Sie unter [Weitere Berichte](/auswertungen/weitere-berichte).
+Über die Auswertungen in der linken Sidebar erstellen Sie Berichte für Ihre Buchhaltung und Steuerberatung. Die häufigsten Berichte sind in einer eigenen Sidebar-Sektion aufgeführt, weitere finden Sie unter [Weitere Berichte](/auswertung/weitere-berichte).
 
 ## So erstellst du einen Monatsbericht
 
@@ -44,6 +44,6 @@ Unter **Weitere Berichte** in der Sidebar finden Sie spezialisierte Auswertungen
 2. **Zeitraum** festlegen (für einen einzelnen Tag das Datum zweimal anklicken)
 3. **PDF** oder **CSV** herunterladen
 
-Eine ausführliche Beschreibung der einzelnen Berichte finden Sie unter [Weitere Berichte](/auswertungen/weitere-berichte).
+Eine ausführliche Beschreibung der einzelnen Berichte finden Sie unter [Weitere Berichte](/auswertung/weitere-berichte).
 
 ![Weitere Berichte](/screenshots/berichte/weitere-berichte.png)

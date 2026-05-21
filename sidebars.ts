@@ -170,7 +170,6 @@ const sidebars: SidebarsConfig = {
         'app/tischplan/app-tischplan',
         'app/kartenzahlung/app-kartenzahlung',
         'app/einstellungen/app-einstellungen',
-        'app/logs/app-logs',
       ],
     },
 

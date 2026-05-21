@@ -30,4 +30,4 @@ Spezifische Einstellungen für Rechnungen an **Stammkunden** und **Firmenkunden*
 
 Änderungen mit **Speichern** übernehmen.
 
-Siehe auch: [Kunden](/verwaltung/kunden) — dort legen Sie Stammkunden an, an die diese Rechnungen ausgestellt werden.
+Siehe auch: [Kunden](/personal/kunden) — dort legen Sie Stammkunden an, an die diese Rechnungen ausgestellt werden.

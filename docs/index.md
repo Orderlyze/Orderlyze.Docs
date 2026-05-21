@@ -24,9 +24,7 @@ Einrichtung Ihres Orderlyze-Systems.
 
 | Bereich | Beschreibung |
 |---------|--------------|
-| [Profil](/erste-schritte/profil) | Unternehmensdaten & Benutzereinstellungen |
-| [Räume & Tische](/erste-schritte/raeume) | Raumplan einrichten |
-| [Tische](/erste-schritte/tische) | Tische verwalten |
+| [Erste Schritte](/erste-schritte) | Profil, Räume, Tische & komplette Einrichtung |
 
 ---
 
@@ -83,8 +81,8 @@ Systemkonfiguration.
 
 | Bereich | Beschreibung |
 |---------|--------------|
-| [Einstellungen](/einstellungen/allgemein) | Allgemeine Konfiguration |
-| [Weitere Einstellungen](/einstellungen/weitere-einstellungen) | Erweiterte Optionen |
+| [Einstellungen](/einstellungen/unternehmen) | Allgemeine Konfiguration |
+| [Weitere Einstellungen](/einstellungen/features) | Erweiterte Optionen |
 
 ---
 

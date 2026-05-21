@@ -76,7 +76,7 @@ const config: Config = {
         {
           title: 'Dokumentation',
           items: [
-            { label: 'Erste Schritte', to: '/erste-schritte/profil' },
+            { label: 'Erste Schritte', to: '/erste-schritte' },
             { label: 'Stammdaten', to: '/stammdaten/kategorien' },
             { label: 'Auswertung', to: '/auswertung/berichte' },
           ],
@@ -85,7 +85,7 @@ const config: Config = {
           title: 'Hilfe',
           items: [
             { label: 'Problemlösung', to: '/troubleshooting/drucker-druckt-nicht' },
-            { label: 'FAQ', to: '/faq/wie-exportiere-ich-daten' },
+            { label: 'FAQ', to: '/category/faq' },
           ],
         },
         {
