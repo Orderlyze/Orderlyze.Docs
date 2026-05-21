@@ -21,7 +21,7 @@ searchTerms:
 <div className="device-gallery">
   <figure className="device-figure">
     <img src="/screenshots/app/tablet/11_kartenzahlung.png" alt="Kartenzahlung (Tablet)" width="500" />
-    <figcaption>iPad</figcaption>
+    <figcaption>Tablet</figcaption>
   </figure>
 </div>
 
@@ -48,7 +48,7 @@ Richten Sie EC-Karten- und Kreditkartenzahlungen für Ihre Gäste ein.
   </figure>
   <figure className="device-figure">
     <img src="/screenshots/app/tablet/20_terminal_hinzufuegen.png" alt="Terminal hinzufügen (Tablet)" width="500" />
-    <figcaption>iPad</figcaption>
+    <figcaption>Tablet</figcaption>
   </figure>
 </div>
 

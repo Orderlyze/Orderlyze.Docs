@@ -23,7 +23,7 @@ searchTerms:
   </figure>
   <figure className="device-figure">
     <img src="/screenshots/app/tablet/09_tischplan_editor.png" alt="Tischplan Editor (Tablet)" width="500" />
-    <figcaption>iPad</figcaption>
+    <figcaption>Tablet</figcaption>
   </figure>
 </div>
 
@@ -108,7 +108,7 @@ Benennen Sie Ihre Tische eindeutig, damit Ihre Mitarbeiter sie leicht finden (z.
   </figure>
   <figure className="device-figure">
     <img src="/screenshots/app/tablet/10_tisch_editor.png" alt="Tisch Editor (Tablet)" width="500" />
-    <figcaption>iPad</figcaption>
+    <figcaption>Tablet</figcaption>
   </figure>
 </div>
 

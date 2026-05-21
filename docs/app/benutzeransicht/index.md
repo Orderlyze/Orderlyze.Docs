@@ -23,7 +23,7 @@ searchTerms:
   </figure>
   <figure className="device-figure">
     <img src="/screenshots/app/tablet/07_user_view.png" alt="Benutzeransicht (Tablet)" width="500" />
-    <figcaption>iPad</figcaption>
+    <figcaption>Tablet</figcaption>
   </figure>
 </div>
 

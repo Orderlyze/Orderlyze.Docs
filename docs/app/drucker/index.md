@@ -30,7 +30,7 @@ In diesem Dialog wählen Sie, wie Sie Ihren Drucker verbinden möchten.
   </figure>
   <figure className="device-figure">
     <img src="/screenshots/app/tablet/30_drucker_auswahl.png" alt="Drucker-Auswahl (Tablet)" width="500" />
-    <figcaption>iPad</figcaption>
+    <figcaption>Tablet</figcaption>
   </figure>
 </div>
 
@@ -51,7 +51,7 @@ In diesem Dialog wählen Sie, wie Sie Ihren Drucker verbinden möchten.
   </figure>
   <figure className="device-figure">
     <img src="/screenshots/app/tablet/32_cloud_drucker_dialog.png" alt="Cloud-Drucker (Tablet)" width="500" />
-    <figcaption>iPad</figcaption>
+    <figcaption>Tablet</figcaption>
   </figure>
 </div>
 
@@ -89,7 +89,7 @@ Falls Ihr Drucker nicht in der Liste erscheint, prüfen Sie ob er eingeschaltet 
 <div className="device-gallery">
   <figure className="device-figure">
     <img src="/screenshots/app/tablet/31_star_drucker_hinzufuegen.png" alt="Star Drucker hinzufügen (Tablet)" width="500" />
-    <figcaption>iPad</figcaption>
+    <figcaption>Tablet</figcaption>
   </figure>
 </div>
 
@@ -120,7 +120,7 @@ Star-Drucker sind professionelle Bondrucker für die Gastronomie. Sie können au
   </figure>
   <figure className="device-figure">
     <img src="/screenshots/app/tablet/33_bluetooth_drucker_hinzufuegen.png" alt="Bluetooth Drucker (Tablet)" width="500" />
-    <figcaption>iPad</figcaption>
+    <figcaption>Tablet</figcaption>
   </figure>
 </div>
 
@@ -151,7 +151,7 @@ Verbinden Sie einen portablen Bluetooth-Drucker für den mobilen Einsatz (z.B. a
   </figure>
   <figure className="device-figure">
     <img src="/screenshots/app/tablet/36_drucker_fehler_dialog.png" alt="Drucker-Fehler (Tablet)" width="500" />
-    <figcaption>iPad</figcaption>
+    <figcaption>Tablet</figcaption>
   </figure>
 </div>
 

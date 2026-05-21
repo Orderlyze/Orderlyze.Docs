@@ -22,7 +22,7 @@ searchTerms:
   </figure>
   <figure className="device-figure">
     <img src="/screenshots/app/tablet/01_login.png" alt="Login Screen (Tablet)" width="500" />
-    <figcaption>iPad</figcaption>
+    <figcaption>Tablet</figcaption>
   </figure>
 </div>
 

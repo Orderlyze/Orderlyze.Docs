@@ -27,7 +27,7 @@ searchTerms:
   </figure>
   <figure className="device-figure">
     <img src="/screenshots/app/tablet/04_table_detail.png" alt="Tisch-Detailansicht (Tablet)" width="500" />
-    <figcaption>iPad</figcaption>
+    <figcaption>Tablet</figcaption>
   </figure>
 </div>
 
@@ -89,7 +89,7 @@ Tippen Sie mehrfach auf dasselbe Produkt, um die Menge zu erhöhen. Wechseln Sie
   </figure>
   <figure className="device-figure">
     <img src="/screenshots/app/tablet/21_extras_popup.png" alt="Extras hinzufügen (Tablet)" width="500" />
-    <figcaption>iPad</figcaption>
+    <figcaption>Tablet</figcaption>
   </figure>
 </div>
 
@@ -138,7 +138,7 @@ Die verfügbaren Extras werden in der Verwaltung (Web-Portal) konfiguriert. Fall
   </figure>
   <figure className="device-figure">
     <img src="/screenshots/app/tablet/23_gang_wechseln.png" alt="Gang wechseln (Tablet)" width="500" />
-    <figcaption>iPad</figcaption>
+    <figcaption>Tablet</figcaption>
   </figure>
 </div>
 
@@ -179,7 +179,7 @@ Nutzen Sie Gänge, um Vorspeisen, Hauptgerichte und Desserts zu organisieren. Di
   </figure>
   <figure className="device-figure">
     <img src="/screenshots/app/tablet/24_custom_product.png" alt="Eigenes Produkt erstellen (Tablet)" width="500" />
-    <figcaption>iPad</figcaption>
+    <figcaption>Tablet</figcaption>
   </figure>
 </div>
 
@@ -235,7 +235,7 @@ Achten Sie darauf, den richtigen Steuersatz zu wählen (z.B. reduzierter Steuers
   </figure>
   <figure className="device-figure">
     <img src="/screenshots/app/tablet/25_gutschein_auswaehlen.png" alt="Gutschein auswählen (Tablet)" width="500" />
-    <figcaption>iPad</figcaption>
+    <figcaption>Tablet</figcaption>
   </figure>
 </div>
 
@@ -274,7 +274,7 @@ Falls die Liste leer ist, wurden noch keine Gutscheine im System angelegt. Gutsc
   </figure>
   <figure className="device-figure">
     <img src="/screenshots/app/tablet/27_produkte_transferieren.png" alt="Produkte transferieren (Tablet)" width="500" />
-    <figcaption>iPad</figcaption>
+    <figcaption>Tablet</figcaption>
   </figure>
 </div>
 
@@ -332,7 +332,7 @@ Möchten Gäste von drinnen nach draußen wechseln? Wählen Sie einfach "Alle Pr
   </figure>
   <figure className="device-figure">
     <img src="/screenshots/app/tablet/29_bearbeiten_modus.png" alt="Bearbeiten-Modus (Tablet)" width="500" />
-    <figcaption>iPad</figcaption>
+    <figcaption>Tablet</figcaption>
   </figure>
 </div>
 

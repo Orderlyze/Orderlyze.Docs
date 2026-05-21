@@ -22,7 +22,7 @@ searchTerms:
   </figure>
   <figure className="device-figure">
     <img src="/screenshots/app/tablet/18_tagesabschluss.png" alt="Tagesabschluss (Tablet)" width="500" />
-    <figcaption>iPad</figcaption>
+    <figcaption>Tablet</figcaption>
   </figure>
 </div>
 

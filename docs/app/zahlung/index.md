@@ -25,7 +25,7 @@ searchTerms:
   </figure>
   <figure className="device-figure">
     <img src="/screenshots/app/tablet/17_zahlungs_dialog.png" alt="Zahlungs-Dialog (Tablet)" width="500" />
-    <figcaption>iPad</figcaption>
+    <figcaption>Tablet</figcaption>
   </figure>
 </div>
 
@@ -65,7 +65,7 @@ Der Zahlungs-Dialog ist der zentrale Ort, um eine Bestellung abzuschliessen und 
   </figure>
   <figure className="device-figure">
     <img src="/screenshots/app/tablet/22_trinkgeld_eingeben.png" alt="Trinkgeld eingeben (Tablet)" width="500" />
-    <figcaption>iPad</figcaption>
+    <figcaption>Tablet</figcaption>
   </figure>
 </div>
 
@@ -99,7 +99,7 @@ Das System berechnet automatisch das Trinkgeld aus der Differenz zwischen dem ei
   </figure>
   <figure className="device-figure">
     <img src="/screenshots/app/tablet/26_gutschein_einloesen.png" alt="Gutschein einlösen (Tablet)" width="500" />
-    <figcaption>iPad</figcaption>
+    <figcaption>Tablet</figcaption>
   </figure>
 </div>
 
@@ -135,7 +135,7 @@ Hier können Sie Gutschein-Codes Ihrer Gäste einlösen. Der Gutscheinwert wird 
   </figure>
   <figure className="device-figure">
     <img src="/screenshots/app/tablet/34_getrennt_zahlen.png" alt="Getrennt Bezahlen (Tablet)" width="500" />
-    <figcaption>iPad</figcaption>
+    <figcaption>Tablet</figcaption>
   </figure>
 </div>
 

@@ -23,7 +23,7 @@ searchTerms:
   </figure>
   <figure className="device-figure">
     <img src="/screenshots/app/tablet/05_invoice_overview.png" alt="Rechnungsübersicht (Tablet)" width="500" />
-    <figcaption>iPad</figcaption>
+    <figcaption>Tablet</figcaption>
   </figure>
 </div>
 
@@ -62,7 +62,7 @@ Tippen Sie auf eine Rechnung, um Details anzuzeigen oder sie erneut zu drucken.
   </figure>
   <figure className="device-figure">
     <img src="/screenshots/app/tablet/35_rechnungsuebersicht.png" alt="Rechnungsdetail (Tablet)" width="500" />
-    <figcaption>iPad</figcaption>
+    <figcaption>Tablet</figcaption>
   </figure>
 </div>
 

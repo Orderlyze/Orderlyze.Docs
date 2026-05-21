@@ -28,7 +28,7 @@ searchTerms:
   </figure>
   <figure className="device-figure">
     <img src="/screenshots/app/tablet/06_settings.png" alt="Einstellungen (Tablet)" width="500" />
-    <figcaption>iPad</figcaption>
+    <figcaption>Tablet</figcaption>
   </figure>
 </div>
 
@@ -60,7 +60,7 @@ Wenn Sie bemerken, dass neue Produkte oder Preisänderungen nicht in der App ers
   </figure>
   <figure className="device-figure">
     <img src="/screenshots/app/tablet/14_druckereinstellungen.png" alt="Druckereinstellungen (Tablet)" width="500" />
-    <figcaption>iPad</figcaption>
+    <figcaption>Tablet</figcaption>
   </figure>
 </div>
 
@@ -103,7 +103,7 @@ Die Druckereinstellungen legen nur den Druckertyp fest. Die eigentliche Verbindu
   </figure>
   <figure className="device-figure">
     <img src="/screenshots/app/tablet/13_rechtliches.png" alt="Rechtliches (Tablet)" width="500" />
-    <figcaption>iPad</figcaption>
+    <figcaption>Tablet</figcaption>
   </figure>
 </div>
 
