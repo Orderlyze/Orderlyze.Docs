@@ -1,33 +1,57 @@
 ---
 id: einstellungen-kundenrechnungen
 title: Kundenrechnungen
-description: Einstellungen für Rechnungen an Stammkunden
+description: Ihre Orderlyze-Lizenzrechnungen ansehen und herunterladen
 type: reference
 platform: web
 sidebar_position: 5
-navigation: "Test Account → Einstellungen → Kundenrechnungen"
+navigation: "Menü (oben rechts) → Einstellungen → Kundenrechnungen"
 searchTerms:
   - kundenrechnungen
-  - stammkunden
-  - b2b
-  - firmenkunden
+  - lizenzrechnung
+  - orderlyze rechnung
+  - abrechnung
+  - lizenz
+  - rechnung herunterladen
 ---
 
 # Kundenrechnungen
 
-**Navigation:** Test-Account-Menü (oben rechts) → **Einstellungen** → **Kundenrechnungen**
+**Navigation:** Menü (oben rechts) → **Einstellungen** → **Kundenrechnungen**
 
-Spezifische Einstellungen für Rechnungen an **Stammkunden** und **Firmenkunden**. Diese Rechnungen unterscheiden sich vom Standard-Beleg, weil sie z.B. Kundennummer, Umsatzsteuer-ID und längere Zahlungsfristen enthalten.
+Hier sehen Sie alle **Rechnungen von Orderlyze an Ihr Unternehmen** — also die monatlichen Abrechnungen Ihrer Orderlyze-Lizenz. Sie können jede Rechnung einzeln als PDF herunterladen, z.B. für Ihre Buchhaltung oder den Steuerberater.
 
-![Kundenrechnungen Einstellungen](/screenshots/admin/einstellungen-kundenrechnungen.png)
+![Kundenrechnungen Übersicht](/screenshots/einstellungen/kundenrechnungen/1.png)
 
-## Typische Optionen
+## Ihre aktuellen Lizenzen
 
-- **Eigenes Nummernformat** für Kundenrechnungen
-- **Zahlungsbedingungen** (Zahlungsziel, Skonto)
-- **Standard-Rechnungstexte** für B2B-Rechnungen
-- **Anzeige der Umsatzsteuer-ID** des Kunden
+Oben wird Ihre **aktuelle Lizenz** angezeigt — z.B. _Wiederkehrende Rechnung_ mit Startdatum und dem aktuellen Monatsbetrag.
 
-Änderungen mit **Speichern** übernehmen.
+## Rechnungstabelle
 
-Siehe auch: [Kunden](/personal/kunden) — dort legen Sie Stammkunden an, an die diese Rechnungen ausgestellt werden.
+Darunter listet die Tabelle alle bisher ausgestellten Lizenzrechnungen:
+
+| Spalte | Beschreibung |
+|--------|--------------|
+| **Rechnungsnummer** | Eindeutige Orderlyze-Rechnungsnummer (z.B. `RE26-OL718`) |
+| **Betrag** | Bruttobetrag der Rechnung in € |
+| **Rechnungsdatum** | Datum der Ausstellung |
+| **Fällig am** | Zahlungsziel |
+| **Status** | `Bezahlt` oder `Offen` |
+| **Download-Symbol** (rechts) | PDF der Rechnung herunterladen |
+
+## Rechnung herunterladen
+
+1. Suchen Sie in der Tabelle die gewünschte Rechnung
+2. Tippen Sie rechts in der Zeile auf das **Download-Symbol**
+3. Die PDF wird in Ihrem Browser geöffnet bzw. gespeichert
+
+Über die **Seitennummerierung** unten rechts navigieren Sie zu älteren Rechnungen.
+
+:::tip Buchhaltung
+Laden Sie Ihre Lizenzrechnungen monatlich herunter und reichen Sie sie bei Ihrem Steuerberater ein. Die Beträge sind als Betriebsausgabe abzugsfähig.
+:::
+
+:::info Abgrenzung
+Diese Seite zeigt **Rechnungen von Orderlyze an Sie** (Ihre Lizenzgebühr). Rechnungen, die _Sie_ an _Ihre_ Gäste ausstellen, finden Sie unter [Auswertung & Berichte → Weitere Berichte → Rechnungsbericht](/auswertung/weitere-berichte/rechnungsbericht).
+:::

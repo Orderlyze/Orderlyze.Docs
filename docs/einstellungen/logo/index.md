@@ -5,7 +5,7 @@ description: Firmenlogo hochladen
 type: reference
 platform: web
 sidebar_position: 3
-navigation: "Test Account → Einstellungen → Logo"
+navigation: "Menü → Einstellungen → Logo"
 searchTerms:
   - logo
   - bild
@@ -15,7 +15,7 @@ searchTerms:
 
 # Logo
 
-**Navigation:** Test-Account-Menü (oben rechts) → **Einstellungen** → **Logo**
+**Navigation:** Menü (oben rechts) → **Einstellungen** → **Logo**
 
 Auf dieser Seite laden Sie das Firmenlogo hoch. Das Logo erscheint auf Rechnungen und Belegen.
 

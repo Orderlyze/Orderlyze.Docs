@@ -5,7 +5,7 @@ description: Signaturerstellungseinheit, Nullbelege und DEP-Exporte gemäß RKSV
 type: reference
 platform: web
 sidebar_position: 1
-navigation: "Test Account → Einstellungen → Finanzamt"
+navigation: "Menü → Einstellungen → Finanzamt"
 searchTerms:
   - rksv
   - registrierkassensicherheitsverordnung
@@ -22,7 +22,7 @@ searchTerms:
 
 # Finanzamt — Österreich (RKSV)
 
-**Navigation:** Test-Account-Menü (oben rechts) → **Einstellungen** → **Finanzamt**
+**Navigation:** Menü (oben rechts) → **Einstellungen** → **Finanzamt**
 
 Diese Seite zeigt den Status Ihrer Kasse gemäß der österreichischen **Registrierkassensicherheitsverordnung (RKSV)**. Orderlyze erfüllt alle gesetzlichen Anforderungen automatisch — Sie sehen hier nur den aktuellen Status und können die gesetzlich vorgeschriebenen Exporte für das Finanzamt herunterladen.
 

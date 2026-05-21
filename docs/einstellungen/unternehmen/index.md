@@ -5,7 +5,7 @@ description: Unternehmensstammdaten verwalten
 type: reference
 platform: web
 sidebar_position: 1
-navigation: "Test Account → Einstellungen → Unternehmen"
+navigation: "Menü → Einstellungen → Unternehmen"
 searchTerms:
   - unternehmen
   - firma
@@ -17,7 +17,7 @@ searchTerms:
 
 # Unternehmen
 
-**Navigation:** Test-Account-Menü (oben rechts) → **Einstellungen** → **Unternehmen**
+**Navigation:** Menü (oben rechts) → **Einstellungen** → **Unternehmen**
 
 Auf dieser Seite hinterlegen Sie die Stammdaten Ihres Unternehmens. Diese Angaben erscheinen auf Rechnungen und werden vom System für Exporte und steuerliche Auswertungen verwendet.
 

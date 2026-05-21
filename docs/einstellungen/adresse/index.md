@@ -5,7 +5,7 @@ description: Geschäftsadresse hinterlegen
 type: reference
 platform: web
 sidebar_position: 2
-navigation: "Test Account → Einstellungen → Adresse"
+navigation: "Menü → Einstellungen → Adresse"
 searchTerms:
   - adresse
   - anschrift
@@ -17,7 +17,7 @@ searchTerms:
 
 # Adresse
 
-**Navigation:** Test-Account-Menü (oben rechts) → **Einstellungen** → **Adresse**
+**Navigation:** Menü (oben rechts) → **Einstellungen** → **Adresse**
 
 Hier hinterlegen Sie die offizielle Geschäftsadresse Ihres Unternehmens. Die Adresse wird auf Rechnungen, Belegen und in steuerlichen Exporten verwendet.
 

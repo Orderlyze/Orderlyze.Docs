@@ -5,7 +5,7 @@ description: Finanzamt-Anbindung und gesetzliche Kassen-Konformität (RKSV, TSE)
 type: reference
 platform: web
 sidebar_position: 6
-navigation: "Test Account → Einstellungen → Finanzamt"
+navigation: "Menü → Einstellungen → Finanzamt"
 searchTerms:
   - finanzamt
   - rksv
@@ -19,7 +19,7 @@ searchTerms:
 
 # Finanzamt
 
-**Navigation:** Test-Account-Menü (oben rechts) → **Einstellungen** → **Finanzamt**
+**Navigation:** Menü (oben rechts) → **Einstellungen** → **Finanzamt**
 
 Im Bereich **Finanzamt** finden Sie alle Informationen zur gesetzlichen Anbindung Ihrer Kasse an die Finanzbehörde. Die Anforderungen unterscheiden sich je nach Land:
 

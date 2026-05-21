@@ -5,7 +5,7 @@ description: TSE-Anbindung und DSFinV-K-Export gemäß KassenSichV
 type: reference
 platform: web
 sidebar_position: 2
-navigation: "Test Account → Einstellungen → Signaturanbieter (TSE)"
+navigation: "Menü → Einstellungen → Signaturanbieter (TSE)"
 searchTerms:
   - kassensichv
   - tse
@@ -21,7 +21,7 @@ searchTerms:
 
 # Finanzamt — Deutschland (KassenSichV)
 
-**Navigation:** Test-Account-Menü (oben rechts) → **Einstellungen** → **Signaturanbieter (TSE)**
+**Navigation:** Menü (oben rechts) → **Einstellungen** → **Signaturanbieter (TSE)**
 
 Diese Seite zeigt den Status Ihrer Kasse gemäß der deutschen **Kassensicherungsverordnung (KassenSichV)**. Orderlyze nutzt eine zertifizierte **TSE (Technische Sicherheitseinrichtung)**, die jeden Geschäftsvorfall manipulationssicher signiert. Sie sehen hier den aktuellen Status, können das TSE-Zertifikat herunterladen und die gesetzlich vorgeschriebenen Exporte (TSE / DSFinV-K) für eine Kassen-Nachschau erzeugen.
 
@@ -35,11 +35,7 @@ Steht oben "Dein Kassensystem ist mit dem Finanzamt verbunden", ist alles in Ord
 
 ## Daten an Finanzamt übermitteln
 
-Über den Button **"Daten an Finanzamt übermitteln"** wird die Kasse beim Finanzamt gemäß **§ 146a AO** in Verbindung mit der **Mitteilungspflicht zum 1. Januar 2025** angemeldet. Diese Aktion wird einmalig bei der Inbetriebnahme der Kasse ausgeführt und ist anschließend nicht mehr erforderlich.
-
-:::info Mitteilungspflicht ab 2025
-Seit 1. Januar 2025 müssen elektronische Kassensysteme dem Finanzamt **innerhalb eines Monats nach Anschaffung** elektronisch gemeldet werden. Die Übermittlung erfolgt über das **ELSTER-Portal**. Orderlyze stellt die dafür benötigten Daten über diesen Button zur Verfügung.
-:::
+Über den Button **"Daten an Finanzamt übermitteln"** melden Sie Ihre Kasse beim Finanzamt an. Eine ausführliche Schritt-für-Schritt-Anleitung finden Sie unter [**Funktionen → Datenübermittlung Finanzamt (Deutschland)**](/funktionen/datenuebermittlung-finanzamt).
 
 ---
 
@@ -141,6 +137,6 @@ Heruntergeladene Export-Dateien werden auf dem Server **nicht dauerhaft** gespei
 
 :::tip KassenSichV-Pflichten im Überblick
 - **Belegausgabepflicht** seit 1.1.2020 — jeder Geschäftsvorfall muss einen TSE-signierten Beleg auslösen (Orderlyze automatisch)
-- **Mitteilungspflicht** der Kasse beim Finanzamt seit 1.1.2025 — über ELSTER zu melden, Daten siehe Button oben
+- **Mitteilungspflicht** der Kasse beim Finanzamt — siehe [Datenübermittlung Finanzamt (Deutschland)](/funktionen/datenuebermittlung-finanzamt)
 - **Aufbewahrungspflicht** für TSE- und DSFinV-K-Daten: **10 Jahre** (§ 147 AO) — Orderlyze speichert die Daten, ein lokaler Export wird trotzdem empfohlen
 :::

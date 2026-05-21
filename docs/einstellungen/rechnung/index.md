@@ -5,7 +5,7 @@ description: Rechnungs- und Belegtexte konfigurieren
 type: reference
 platform: web
 sidebar_position: 4
-navigation: "Test Account → Einstellungen → Rechnung"
+navigation: "Menü → Einstellungen → Rechnung"
 searchTerms:
   - rechnung
   - beleg
@@ -16,7 +16,7 @@ searchTerms:
 
 # Rechnung
 
-**Navigation:** Test-Account-Menü (oben rechts) → **Einstellungen** → **Rechnung**
+**Navigation:** Menü (oben rechts) → **Einstellungen** → **Rechnung**
 
 Hier legen Sie fest, wie Belege und Rechnungen für Endkunden aussehen — Rechnungsnummern, Kopf- und Fußtexte, Layout-Optionen.
 

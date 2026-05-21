@@ -5,7 +5,7 @@ description: Buchungskonten für DATEV-/Buchhaltungs-Export einrichten
 type: reference
 platform: web
 sidebar_position: 7
-navigation: "Test Account → Einstellungen → Buchungskonten"
+navigation: "Menü → Einstellungen → Buchungskonten"
 searchTerms:
   - buchungskonten
   - datev
@@ -19,7 +19,7 @@ searchTerms:
 
 # Buchungskonten
 
-**Navigation:** Test-Account-Menü (oben rechts) → **Einstellungen** → **Buchungskonten**
+**Navigation:** Menü (oben rechts) → **Einstellungen** → **Buchungskonten**
 
 Über die Buchungskonten ordnen Sie Ihre Zahlungsarten, Erlös- und Gutschein-Buchungen den passenden Konten Ihres Kontenrahmens zu. Das fertige Mapping wird beim **CSV-Export** verwendet, damit Ihre Steuerberatung die Daten direkt in das jeweilige Buchhaltungsprogramm einlesen kann.
 
