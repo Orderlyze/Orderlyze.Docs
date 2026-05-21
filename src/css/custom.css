@@ -66,6 +66,10 @@
   --ifm-color-warning: #f5e14a;
 
   --docusaurus-highlighted-code-line-bg: rgba(58, 143, 217, 0.2);
+
+  /* Navbar im Dark-Mode dunkel halten (Light-Mode setzt #ffffff) */
+  --ifm-navbar-background-color: #1b1b1d;
+  --ifm-navbar-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.4);
 }
 
 /* Screenshot Styling */
