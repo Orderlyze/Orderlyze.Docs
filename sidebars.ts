@@ -207,7 +207,7 @@ const sidebars: SidebarsConfig = {
     // Kontakt
     {
       type: 'doc',
-      id: 'kontakt',
+      id: 'kontakt/kontakt',
       className: 'sidebar-section-header',
     },
   ],

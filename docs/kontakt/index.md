@@ -22,6 +22,6 @@ Bei Fragen oder Problemen erreichen Sie uns auf drei Wegen:
 |------------|---------|
 | **WhatsApp** | [+43 677 61068190](https://wa.me/4367761068190) |
 | **E-Mail** | [office@orderlyze.com](mailto:office@orderlyze.com) |
-| **Telefon** | [0800 400 4511](tel:08004004511) (kostenlos aus Österreich) |
+| **Telefon** | [0800 400 4511](tel:08004004511) |
 
 Wir freuen uns auf Ihre Nachricht.
