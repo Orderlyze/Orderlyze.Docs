@@ -1,14 +1,16 @@
 """Draws a red halo + arrow marker on a screenshot.
 
 Usage:
-  python add-marker.py <image-path> <cx-percent> <cy-percent> <size-percent> [shape] [arrow-side]
+  python add-marker.py <image-path> <cx%> <cy%> <width%> [shape] [arrow-side] [height%]
 
 Coordinates are percentages of image dimensions (0-100). The (cx, cy) is the
-*center* of the target element; size is its bounding box edge length as a
-percentage of image width.
+*center* of the target element; width is its bounding box width as a
+percentage of image width. Optional height (percent of image *height*) lets
+you make non-square rectangles for wide/thin elements like list rows.
 
   shape       circle (default) or rect
   arrow-side  auto (default) or left/right/top/bottom
+  height%     defaults to width% scaled to keep a square in pixel space
 
 The image is overwritten with the annotated version.
 """
@@ -25,13 +27,15 @@ HALO_LAYERS = [
 
 
 def draw_marker(img: Image.Image, cx_pct: float, cy_pct: float, size_pct: float,
-                shape: str = "circle", arrow_side: str = "auto") -> None:
+                shape: str = "circle", arrow_side: str = "auto",
+                height_pct: float | None = None) -> None:
     w, h = img.size
-    size = int(w * size_pct / 100)
+    box_w = int(w * size_pct / 100)
+    box_h = int(h * height_pct / 100) if height_pct is not None else box_w
     cx = int(w * cx_pct / 100)
     cy = int(h * cy_pct / 100)
-    half = size // 2
-    box = [cx - half, cy - half, cx + half, cy + half]
+    size = max(box_w, box_h)  # used for radius/halo metrics
+    box = [cx - box_w // 2, cy - box_h // 2, cx + box_w // 2, cy + box_h // 2]
 
     # Halo (multiple stroke widths, semi-transparent outer)
     overlay = Image.new("RGBA", img.size, (0, 0, 0, 0))
@@ -121,9 +125,10 @@ def main() -> None:
     size_pct = float(sys.argv[4])
     shape = sys.argv[5] if len(sys.argv) > 5 else "circle"
     arrow_side = sys.argv[6] if len(sys.argv) > 6 else "auto"
+    height_pct = float(sys.argv[7]) if len(sys.argv) > 7 else None
 
     img = Image.open(path).convert("RGBA")
-    draw_marker(img, cx_pct, cy_pct, size_pct, shape, arrow_side)
+    draw_marker(img, cx_pct, cy_pct, size_pct, shape, arrow_side, height_pct)
     # Save back in original format
     out_path = path
     if path.suffix.lower() in (".jpg", ".jpeg"):
