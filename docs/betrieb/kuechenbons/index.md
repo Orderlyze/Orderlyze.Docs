@@ -46,16 +46,22 @@ Jeder Drucker kann eigene Kategorien zugewiesen bekommen. So können z.B. Geträ
 1. Schalten Sie **Küchenbons drucken** ein (blauer Schalter)
 2. Der Drucker empfängt nun Küchenbons
 
+<BrowserFrame src="/screenshots/admin/einstellungen-kuechenbons-aktivieren.png" alt="Küchenbons drucken aktivieren" />
+
 ### Kategorien hinzufügen
 
 1. Klicken Sie in das Dropdown-Feld unter dem Drucker
 2. Wählen Sie die gewünschte Kategorie aus der Liste
 3. Die Kategorie erscheint als Tag im Feld
 
+<BrowserFrame src="/screenshots/admin/einstellungen-kuechenbons-kategorie-hinzufuegen.png" alt="Kategorie hinzufügen" />
+
 ### Kategorien entfernen
 
 1. Klicken Sie auf das **×** neben der Kategorie
 2. Die Kategorie wird sofort entfernt
+
+<BrowserFrame src="/screenshots/admin/einstellungen-kuechenbons-kategorie-entfernen.png" alt="Kategorie entfernen" />
 
 :::tip Beispiel
 - **Theken-Drucker**: Kategorie "Getränke" zuweisen
