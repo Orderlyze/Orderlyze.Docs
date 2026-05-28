@@ -60,4 +60,4 @@ Im Tagesumsatzbericht wird **nur der tatsächlich eingelöste Betrag** ausgewies
 Mehrzweckgutscheine sind erst beim Einlösen umsatzsteuerpflichtig — der nicht eingelöste Restbetrag ist also bis zur Einlösung steuerlich neutral.
 :::
 
-Mehr Details zur Gutscheinverwaltung: [Gutscheine](/docs/stammdaten/gutscheine/gutscheine)
+Mehr Details zur Gutscheinverwaltung: [Gutscheine](/stammdaten/gutscheine)
