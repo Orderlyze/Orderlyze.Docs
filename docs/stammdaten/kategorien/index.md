@@ -10,6 +10,11 @@ searchTerms:
   - kategorie
   - kategorien
   - produktgruppe
+  - anordnung ändern
+  - reihenfolge ändern
+  - drag drop
+  - produkte ohne kategorie
+  - nicht zugewiesen
 ---
 
 # Kategorien
@@ -44,4 +49,35 @@ Klick in der Zeile der Kategorie auf das **Löschen-Symbol** (Mülleimer-Symbol 
 
 :::warning
 Beim Löschen einer Kategorie werden alle zugeordneten Produkte in "Ohne Kategorie" verschoben.
+:::
+
+## Anordnung ändern
+
+Mit **Anordnung ändern** ändern Sie die Reihenfolge der Kategorien oder verschieben Kategorien per Drag & Drop in eine Unterebene. Das beeinflusst, wie die Kategorien in der App angezeigt werden.
+
+Klicken Sie oben rechts auf **Anordnung ändern**.
+
+<BrowserFrame src="/screenshots/admin/kategorie-anordnung-button.png" alt="Button Anordnung ändern" />
+
+Im Anordnungsmodus sehen Sie die Kategorien als verschiebbare Liste. Lesen Sie die Hinweise vor dem Verschieben sorgfältig.
+
+<BrowserFrame src="/screenshots/admin/kategorie-anordnung-hinweise.png" alt="Hinweise im Anordnungsmodus" />
+
+### Kategorie verschieben
+
+1. Kategorie mit der Maus anklicken und halten
+2. Kategorie an die gewünschte Position ziehen
+3. Maustaste loslassen
+4. Danach in der App prüfen, ob die Reihenfolge und Unterebenen korrekt angezeigt werden
+
+<BrowserFrame src="/screenshots/admin/kategorie-anordnung-ziehen.png" alt="Kategorie per Drag and Drop verschieben" />
+
+:::danger Wichtig bei Produkten
+Produkte können nur Kategorien auf der untersten Ebene zugewiesen sein. Wenn eine Kategorie durch das Verschieben nicht mehr als unterste Ebene gilt oder die Struktur ungültig wird, kann Orderlyze die Kategoriezuweisung bei betroffenen Produkten entfernen. Diese Produkte sind dann nicht gelöscht, sondern erscheinen unter **Produkte ohne Kategorie** bzw. als nicht zugewiesen.
+:::
+
+Nach größeren Änderungen an der Anordnung sollten Sie deshalb **Verwaltung → Produkte → Produkte ohne Kategorie** prüfen und betroffene Produkte wieder einer passenden Kategorie zuweisen.
+
+:::tip
+Wenn viele Produkte betroffen sind, nutzen Sie die Sammelzuweisung unter **Produkte ohne Kategorie**. Dort können mehrere Produkte markiert und gemeinsam einer Zielkategorie zugeordnet werden.
 :::
