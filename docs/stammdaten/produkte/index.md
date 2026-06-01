@@ -42,6 +42,12 @@ Klick in der Zeile des Produkts auf das **Bearbeiten-Symbol** (Stift-Symbol rech
 
 <BrowserFrame src="/screenshots/admin/produkt-bearbeiten-button.png" alt="Produkt bearbeiten Button" />
 
+## Produkt löschen
+
+Klick in der Zeile des Produkts auf das **Löschen-Symbol** (Mülleimer-Symbol ganz rechts) → Bestätigen.
+
+<BrowserFrame src="/screenshots/admin/produkt-loeschen-button.png" alt="Produkt löschen Button" />
+
 ## Produkte verschwunden oder nicht in der App sichtbar
 
 Wenn Produkte in der Bonier-App nicht mehr sichtbar sind, sind sie meistens nicht gelöscht, sondern haben keine Kategorie mehr. Das kann z.B. passieren, wenn eine Produktkategorie gelöscht wurde. In diesem Fall verschiebt Orderlyze die zugehörigen Produkte automatisch in **Produkte ohne Kategorie**.
@@ -67,9 +73,3 @@ In der Ansicht **Produkte ohne Kategorie** sehen Sie alle Produkte, die aktuell 
 <BrowserFrame src="/screenshots/admin/produkte-ohne-kategorie-zuweisen.png" alt="Produkt ohne Kategorie wieder einer Kategorie zuweisen" />
 
 Nach dem Zuweisen erscheint das Produkt wieder in der normalen Produktliste und wird in der App wieder unter der gewählten Kategorie angezeigt.
-
-## Produkt löschen
-
-Klick in der Zeile des Produkts auf das **Löschen-Symbol** (Mülleimer-Symbol ganz rechts) → Bestätigen.
-
-<BrowserFrame src="/screenshots/admin/produkt-loeschen-button.png" alt="Produkt löschen Button" />
