@@ -27,10 +27,10 @@ Den Mehrwertsteuersatz kannst du in Orderlyze auf zwei Arten anpassen:
 
 ## So änderst du die Mehrwertsteuer einer Kategorie
 
-1. Im Web Dashboard links unter **Management** auf **Product categories** klicken
+1. Im Web Dashboard links unter **Verwaltung** auf **Produktkategorien** klicken
 2. Bei der gewünschten Kategorie rechts auf das **Bearbeiten-Symbol** klicken
-3. Im Feld **Tax** den neuen Mehrwertsteuersatz aus dem Dropdown wählen
-4. Mit **Save** bestätigen
+3. Im Feld **Mehrwertsteuer** den neuen Mehrwertsteuersatz aus dem Dropdown wählen
+4. Mit **Speichern** bestätigen
 
 <BrowserFrame src="/screenshots/funktionen/steuer-aendern/kategorie-uebersicht.png" alt="Produktkategorien im Web Dashboard" />
 
@@ -40,10 +40,10 @@ Der Wert wird automatisch auf alle Produkte dieser Kategorie übernommen.
 
 ## So änderst du die Mehrwertsteuer eines einzelnen Produkts
 
-1. Im Web Dashboard links unter **Management** auf **Products** klicken
+1. Im Web Dashboard links unter **Verwaltung** auf **Produkte** klicken
 2. In der Zeile des gewünschten Produkts rechts auf das **Bearbeiten-Symbol** klicken
-3. Im Feld **Value Added Tax** den neuen Mehrwertsteuersatz aus dem Dropdown wählen
-4. Mit **Save** bestätigen
+3. Im Feld **Mehrwertsteuer** den neuen Mehrwertsteuersatz aus dem Dropdown wählen
+4. Mit **Speichern** bestätigen
 
 <BrowserFrame src="/screenshots/funktionen/steuer-aendern/produkt-uebersicht.png" alt="Produkte im Web Dashboard" />
 
