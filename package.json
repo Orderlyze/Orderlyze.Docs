@@ -36,6 +36,7 @@
     "@docusaurus/module-type-aliases": "^3.7.0",
     "@docusaurus/types": "^3.7.0",
     "@easyops-cn/docusaurus-search-local": "^0.55.1",
+    "@playwright/mcp": "0.0.75",
     "@playwright/test": "^1.57.0",
     "concurrently": "^9.2.1",
     "glob": "^11.0.0",
