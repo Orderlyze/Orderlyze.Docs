@@ -1,7 +1,7 @@
 ---
 id: funktionen-steuer-aendern
 title: Steuer ändern
-description: Mehrwertsteuersatz einer ganzen Produktkategorie anpassen
+description: Mehrwertsteuersatz einer Produktkategorie oder eines einzelnen Produkts anpassen
 type: tutorial
 platform: app
 sidebar_position: 12
@@ -12,11 +12,15 @@ searchTerms:
   - mwst
   - vat
   - kategorie
+  - produkt
 ---
 
 # Steuer ändern
 
-Der Mehrwertsteuersatz wird in Orderlyze nicht pro Produkt geändert, sondern **pro Produktkategorie**. Die Änderung wird automatisch auf alle Produkte der Kategorie übernommen.
+Den Mehrwertsteuersatz kannst du in Orderlyze auf zwei Arten anpassen:
+
+- **pro Produktkategorie** – die Änderung wird automatisch auf alle Produkte der Kategorie übernommen
+- **pro einzelnem Produkt** – wenn ein einzelnes Produkt einen abweichenden Steuersatz haben soll
 
 ## So änderst du die Mehrwertsteuer einer Kategorie
 
@@ -26,6 +30,18 @@ Der Mehrwertsteuersatz wird in Orderlyze nicht pro Produkt geändert, sondern **
 4. Im Feld **Mehrwertsteuer** den neuen Steuersatz aus dem Dropdown wählen
 5. Mit **Speichern** bestätigen
 
+Der Wert wird automatisch auf alle Produkte dieser Kategorie übernommen.
+
+## So änderst du die Mehrwertsteuer eines einzelnen Produkts
+
+1. Orderlyze App → Menü → **Verwaltung**
+2. Im Menü **Verwaltung** auf **Produkte** tippen
+3. In der Zeile des gewünschten Produkts auf das **Bearbeiten-Symbol** (Stift-Symbol rechts) klicken
+4. Im Feld **Mehrwertsteuer** den neuen Steuersatz aus dem Dropdown wählen
+5. Mit **Speichern** bestätigen
+
+So erhält das Produkt einen vom Kategorie-Steuersatz abweichenden Mehrwertsteuersatz.
+
 ## Wichtige Hinweise
 
 :::warning
@@ -33,5 +49,5 @@ Wenn bei einer **Überkategorie** ein Mehrwertsteuersatz eingestellt ist, kann d
 :::
 
 :::info
-Beim Ändern der Mehrwertsteuer einer Kategorie wird der Wert **automatisch auf alle Produkte** dieser Kategorie übernommen. Eine produktweise Anpassung ist nicht nötig.
+Beim Ändern der Mehrwertsteuer einer Kategorie wird der Wert **automatisch auf alle Produkte** dieser Kategorie übernommen. Soll nur ein einzelnes Produkt einen abweichenden Steuersatz erhalten, ändere die Mehrwertsteuer direkt beim Produkt.
 :::
