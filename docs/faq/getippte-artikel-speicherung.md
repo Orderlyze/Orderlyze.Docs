@@ -1,14 +1,14 @@
 ---
 id: getippte-artikel-speicherung
-title: Werden nur angetippte und wieder gelöschte Artikel gespeichert?
-description: Wann Eingaben am iPad als Bestellung, Bonierung oder Storno gespeichert werden
+title: Werden nur angetippte und wieder gelöschte Produkte gespeichert?
+description: Wann Eingaben in der App als Bestellung, Bonierung oder Storno gespeichert werden
 type: faq
 platform: mobile
 sidebar_position: 4
 searchTerms:
   - datenspeicherung
   - speicherung
-  - ipad
+  - app
   - antippen
   - eingabe
   - loeschen
@@ -19,23 +19,26 @@ searchTerms:
   - storno
 ---
 
-# Werden nur angetippte und wieder gelöschte Artikel gespeichert?
+# Werden nur angetippte und wieder gelöschte Produkte gespeichert?
 
-Nein. Wenn Sie am iPad einen Artikel nur antippen oder eingeben und ihn danach wieder löschen, wird daraus normalerweise keine Bestellung, keine Bonierung und kein Eintrag im Stornobericht.
+Nein. Wenn Sie in der App ein Produkt nur antippen oder eingeben und es danach wieder löschen, wird daraus normalerweise keine Bestellung, keine Bonierung und kein Eintrag im Stornobericht.
 
-Relevant gespeichert wird ein Artikel erst, wenn Sie eine Aktion ausführen, zum Beispiel:
+Relevant gespeichert wird ein Produkt erst, wenn Sie eine Aktion ausführen, zum Beispiel:
 
-- **Bonieren**
-- **Bestellung abschicken/senden**
-- **Tisch beenden oder abrechnen**
-- **Zahlung oder Abschluss durchführen**
+- **Zurück zur Tischübersicht**
+- **Zahlen**
+- **Aus der App rausgehen**
+- **In Küche senden**
+- **Produkte transferieren**
 
-Nur kurz angetippte und wieder gelöschte Artikel landen daher nicht in der Küche, nicht auf einem Bon und nicht auf einem abgeschlossenen Tisch.
+Nur kurz angetippte und wieder gelöschte Produkte landen daher nicht in der Küche, nicht auf einem Bon und nicht auf einem abgeschlossenen Tisch.
+
+Sie erkennen gespeicherte Produkte daran, dass sie in der Bestellung **grau** dargestellt werden. Erst wenn die Produkte grau geworden sind, sind sie gespeichert.
 
 ## Wann erscheint etwas im Stornobericht?
 
 Im Stornobericht erscheinen stornierte Positionen erst dann, wenn die Position zuvor tatsächlich gespeichert oder boniert wurde.
 
-Solange der Tisch nicht verlassen wurde und die Position noch nicht als gespeicherte Position sichtbar ist, entsteht durch das Löschen normalerweise kein Storno-Eintrag.
+Solange der Tisch nicht verlassen wurde und die Position noch nicht grau als gespeicherte Position sichtbar ist, entsteht durch das Löschen normalerweise kein Storno-Eintrag.
 
 Mehr Details zum Bericht finden Sie unter [Stornobericht](/auswertung/weitere-berichte/stornobericht).
