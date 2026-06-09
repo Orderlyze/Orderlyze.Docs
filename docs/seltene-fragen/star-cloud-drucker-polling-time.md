@@ -29,7 +29,7 @@ searchTerms:
 
 5. Öffnen Sie im Web Configuration-Menü den Bereich **CloudPRNT**.
 6. Prüfen Sie, ob **CloudPRNT Service** auf **ENABLE** steht.
-7. Ändern Sie den Wert im Feld **Polling time**.
+7. Ändern Sie den Wert im Feld **Polling time** auf `1`.
 8. Klicken oder tippen Sie auf **Submit**.
 
    ![CloudPRNT-Einstellungen mit Polling time und Submit](/screenshots/seltene-fragen/star-cloud-polling/cloudprnt-einstellungen.png)
