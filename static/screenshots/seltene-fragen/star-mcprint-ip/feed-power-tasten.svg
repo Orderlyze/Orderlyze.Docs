@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Star mC-Print Bedienfeld mit FEED- und Power-Taste</title>
+  <desc id="desc">Schematische Darstellung des Bedienfelds. Die FEED-Taste links und die Power-Taste rechts sind markiert.</desc>
+  <rect width="960" height="540" fill="#f7f9fb"/>
+  <rect x="120" y="150" width="720" height="220" rx="18" fill="#2d343c"/>
+  <rect x="160" y="185" width="640" height="150" rx="14" fill="#3f4852"/>
+  <circle cx="275" cy="260" r="44" fill="#151a20" stroke="#6b7480" stroke-width="4"/>
+  <text x="275" y="267" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff">FEED</text>
+  <circle cx="685" cy="260" r="44" fill="#151a20" stroke="#6b7480" stroke-width="4"/>
+  <path d="M685 237v28" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+  <path d="M670 249a24 24 0 1 0 30 0" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="480" cy="260" r="16" fill="#19a663"/>
+  <text x="480" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#dbe2ea">Network LED</text>
+  <path d="M275 120v-58" stroke="#246bfe" stroke-width="5" stroke-linecap="round"/>
+  <path d="M685 120v-58" stroke="#246bfe" stroke-width="5" stroke-linecap="round"/>
+  <rect x="132" y="34" width="286" height="52" rx="8" fill="#246bfe"/>
+  <text x="275" y="68" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#ffffff">FEED gedrueckt halten</text>
+  <rect x="586" y="34" width="198" height="52" rx="8" fill="#246bfe"/>
+  <text x="685" y="68" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#ffffff">Power druecken</text>
+  <text x="480" y="438" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#1c2733">Selbsttest starten</text>
+  <text x="480" y="476" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#415062">Drucker aus, FEED gedrueckt halten, dann Power druecken.</text>
+</svg>
