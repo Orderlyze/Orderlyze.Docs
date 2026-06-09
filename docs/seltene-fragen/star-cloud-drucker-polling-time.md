@@ -27,7 +27,7 @@ Die **Polling Time** bestimmt, wie oft der Star Cloud Drucker beim CloudPRNT-Ser
 - Sie kennen die IP-Adresse des Druckers.
 
 :::tip
-Die IP-Adresse finden Sie normalerweise über einen Selbsttest-Ausdruck des Druckers oder über die Geräteliste Ihres Routers.
+Die IP-Adresse finden Sie über einen Selbsttest-Ausdruck des Druckers, über die Geräteliste Ihres Routers oder über die Star Quick Setup Utility. Eine genaue Anleitung finden Sie unter [IP-Adresse eines Star mC-Print Druckers herausfinden](/seltene-fragen/star-mcprint-ip-adresse-herausfinden).
 :::
 
 ## Polling Time ändern
