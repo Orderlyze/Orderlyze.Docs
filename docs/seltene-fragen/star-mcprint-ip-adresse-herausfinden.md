@@ -28,12 +28,14 @@ searchTerms:
 
 ![FEED-Taste gedrückt halten und Power-Taste drücken](/screenshots/seltene-fragen/star-mcprint-ip/feed-power-tasten.png)
 
+Im Bild ist die **FEED**-Taste mit **1** markiert. Diese Taste muss gedrückt gehalten werden. Die **Power**-Taste ist mit **2** markiert und wird zusätzlich gedrückt.
+
 5. Lassen Sie die Tasten los, sobald der Selbsttest-Ausdruck startet.
 6. Warten Sie, bis alle Testseiten gedruckt wurden.
-7. Suchen Sie auf dem letzten ausgedruckten Zettel den Bereich **Current IP Parameters Status**.
+7. Suchen Sie auf dem letzten ausgedruckten Zettel oben die Zeile **IP Address**.
 8. Notieren Sie den Wert bei **IP Address**.
 
-![IP-Adresse im Bereich Current IP Parameters Status auf dem Selbsttest-Ausdruck](/screenshots/seltene-fragen/star-mcprint-ip/ip-adresse-ausdruck.png)
+![IP-Adresse oben auf dem Selbsttest-Ausdruck](/screenshots/seltene-fragen/star-mcprint-ip/ip-adresse-ausdruck.png)
 
 Bei mC-Print-Modellen mit Netzwerkanschluss wird die Netzwerkinformation nach den allgemeinen Druckerinformationen gedruckt. Wenn mehrere Seiten kommen, prüfen Sie deshalb auch die späteren Ausdrucke.
 
