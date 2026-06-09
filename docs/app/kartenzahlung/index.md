@@ -69,6 +69,17 @@ Richten Sie EC-Karten- und Kreditkartenzahlungen für Ihre Gäste ein.
 | **ZVT** | Standard-Protokoll für deutsche Terminals |
 | **TECS** | Terminal-System verschiedener Hersteller |
 
+### Hobex TECS einrichten
+
+Wenn Sie ein Hobex-Terminal mit TECS verwenden, tragen Sie die Verbindungsdaten wie folgt ein:
+
+| Feld | Wert |
+|------|------|
+| **Port** | `9990` verwenden. Falls die Verbindung damit nicht funktioniert, `9991` verwenden. |
+| **IP-Adresse** | Falls das Feld vorhanden ist: `tca.hobex.at` |
+| **TID** | Teilnehmer-ID vom Terminal |
+| **Passwort** | Teilnehmer-ID vom Terminal |
+
 :::tip Tipp
 Falls Sie nicht wissen, welchen Anbieter Sie haben, schauen Sie auf der Vorder- oder Rückseite Ihres Terminals nach.
 :::
