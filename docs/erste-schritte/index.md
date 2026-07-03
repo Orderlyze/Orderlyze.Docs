@@ -105,13 +105,13 @@ Dort kannst du:
 
   ![Unternehmensdaten](/screenshots/erste-schritte/unternehmen.png)
 
-- Das **Logo** für Rechnungen hochladen
+- Das **Logo** hochladen — es wird beim E-Beleg (digitale Rechnung) angezeigt. Soll das Logo auch auf gedruckten Rechnungen erscheinen, kontaktiere das Orderlyze-Team.
 
   ![Logo hochladen](/screenshots/erste-schritte/logo.png)
 
-- Den **Rechnungs-Fußtext** anpassen
+- Das **Rechnungsdesign** anpassen (Kopf- und Fußzeile der Rechnung)
 
-  ![Rechnungs-Footer](/screenshots/erste-schritte/rechnung-footer.png)
+  ![Rechnungsdesign](/screenshots/erste-schritte/rechnung-footer.png)
 
 Diese Einstellungen sind nicht zwingend für den Start nötig — du kannst sie auch später vervollständigen.
 
