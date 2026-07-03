@@ -1,0 +1,9 @@
+{
+  "label": "Rechnungen",
+  "position": 5,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "Rechnungen, Abos und Belege direkt im Web-Portal erstellen und verwalten."
+  }
+}

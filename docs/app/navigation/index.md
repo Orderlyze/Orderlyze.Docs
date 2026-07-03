@@ -34,14 +34,14 @@ Auf dem iPad erscheint das Menü als Sidebar-Navigation (nicht als Overlay). Die
 | Symbol | Menüpunkt | Was macht dieser Button? |
 |--------|-----------|--------------------------|
 | Haus | **Hauptseite** | Bringt Sie zurück zur [Tischübersicht](/app/tischuebersicht) - Ihrer Startseite für den täglichen Betrieb |
-| Person | **Benutzeransicht** | Zeigt Ihre persönlichen Kontodaten. Hier können Sie Ihr [Passwort ändern](/app/verwaltung#benutzeransicht) oder zu einem anderen Mitarbeiter wechseln |
-| Liste | **Rechnungsübersicht** | Listet alle erstellten [Rechnungen](/app/zahlung#rechnungsuebersicht) auf. Perfekt für die Buchhaltung und zum Nachschlagen früherer Bestellungen |
+| Person | **Benutzeransicht** | Zeigt Ihre persönlichen Kontodaten. Hier können Sie Ihr [Passwort ändern](/app/benutzeransicht) oder zu einem anderen Mitarbeiter wechseln |
+| Liste | **Rechnungsübersicht** | Listet alle erstellten [Rechnungen](/app/rechnungsuebersicht) auf. Perfekt für die Buchhaltung und zum Nachschlagen früherer Bestellungen |
 | Diagramm | **Tagesabschluss** | Zeigt Ihre täglichen Umsätze und Abrechnungen. Hier sehen Sie, was am Tag oder in einem Zeitraum eingenommen wurde |
-| Globus | **Verwaltung** | Öffnet das [Web-Portal](/app/verwaltung#web-portal) für erweiterte Einstellungen wie Produktverwaltung, Preisänderungen und Firmendaten |
-| Stuhl | **Tischplan gestalten** | Ermöglicht das Anordnen und [Bearbeiten Ihrer Tische](/app/verwaltung#tischplan-editor) - so wie sie im Restaurant stehen |
-| Karte | **Kartenzahlung** | Hier richten Sie Ihr [Kartenzahlungsterminal](/app/verwaltung#kartenzahlung) ein (z.B. für EC-Karten oder Kreditkarten) |
+| Globus | **Verwaltung** | Öffnet das [Web-Portal](/app/verwaltung) für erweiterte Einstellungen wie Produktverwaltung, Preisänderungen und Firmendaten |
+| Stuhl | **Tischplan gestalten** | Ermöglicht das Anordnen und [Bearbeiten Ihrer Tische](/app/tischplan) - so wie sie im Restaurant stehen |
+| Karte | **Kartenzahlung** | Hier richten Sie Ihr [Kartenzahlungsterminal](/app/kartenzahlung) ein (z.B. für EC-Karten oder Kreditkarten) |
 | Zahnrad | **Einstellungen** | Konfigurieren Sie Ihre App: [Drucker einrichten](/app/einstellungen), Daten synchronisieren und mehr |
-| Dokument | **Logs** | Technische [Protokolle](/app/einstellungen#logs) für den Support - falls etwas nicht funktioniert, können Sie hier Informationen für den Kundendienst exportieren |
+| Dokument | **Logs** | Technische [Protokolle](/app/einstellungen) für den Support - falls etwas nicht funktioniert, können Sie hier Informationen für den Kundendienst exportieren |
 
 ---
 

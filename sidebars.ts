@@ -35,7 +35,7 @@ const sidebars: SidebarsConfig = {
               collapsed: true,
               link: {
                 type: 'generated-index',
-                description: 'Kategorien, Produkte, Extras, Gutscheine, Gänge, Benutzer und Stammkunden verwalten.',
+                description: 'Kategorien, Produkte, Extras, Gutscheine, Gänge, Tische, Räume, Benutzer und Stammkunden verwalten.',
               },
               items: [
                 'stammdaten/kategorien/kategorien',
@@ -44,7 +44,25 @@ const sidebars: SidebarsConfig = {
                 'stammdaten/gutscheine/gutscheine',
                 'betrieb/gaenge/gaenge',
                 'personal/kunden/kunden',
+                'stammdaten/tische/tische',
+                'stammdaten/raeume/raeume',
                 'personal/benutzer/benutzer',
+                'stammdaten/lagerbestand/lagerbestand',
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Rechnungen',
+              collapsed: true,
+              link: {
+                type: 'generated-index',
+                description: 'Rechnungen, Abos und Belege direkt im Web-Portal erstellen und verwalten.',
+              },
+              items: [
+                'rechnungen/erstellen/rechnungen-erstellen',
+                'rechnungen/uebersicht/rechnungen-uebersicht',
+                'rechnungen/wiederkehrend/rechnungen-wiederkehrend',
+                'rechnungen/belege/rechnungen-belege',
               ],
             },
             {
@@ -113,6 +131,7 @@ const sidebars: SidebarsConfig = {
                   ],
                 },
                 'einstellungen/buchungskonten/einstellungen-buchungskonten',
+                'einstellungen/eigenverbrauch/einstellungen-eigenverbrauch',
                 {
                   type: 'category',
                   label: 'Features aktivieren/deaktivieren',
@@ -123,6 +142,8 @@ const sidebars: SidebarsConfig = {
                     'einstellungen/features/benutzer/einstellungen-features-benutzer',
                   ],
                 },
+                'einstellungen/online-bestellsystem/einstellungen-online-bestellsystem',
+                'einstellungen/mein-benutzer/einstellungen-mein-benutzer',
               ],
             },
           ],
