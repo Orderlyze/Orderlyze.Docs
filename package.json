@@ -8,6 +8,7 @@
     "start:cms": "concurrently \"npm run start\" \"npx decap-server\"",
     "cms": "npx decap-server",
     "build": "docusaurus build",
+    "postbuild": "npm run build:index",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",

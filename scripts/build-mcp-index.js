@@ -216,8 +216,9 @@ function extractScreenshots(markdown, plainContent) {
     }
   }
 
-  // 2. HTML img-Tags: <img src="..." alt="..." />
-  const htmlRegex = /<img\s+[^>]*src=["']([^"']+)["'][^>]*>/gi;
+  // 2. HTML img-Tags UND Custom-Komponenten mit src (z.B. <BrowserFrame src="..." alt="..." />)
+  //    BrowserFrame wird in den Web-Docs statt <img> verwendet und muss ebenfalls als Screenshot erfasst werden.
+  const htmlRegex = /<(?:img|BrowserFrame)\s+[^>]*src=["']([^"']+)["'][^>]*>/gi;
 
   while ((match = htmlRegex.exec(markdown)) !== null) {
     const [fullMatch, src] = match;
@@ -259,6 +260,7 @@ function extractScreenshots(markdown, plainContent) {
     const context = markdown.substring(contextStart, contextEnd)
       .replace(/!\[.*?\]\(.*?\)/g, '') // Markdown-Bild-Syntax entfernen
       .replace(/<img[^>]*>/gi, '')     // HTML-img-Tags entfernen
+      .replace(/<BrowserFrame[^>]*>/gi, '') // BrowserFrame-Komponenten entfernen
       .replace(/\s+/g, ' ')
       .trim();
 
@@ -412,8 +414,9 @@ function extractPlainText(markdown) {
     .replace(/`[^`]+`/g, '')
     // Markdown-Bilder entfernen
     .replace(/!\[.*?\]\(.*?\)/g, '')
-    // HTML img-Tags entfernen
+    // HTML img-Tags und Bild-Komponenten entfernen
     .replace(/<img[^>]*>/gi, '')
+    .replace(/<BrowserFrame[^>]*>/gi, '')
     // Docusaurus-Admonitions (:::info, :::tip, etc.) zu Text
     .replace(/:::(info|tip|warning|danger|note)\s*/gi, '')
     .replace(/:::/g, '')
