@@ -14,6 +14,9 @@ searchTerms:
   - hauptfunktionen
   - zahlungsprozess
   - drucker
+  - logo auf rechnung
+  - logo auf beleg
+  - firmenlogo drucken
 ---
 
 # Allgemein
@@ -63,6 +66,12 @@ Bestimmt, wie Produkte aufgenommen werden — z.B. ob Mengeneingabe direkt nach 
 Druckerbezogene Optionen — welche Drucker für welche Belege verwendet werden, ob Küchenbons automatisch gedruckt werden, ob ein Beleg-Druck Pflicht ist.
 
 <BrowserFrame src="/screenshots/admin/features-allgemein-drucker.png" alt="Drucker" />
+
+Hier finden Sie auch den Schalter **"Logo auf Rechnung"**. Ist er aktiviert, wird das unter [Einstellungen → Logo](../../logo) hochgeladene Firmenlogo auf Rechnungen mitgedruckt. Ist er deaktiviert, erscheint kein Logo auf der Rechnung — selbst wenn bereits ein Logo hochgeladen wurde.
+
+:::tip Logo eingestellt, aber nicht auf der Rechnung sichtbar?
+Das Hochladen eines Logos genügt nicht. Aktivieren Sie hier zusätzlich **"Logo auf Rechnung"**, damit das Logo tatsächlich gedruckt wird.
+:::
 
 ---
 
