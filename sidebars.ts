@@ -170,6 +170,7 @@ const sidebars: SidebarsConfig = {
                 'app/tischuebersicht/app-tischuebersicht',
                 'app/bestellung/app-bestellung',
                 'app/zahlung/app-zahlung',
+                'app/rueckgeld/app-rueckgeld',
                 'app/drucker/app-drucker',
               ],
             },

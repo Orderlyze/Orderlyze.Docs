@@ -51,6 +51,7 @@ Der Zahlungs-Dialog ist der zentrale Ort, um eine Bestellung abzuschliessen und 
 | **Rabatt (%)** | Geben Sie einen prozentualen Rabatt ein |
 | **Trinkgeld** | Erfassen Sie ein Trinkgeld (siehe nächster Abschnitt) |
 | **Gutschein einlösen** | Lösen Sie einen Gutschein-Code ein |
+| **Taschenrechner-Symbol** | Öffnet den [Rückgeld-Rechner](/app/rueckgeld) für Barzahlungen |
 | **OK** | Schliesst die Zahlung ab |
 | **Zwischenrechnung** | Erstellt eine Teilrechnung ohne abzuschliessen |
 
