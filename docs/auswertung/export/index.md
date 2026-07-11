@@ -5,7 +5,7 @@ description: Daten für Buchhaltung exportieren
 type: reference
 platform: web
 sidebar_position: 2
-navigation: "Auswertung → Datenexport"
+navigation: "Auswertungen → Datenexporte"
 searchTerms:
   - export
   - bmd
@@ -17,7 +17,9 @@ searchTerms:
 
 # Datenexport
 
-**Navigation:** Auswertung → Datenexport
+**Navigation:** Auswertungen → Datenexporte
+
+In der Sidebar finden Sie unter **Datenexporte** die Unterpunkte **Download Center**, **Datev Export**, **BMD Export** und **RZL Export**.
 
 Orderlyze unterstützt verschiedene Exportformate für die Buchhaltung.
 
@@ -38,7 +40,7 @@ DATEV ist das meistgenutzte Buchhaltungsformat in Deutschland und Österreich.
 
 1. Datumsbereich wählen (von - bis)
 2. **Download** klicken
-3. CSV-Datei wird erstellt und erscheint im Download-Center
+3. CSV-Datei wird erstellt und erscheint im Download Center
 
 :::tip
 Die exportierte CSV-Datei kann direkt in DATEV importiert werden.
@@ -64,9 +66,9 @@ RZL ist eine weitere österreichische Buchhaltungslösung.
 2. **Export starten**
 3. Datei herunterladen
 
-## Download-Center
+## Download Center
 
-Alle erstellten Exporte werden im Download-Center gespeichert und können dort erneut heruntergeladen werden. Das Download-Center zeigt:
+Alle erstellten Exporte werden im Download Center gespeichert und können dort erneut heruntergeladen werden. Das Download-Center zeigt:
 
 - Dateiname
 - Benutzername

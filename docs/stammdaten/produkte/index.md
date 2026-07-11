@@ -15,6 +15,8 @@ searchTerms:
   - verschwunden
   - ohne kategorie
   - produkte ohne kategorie
+  - csv import
+  - csv export
 ---
 
 # Produkte
@@ -47,6 +49,27 @@ Klick in der Zeile des Produkts auf das **Bearbeiten-Symbol** (Stift-Symbol rech
 Klick in der Zeile des Produkts auf das **Löschen-Symbol** (Mülleimer-Symbol ganz rechts) → Bestätigen.
 
 <BrowserFrame src="/screenshots/admin/produkt-loeschen-button.png" alt="Produkt löschen Button" />
+
+## Produkte per CSV importieren und exportieren
+
+Oben rechts in der Produktverwaltung finden Sie die Buttons **CSV importieren** und **CSV exportieren**, um Ihre Produktliste als Datei zu übernehmen bzw. zu sichern.
+
+### CSV importieren
+
+1. Klick auf **CSV importieren**
+2. CSV-Datei auswählen (Semikolon-getrennt) — die Datei wird zuerst geprüft, importiert wird erst nach Ihrer Bestätigung
+3. Optional **Fehlende Kategorien automatisch anlegen** aktivieren — dann werden in der Datei vorkommende, noch nicht existierende Kategorien beim Import erstellt
+4. **Importieren** klicken
+
+Erwartete Spalten: `ProductName;CategoryName;ProductCode;GrossAmount;TaxRate;NetPurchasePrice` (Trennzeichen Semikolon). Im Dialog können Sie eine **Beispiel-Datei herunterladen** und die **Format-Hilfe anzeigen**.
+
+### CSV exportieren
+
+Klick auf **CSV exportieren** — die aktuelle Produktliste wird als CSV-Datei heruntergeladen.
+
+:::tip
+Der Export eignet sich auch als Vorlage: exportieren, in Excel bearbeiten und wieder importieren.
+:::
 
 ## Produkte verschwunden oder nicht in der App sichtbar
 
