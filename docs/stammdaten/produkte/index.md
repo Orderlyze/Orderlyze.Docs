@@ -54,6 +54,8 @@ Klick in der Zeile des Produkts auf das **Löschen-Symbol** (Mülleimer-Symbol g
 
 Oben rechts in der Produktverwaltung finden Sie die Buttons **CSV importieren** und **CSV exportieren**, um Ihre Produktliste als Datei zu übernehmen bzw. zu sichern.
 
+<BrowserFrame src="/screenshots/admin/produkte-csv-import-button.png" alt="Button CSV importieren" />
+
 ### CSV importieren
 
 1. Klick auf **CSV importieren**
@@ -63,9 +65,13 @@ Oben rechts in der Produktverwaltung finden Sie die Buttons **CSV importieren** 
 
 Erwartete Spalten: `ProductName;CategoryName;ProductCode;GrossAmount;TaxRate;NetPurchasePrice` (Trennzeichen Semikolon). Im Dialog können Sie eine **Beispiel-Datei herunterladen** und die **Format-Hilfe anzeigen**.
 
+<BrowserFrame src="/screenshots/admin/produkte-csv-import-dialog.png" alt="Dialog CSV importieren" />
+
 ### CSV exportieren
 
 Klick auf **CSV exportieren** — die aktuelle Produktliste wird als CSV-Datei heruntergeladen.
+
+<BrowserFrame src="/screenshots/admin/produkte-csv-export-button.png" alt="Button CSV exportieren" />
 
 :::tip
 Der Export eignet sich auch als Vorlage: exportieren, in Excel bearbeiten und wieder importieren.
