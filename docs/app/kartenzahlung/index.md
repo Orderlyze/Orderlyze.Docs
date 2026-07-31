@@ -95,7 +95,23 @@ Wenn Sie ein Hobex-Terminal mit TECS verwenden, tragen Sie die Verbindungsdaten 
 - Ihre **Terminal-ID (TID)** – erhalten Sie von Global Payments
 - Je nach Verbindungsart: die **GP tom App** aus dem [Play Store](https://play.google.com/store/apps/details?id=com.globalpayments.atom) auf demselben Gerät
 
-**So richten Sie GP tom ein:**
+#### GP tom App einrichten (einmalig) {#gp-tom-app-einrichten}
+
+Bevor Sie GP tom mit Orderlyze verbinden, muss die GP tom App selbst eingerichtet sein. Das ist nur einmal pro Gerät nötig:
+
+1. **Beide Apps installieren:** **GP tom** und **GP tom PIN** aus dem Play Store laden – die PIN-App öffnet sich automatisch, wenn der Gast eine PIN eingeben muss
+2. **Anmelden:** E-Mail-Adresse eingeben, die bei Global Payments als technischer Kontakt hinterlegt ist, und das **Initial-Passwort** aus der E-Mail von Global Payments verwenden
+3. **Eigenes Passwort vergeben** und den **Autorisierungscode** eingeben, der per E-Mail zugesendet wird
+4. **Terminal auswählen:** Ihre **TID** aus der Liste wählen – eine TID kann immer nur auf einem Gerät gleichzeitig verwendet werden
+5. Nach dem Login erscheint der Hauptbildschirm – die GP tom App ist bereit
+
+**Geräteanforderungen:** Android 9 oder höher mit NFC-Chip und Internetverbindung. Halten Sie beide Apps (GP tom und GP tom PIN) aktuell, damit Zahlungen zuverlässig funktionieren.
+
+:::tip Tipp
+Die Zugangsdaten (E-Mail und Initial-Passwort) erhalten Sie nach Vertragsabschluss automatisch per E-Mail von Global Payments. Falls nicht, wenden Sie sich an den GP-Support.
+:::
+
+**So verbinden Sie GP tom mit Orderlyze:**
 
 1. **Kartenzahlung** → **Bank Terminal hinzufügen** öffnen
 2. Als **Anbieter** `GlobalPayments` auswählen
