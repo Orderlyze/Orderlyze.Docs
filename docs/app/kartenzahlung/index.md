@@ -87,95 +87,71 @@ Wenn Sie ein Hobex-Terminal mit TECS verwenden, tragen Sie die Verbindungsdaten 
 
 ### GP tom (Global Payments) einrichten {#gp-tom}
 
-[GP tom](https://www.gptom.com) ist die Kartenzahlungs-Lösung von Global Payments. Damit wird Ihr Android-Gerät selbst zum Kartenterminal (SoftPOS) – Ihre Gäste halten die Karte oder das Handy einfach an Ihr Gerät. Alternativ kann auch ein klassisches GP-Terminal angebunden werden.
+Mit [GP tom](https://www.gptom.com) wird Ihr Android-Handy selbst zum Kartenterminal – Sie brauchen kein eigenes Terminal-Gerät. Orderlyze und die GP tom App laufen dabei auf **demselben Gerät** (Android 9 oder höher, mit NFC).
 
-**Voraussetzungen:**
+#### Schritt 1: GP tom App einrichten {#gp-tom-app-einrichten}
 
-- Aktiver Vertrag bei Global Payments (GP tom Konto)
-- Ihre **Terminal-ID (TID)** – erhalten Sie von Global Payments
-- Je nach Verbindungsart: die **GP tom App** aus dem [Play Store](https://play.google.com/store/apps/details?id=com.globalpayments.atom) auf demselben Gerät
+1. **GP tom** und **GP tom PIN** aus dem [Play Store](https://play.google.com/store/apps/details?id=com.globalpayments.atom) installieren – die PIN-App öffnet sich automatisch, wenn eine PIN nötig ist
+2. In der GP tom App mit Ihren **GP tom Zugangsdaten** anmelden – E-Mail und Passwort erhalten Sie nach Vertragsabschluss von Global Payments
+3. **Terminal auswählen** – es heißt meistens wie Ihr Betrieb
 
-#### GP tom App einrichten (einmalig) {#gp-tom-app-einrichten}
+#### Schritt 2: Terminal in Orderlyze anlegen {#gp-tom-app}
 
-Bevor Sie GP tom mit Orderlyze verbinden, muss die GP tom App selbst eingerichtet sein. Das ist nur einmal pro Gerät nötig:
+1. **Seitenmenü → Kartenzahlung** öffnen
+2. Auf **Bank Terminal hinzufügen** tippen
+3. **Anbieter:** `GlobalPayments` auswählen
+4. **Model:** `InApp` auswählen
+5. **Eigener Name:** z. B. `Terminal` eingeben – mehr ist nicht nötig
+6. Mit dem **Haken (✓)** rechts oben speichern
 
-1. **Beide Apps installieren:** **GP tom** und **GP tom PIN** aus dem Play Store laden – die PIN-App öffnet sich automatisch, wenn der Gast eine PIN eingeben muss
-2. **Anmelden:** E-Mail-Adresse eingeben, die bei Global Payments als technischer Kontakt hinterlegt ist, und das **Initial-Passwort** aus der E-Mail von Global Payments verwenden
-3. **Eigenes Passwort vergeben** und den **Autorisierungscode** eingeben, der per E-Mail zugesendet wird
-4. **Terminal auswählen:** Ihre **TID** aus der Liste wählen – eine TID kann immer nur auf einem Gerät gleichzeitig verwendet werden
-5. Nach dem Login erscheint der Hauptbildschirm – die GP tom App ist bereit
+Das Terminal wird automatisch als aktuelles Terminal übernommen – Sie sehen es danach im Dropdown auf der Kartenzahlung-Seite.
 
-**Geräteanforderungen:** Android 9 oder höher mit NFC-Chip und Internetverbindung. Halten Sie beide Apps (GP tom und GP tom PIN) aktuell, damit Zahlungen zuverlässig funktionieren.
+#### Schritt 3: Erste Zahlung testen
 
-:::tip Tipp
-Die Zugangsdaten (E-Mail und Initial-Passwort) erhalten Sie nach Vertragsabschluss automatisch per E-Mail von Global Payments. Falls nicht, wenden Sie sich an den GP-Support.
-:::
+1. Ein Produkt aufnehmen und auf **Gesamt bezahlen** tippen
+2. Als Zahlungsart **Kartenzahlung** auswählen
+3. Orderlyze zeigt „Verbindung wird hergestellt" und wechselt automatisch zur **GP tom App**
+4. Karte oder Handy des Gastes ans Gerät halten – danach geht es automatisch zurück zu Orderlyze
 
-**So verbinden Sie GP tom mit Orderlyze:**
+Öffnet sich die GP tom App, ist alles richtig eingerichtet.
 
-1. **Kartenzahlung** → **Bank Terminal hinzufügen** öffnen
-2. Als **Anbieter** `GlobalPayments` auswählen
-3. Das passende **Model** auswählen – das Model bestimmt die Verbindungsart (siehe unten)
-4. Verbindungsdaten eintragen
-5. **Haken (✓)** zum Speichern tippen
+#### Wenn es nicht funktioniert
 
-Nach dem Speichern wird das Terminal automatisch als aktuelles Terminal übernommen.
-
-#### Verbindungsart 1: App-zu-App (empfohlen) {#gp-tom-app}
-
-Orderlyze und die GP tom App laufen auf **demselben Android-Gerät**. Bei einer Kartenzahlung wechselt Orderlyze automatisch zur GP tom App, die Karte wird ans Gerät gehalten, danach geht es zurück zu Orderlyze.
-
-| Feld | Wert |
-|------|------|
-| **Eigener Name** | Frei wählbarer Name, z. B. `GP tom Handy` |
-
-Weitere Daten sind nicht nötig – die Verbindung läuft direkt über die installierte GP tom App.
-
-:::warning Wichtig
-Die **GP tom App** muss auf demselben Gerät installiert, aktiviert und mit Ihrem GP tom Konto angemeldet sein. Diese Verbindungsart funktioniert nur auf **Android**-Geräten.
-:::
-
-#### Verbindungsart 2: Cloud {#gp-tom-cloud}
-
-Orderlyze steuert das GP tom Terminal über die Cloud von Global Payments. Das funktioniert von jedem Gerät aus – Orderlyze und das Terminal müssen nicht auf demselben Gerät laufen.
-
-| Feld | Wert |
-|------|------|
-| **Eigener Name** | Frei wählbarer Name, z. B. `GP tom Terminal Bar` |
-| **Terminal Id** | Ihre TID von Global Payments, z. B. `12345678` |
-| **API-Key** | API-Schlüssel von Global Payments, z. B. `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx` |
-| **Benutzername** | E-Mail-Adresse Ihres GP tom Kontos |
-| **Passwort** | Passwort Ihres GP tom Kontos |
-
-:::tip Tipp
-TID und API-Schlüssel erhalten Sie von Global Payments (im Händlerportal oder über den GP-Support). Pro Gerät gilt eine eigene TID.
-:::
-
-#### Verbindungsart 3: ZVT {#gp-tom-zvt}
-
-Ein klassisches GP-Terminal wird über das lokale Netzwerk (ZVT-Protokoll) angesprochen. Orderlyze und das Terminal müssen sich im **selben Netzwerk** befinden.
-
-| Feld | Wert |
-|------|------|
-| **Eigener Name** | Frei wählbarer Name |
-| **IP-Adresse** | IP-Adresse des Terminals im lokalen Netzwerk, z. B. `192.168.1.50` |
-| **Port** | `20008` (Standard, ist vorausgefüllt) |
-
-#### Bezahlen mit GP tom
-
-Sobald das Terminal als aktuelles Terminal gesetzt ist, wählen Sie beim Kassieren einfach die Zahlungsart **Karte**. Orderlyze zeigt „Verbindung wird hergestellt" und startet die Zahlung – je nach Verbindungsart auf der GP tom App oder dem Terminal. Der Zahlungsbeleg wird von GP tom erstellt.
+| Problem | Lösung |
+|---------|--------|
+| Nach dem Bezahlen passiert nichts | Prüfen, ob als Zahlungsart wirklich **Kartenzahlung** gewählt ist und das Terminal im Dropdown unter **Kartenzahlung** gesetzt ist – danach Orderlyze einmal **komplett schließen und neu starten** |
+| „Terminal-App nicht installiert" | GP tom App ist nicht installiert oder abgemeldet – installieren bzw. neu anmelden, dann **Erneut versuchen** |
+| „Terminal ist beschäftigt" | Laufende Zahlung in der GP tom App abschließen und erneut versuchen |
+| „Keine Verbindung zum hinterlegten Terminal möglich" | Internetverbindung des Geräts prüfen |
 
 :::info Storno und Rückerstattung
-Ein **Storno** ist direkt aus der [Rechnungsübersicht](/app/rechnungsuebersicht) möglich. Eine **Rückerstattung** unterstützt bei GP tom nur die Verbindungsart ZVT – bei App-zu-App und Cloud führen Sie Rückerstattungen direkt in der GP tom App bzw. im GP-Händlerportal durch.
+Ein **Storno** ist direkt aus der [Rechnungsübersicht](/app/rechnungsuebersicht) möglich. Rückerstattungen führen Sie direkt in der GP tom App bzw. im GP-Händlerportal durch.
 :::
 
-**Häufige Fehlermeldungen:**
+#### GP tom mit echtem Terminal
 
-| Meldung | Lösung |
-|---------|--------|
-| „Terminal-App nicht installiert" | GP tom App aus dem Play Store installieren und mit Ihrem GP tom Konto anmelden |
-| „Keine Verbindung zum hinterlegten Terminal möglich" | Netzwerkverbindung des Terminals prüfen; bei ZVT IP-Adresse und Port kontrollieren |
-| „Terminal ist beschäftigt" | Laufende Transaktion auf dem Terminal abschließen und erneut versuchen |
+Haben Sie ein klassisches GP-Terminal statt der Handy-App, wählen Sie beim **Model** die passende Variante:
+
+##### Cloud {#gp-tom-cloud}
+
+Orderlyze steuert das Terminal über die Cloud von Global Payments, funktioniert von jedem Gerät aus (auch iOS):
+
+| Feld | Wert |
+|------|------|
+| **Eigener Name** | Frei wählbar, z. B. `Terminal Bar` |
+| **Terminal Id** | Ihre TID von Global Payments, z. B. `12345678` |
+| **API-Key** | API-Schlüssel von Global Payments, z. B. `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx` |
+| **Benutzername / Passwort** | Ihre GP tom Zugangsdaten |
+
+##### ZVT {#gp-tom-zvt}
+
+Das Terminal wird über das lokale Netzwerk angesprochen (gleiches WLAN/Netzwerk nötig):
+
+| Feld | Wert |
+|------|------|
+| **Eigener Name** | Frei wählbar |
+| **IP-Adresse** | IP-Adresse des Terminals, z. B. `192.168.1.50` |
+| **Port** | `20008` (vorausgefüllt) |
 
 :::tip Tipp
 Falls Sie nicht wissen, welchen Anbieter Sie haben, schauen Sie auf der Vorder- oder Rückseite Ihres Terminals nach.
